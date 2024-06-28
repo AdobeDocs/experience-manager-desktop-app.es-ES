@@ -3,16 +3,16 @@ title: Instalación y configuración de la aplicación de escritorio
 description: Instalación y configuración [!DNL Adobe Experience Manager] aplicación de escritorio para trabajar [!DNL Adobe Experience Manager Assets] y descargue los recursos en su sistema de archivos local.
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-source-git-commit: 2382f615ae3a8b9c076d4037e1644233a2363677
+source-git-commit: 1c7437786a50eeafa884ce92b745f3438b2d2b88
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1449'
 ht-degree: 0%
 
 ---
 
 # Instalar [!DNL Adobe Experience Manager] aplicación de escritorio {#install-app-v2}
 
-Uso del [!DNL Adobe Experience Manager] aplicación de escritorio, los recursos dentro de [!DNL Experience Manager] están fácilmente disponibles en su escritorio local y se pueden utilizar en cualquier aplicación de escritorio nativa. Los recursos se pueden previsualizar, abrir en aplicaciones de escritorio nativas, mostrar en el Buscador de Mac o en el Explorador de Windows para colocarlos en otros documentos y cambiar localmente; los cambios se guardan de nuevo en [!DNL Experience Manager] al cargar y se crea una nueva versión en el repositorio.
+Uso del [!DNL Adobe Experience Manager] aplicación de escritorio, los recursos dentro de [!DNL Experience Manager] están fácilmente disponibles en su escritorio local y se pueden utilizar en cualquier aplicación de escritorio nativa. Assets se puede previsualizar y abrir en aplicaciones de escritorio. Pueden mostrarse en Finder o Explorer para su uso en documentos y editarse localmente. Los cambios se vuelven a guardar en [!DNL Experience Manager], creando una nueva versión tras la carga.
 
 Esta integración permite que varias funciones de la organización:
 
@@ -20,9 +20,9 @@ Esta integración permite que varias funciones de la organización:
 
 * Acceda a los recursos en cualquier aplicación de escritorio nativa, incluidas las aplicaciones de terceros y en Adobe Creative Cloud. Al hacerlo, los usuarios pueden adherirse fácilmente a los distintos estándares, incluida la marca.
 
-Para usar [!DNL Experience Manager] aplicación de escritorio:
+Para usar la variable [!DNL Experience Manager] aplicación de escritorio:
 
-* Asegúrese de que su [!DNL Experience Manager] La versión de es compatible con [!DNL Experience Manager] aplicación de escritorio. Consulte la [requisitos del sistema](release-notes.md).
+* Asegúrese de que su [!DNL Experience Manager] es compatible con el [!DNL Experience Manager] aplicación de escritorio.
 
 * Descargue e instale la aplicación. Consulte [instalar aplicación de escritorio](#install-v2) más abajo.
 
@@ -34,15 +34,15 @@ Para obtener información detallada, consulte la [[!DNL Experience Manager] nota
 
 ## Actualización desde una versión anterior {#upgrade-from-previous-version}
 
-Si usa la versión 1.x de la aplicación de escritorio, comprenda las diferencias y similitudes entre la versión anterior y la más reciente de la aplicación. Consulte [novedades de la aplicación de escritorio](introduction.md#whats-new-v2) y [funcionamiento de la aplicación](release-notes.md#how-app-works).
+Si es usuario de la versión 1.x de la aplicación de escritorio, comprenda las diferencias y similitudes entre la versión anterior y la más reciente de la aplicación. Consulte [novedades de la aplicación de escritorio](introduction.md#whats-new-v2) y [funcionamiento de la aplicación](release-notes.md#how-app-works).
 
 >[!NOTE]
 >
->Dos versiones de la aplicación de escritorio no pueden coexistir en un equipo. Antes de instalar una versión, desinstale la otra versión.
+>Dos versiones de una aplicación de escritorio no pueden coexistir en un equipo. Antes de instalar una versión, desinstale la otra versión.
 
 Para actualizar desde una versión anterior de la aplicación, siga estas instrucciones:
 
-1. Antes de actualizar, sincronice todos los recursos y cargue los cambios en [!DNL Experience Manager]. El objetivo de esto es evitar la pérdida de ediciones al desinstalar la aplicación.
+1. Antes de actualizar, sincronice todos los recursos y cargue los cambios en [!DNL Experience Manager]. Al hacerlo, evitará perder las ediciones realizadas al desinstalar la aplicación.
 
 1. Desinstale la versión anterior de la aplicación. Al desinstalar, seleccione la opción para borrar la caché.
 
@@ -60,7 +60,7 @@ Para instalar la aplicación de escritorio, siga estos pasos. Desinstalar cualqu
 
 1. Si actualiza desde otra versión de la aplicación, consulte [actualizar aplicación de escritorio](#upgrade-from-previous-version).
 
-1. Omita este paso si está utilizando [!DNL Experience Manager] as a [!DNL Cloud Service], [!DNL Experience Manager] 6.4.4 o posterior, o [!DNL Experience Manager] 6.5.0 o posterior. Asegúrese de que su [!DNL Experience Manager] La configuración de cumple los requisitos de compatibilidad mencionados en la [notas de la versión](release-notes.md). Si es necesario, descargue el [paquete de compatibilidad](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) e instálelo con el [!DNL Experience Manager] Administrador de paquetes como [!DNL Experience Manager] administrador. Para instalar un paquete, consulte [Cómo trabajar con paquetes](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=es).
+1. Omita este paso si está utilizando [!DNL Experience Manager] as a [!DNL Cloud Service], [!DNL Experience Manager] 6.4.4 o posterior, o [!DNL Experience Manager] 6.5.0 o posterior. Asegúrese de que su [!DNL Experience Manager] La configuración de cumple los requisitos de compatibilidad mencionados en la [notas de la versión](release-notes.md). Si es necesario, descargue el [paquete de compatibilidad](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) e instálelo con el [!DNL Experience Manager] Administrador de paquetes como [!DNL Experience Manager] administrador. Para instalar un paquete, consulte [Cómo trabajar con paquetes](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager).
 
 1. Ejecute el binario del instalador y siga las instrucciones que aparecen en pantalla para instalar.
 
@@ -82,7 +82,7 @@ Para instalar la aplicación de escritorio, siga estos pasos. Desinstalar cualqu
    >
    >Asegúrese de que no haya espacios iniciales o finales antes o después de la dirección del [!DNL Experience Manager] servidor. De lo contrario, la aplicación no se podrá conectar al [!DNL Experience Manager] servidor.
 
-1. [Opcional] Clic **[!UICONTROL I want to connect a different way]** y haga clic en **[!UICONTROL Adobe login]** para iniciar sesión en el servidor de Experience Manager Assets mediante el servicio Identity Management de Adobe (IMS). El inicio de sesión de IMS permite a la aplicación de escritorio actualizar el token de acceso automáticamente, lo que permite al usuario permanecer conectado durante un máximo de 14 días. Clic **[!UICONTROL Direct login]** para realizar el inicio de sesión estándar en [!DNL Experience Manager] servidor con credenciales de usuario.
+1. [Opcional] Clic **[!UICONTROL I want to connect a different way]** y haga clic en **[!UICONTROL Adobe login]** para iniciar sesión en el servidor de Experience Manager Assets mediante el servicio Identity Management de Adobe (IMS). El inicio de sesión de IMS permite que la aplicación de escritorio actualice el token de acceso automáticamente, lo que permite al usuario permanecer conectado durante un máximo de 14 días. Clic **[!UICONTROL Direct login]** para realizar el inicio de sesión estándar en [!DNL Experience Manager] servidor con las credenciales del usuario.
 
    ![Inicio de sesión de Adobe](assets/adobe-login.png)
 
@@ -92,35 +92,35 @@ Para instalar la aplicación de escritorio, siga estos pasos. Desinstalar cualqu
 
    *Imagen: la aplicación muestra el contenido de DAM tras el inicio de sesión*
 
-1. ([!DNL Experience Manager] 6.5.1 o posterior) Si utiliza la aplicación de escritorio con [!DNL Experience Manager] 6.5.1 o posterior, actualice el conector S3 o Azure a la versión 1.10.4 o posterior. Consulte [Conector de Azure](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html#azure-data-store) o [Conector S3](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html#amazon-s-data-store).
+1. ([!DNL Experience Manager] 6.5.1 o posterior) Si utiliza la aplicación de escritorio con [!DNL Experience Manager] 6.5.1 o posterior, actualice el conector S3 o Azure a la versión 1.10.4 o posterior. Consulte [Conector de Azure](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store) o [Conector S3](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store).
 
-   Si es cliente de Adobe Managed Services (AMS), póngase en contacto con el Servicio de atención al cliente de Adobe.
+   Si es cliente de Adobe Managed Services (AMS), póngase en contacto con el servicio de atención al cliente de Adobe.
 
 ## Definir preferencias {#set-preferences}
 
 Para cambiar las preferencias, haga clic en ![Icono de Más opciones](assets/do-not-localize/more_options_da2.png) y **[!UICONTROL Preference]** ![Icono Preferencias](assets/do-not-localize/preferences_icon_da2.png). En el **[!UICONTROL Preferences]** , ajuste los valores de lo siguiente:
 
-* [!UICONTROL Launch application on login].
+* [!UICONTROL Launch the application on logon].
 
-* [!UICONTROL Show window when application starts].
+* [!UICONTROL Show a window when the application starts].
 
 * **[!UICONTROL Cache Directory]**: ubicación de la caché local de la aplicación (contiene los recursos descargados localmente).
 
-* **[!UICONTROL Network Drive Letter]**: la letra de unidad utilizada para asignar al [!DNL Experience Manager] DAM. No cambie esto si no está seguro. La aplicación puede asignarse a cualquier letra de unidad en Windows. Si dos usuarios colocan recursos de letras de unidad diferentes, no podrán ver los recursos que el otro ha colocado. La ruta de los recursos cambia. Los recursos permanecen colocados en el archivo binario (por ejemplo, INDD) y no se eliminan. La aplicación enumera todas las letras de unidad disponibles y, de forma predeterminada, utiliza la última letra disponible que suele ser `Z`.
+* **[!UICONTROL Network Drive Letter]**: la letra de unidad utilizada para asignar al [!DNL Experience Manager] DAM. No cambie esta letra de unidad de red si no está seguro. La aplicación puede asignarse a cualquier letra de unidad en Windows. Si dos usuarios colocan recursos de letras de unidad diferentes, no podrán ver los recursos que el otro ha colocado. La ruta de los recursos cambia. Los recursos permanecen colocados en el archivo binario (por ejemplo, INDD) y no se eliminan. La aplicación enumera todas las letras de unidad disponibles y, de forma predeterminada, utiliza la última letra disponible que suele ser `Z`.
 
 * **[!UICONTROL Maximum Cache Size]**: Caché permitida en el disco duro en GB que se utiliza para almacenar recursos descargados localmente.
 
 * **[!UICONTROL Current cache size]**: Tamaño de almacenamiento de los recursos descargados localmente. La información solo se muestra después de descargar los recursos mediante la aplicación.
 
-* **[!UICONTROL Automatically download linked assets]**: Los recursos que se colocan en las aplicaciones de Creative Cloud nativas admitidas se recuperan automáticamente si descarga el archivo original.
+* **[!UICONTROL Automatically download linked assets]**: Al descargar el archivo original, los recursos colocados en las aplicaciones de Creative Cloud nativas admitidas se recuperan automáticamente.
 
-* **[!UICONTROL Maximum number of downloads]**: ![icono de precaución](assets/do-not-localize/caution-icon.png) Cámbiese con precaución. Al descargar recursos por primera vez (mediante las opciones Revelar, Abrir, Editar, Descargar o similares), los recursos solo se descargan si el lote contiene un número inferior a este. El valor predeterminado es 50. No cambie si no está seguro. Si aumenta el valor, se pueden producir tiempos de espera más largos y la disminución del valor puede no permitirle descargar los recursos o carpetas necesarios de una sola vez.
+* **[!UICONTROL Maximum number of downloads]**: ![icono de precaución](assets/do-not-localize/caution-icon.png) Cámbiese con precaución. Al descargar recursos por primera vez (mediante las opciones Revelar, Abrir, Editar, Descargar o similares), los recursos solo se descargan si el lote contiene un número inferior a este. El valor predeterminado es 50. No cambie si no está seguro. Elevar el valor puede resultar en tiempos de espera más largos, mientras que reducirlo puede impedir que descargue todos los recursos o carpetas necesarios de un solo intento.
 
-* **[!UICONTROL Use legacy conventions when creating nodes for assets and folders]**: ![icono de precaución](assets/do-not-localize/caution-icon.png) Cámbiese con precaución. Esta configuración permite que la aplicación emule el comportamiento de la aplicación v1.10 al cargar carpetas. En la versión 1.10, los nombres de nodo creados en el repositorio respetan los espacios y mayúsculas y minúsculas de los nombres de carpeta proporcionados por el usuario. Sin embargo, en la versión 2.1 de la aplicación, los espacios adicionales de los nombres de carpeta se convierten en guiones. Por ejemplo, cargar `New Folder` o `new   folder` crea el mismo nodo en el repositorio si la opción no está seleccionada y se mantiene el comportamiento predeterminado en v2.1. Si se selecciona esta opción, se crean diferentes nodos en el repositorio para las dos carpetas anteriores y coincide con el comportamiento de la aplicación v1.10.
+* **[!UICONTROL Use legacy conventions when creating nodes for assets and folders]**: ![icono de precaución](assets/do-not-localize/caution-icon.png) Cámbiese con precaución. Esta configuración permite que la aplicación emule el comportamiento de la aplicación v1.10 al cargar carpetas. En la versión 1.10, los nombres de nodo creados en el repositorio respetan los espacios y mayúsculas de los nombres de carpeta proporcionados por el usuario. Sin embargo, en la versión 2.1 de la aplicación, los espacios adicionales de los nombres de carpeta se convierten en guiones. Por ejemplo, cargar `New Folder` o `new   folder` crea el mismo nodo en el repositorio si la opción no está seleccionada y se mantiene el comportamiento predeterminado en v2.1. Si se selecciona esta opción, se crean diferentes nodos en el repositorio para las dos carpetas anteriores y coincide con el comportamiento de la aplicación v1.10.
 
-  El comportamiento predeterminado de v2.1 sigue siendo el mismo, es decir, reemplaza varios espacios en los nombres de carpeta con guiones en el nombre del nodo del repositorio y los convierte a nombres de nodo en minúsculas.
+  El comportamiento predeterminado de v2.1 permanece sin cambios: reemplaza varios espacios en los nombres de carpeta con guiones en el nombre del nodo del repositorio y convierte los nombres de nodo en minúsculas.
 
-* **[!UICONTROL Upload Acceleration]**: ![icono de precaución](assets/do-not-localize/caution-icon.png) Cámbiese con precaución. Al cargar recursos, la aplicación puede utilizar cargas simultáneas para mejorar la velocidad de carga. Puede aumentar la concurrencia de la carga moviendo el control deslizante a la derecha. El control deslizante del extremo izquierdo significa que no hay concurrencia (carga de un solo hilo), la posición central corresponde a 10 hilos simultáneos y el límite máximo del extremo derecho corresponde a 20 hilos simultáneos. Un límite de concurrencia más alto consume más recursos.
+* **[!UICONTROL Upload Acceleration]**: ![icono de precaución](assets/do-not-localize/caution-icon.png) Cámbiese con precaución. Al cargar recursos, la aplicación puede utilizar cargas simultáneas para mejorar la velocidad de carga. Puede aumentar la concurrencia de la carga moviendo el control deslizante a la derecha. El control deslizante del extremo izquierdo significa que no hay concurrencia (carga de un solo hilo), la posición central corresponde a diez hilos simultáneos y el límite máximo del extremo derecho corresponde a 20 hilos simultáneos. Un límite de concurrencia más alto consume más recursos.
 
 Para actualizar las preferencias no disponibles, cierre la sesión de [!DNL Experience Manager] y, a continuación, actualice. Después de actualizar las preferencias, haga clic en ![Guardar preferencias](assets/do-not-localize/save_preferences_da2.png).
 
@@ -130,7 +130,7 @@ Para actualizar las preferencias no disponibles, cierre la sesión de [!DNL Expe
 
 ### Compatibilidad con proxy {#proxy-support}
 
-[!DNL Experience Manager] La aplicación de escritorio de utiliza el proxy predefinido del sistema para conectarse a Internet a través de HTTPS. La aplicación solo se puede conectar con un proxy de red que no requiera autenticación adicional.
+El [!DNL Experience Manager] La aplicación de escritorio de utiliza el proxy predefinido del sistema para conectarse a Internet a través de HTTPS. La aplicación solo se puede conectar con un proxy de red que no requiera autenticación adicional.
 
 Si establece o modifica la configuración del servidor proxy para Windows (Opciones de Internet > Configuración de LAN), reinicie [!DNL Experience Manager] aplicación de escritorio para que los cambios surtan efecto. La configuración de proxy se aplica al iniciar la aplicación de escritorio. Cierre y vuelva a iniciar la aplicación para que los cambios surtan efecto.
 
