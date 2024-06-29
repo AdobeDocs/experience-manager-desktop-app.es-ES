@@ -6,10 +6,10 @@ mini-toc-levels: 1
 git-repo: https://github.com/AdobeDocs/experience-manager-desktop-app.es-ES
 index: y
 recommendations: noDisplay
-source-git-commit: 55b50485e965a7d94d3f5a1296fec16b0ad1eba9
+source-git-commit: ba980c1a1bad4a9627fc28ac7f6619b644fb1f04
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 79%
+source-wordcount: '135'
+ht-degree: 91%
 
 ---
 
@@ -20,9 +20,9 @@ El archivo metadata.md incluye metadatos de repositorios que pasan a los archivo
 
 | metadata | función |
 |--- |--- |
-| solution-title | Se utiliza como vínculo en el encabezado del artículo. |
+| solution-title | Se utiliza en el encabezado del artículo como vínculo. |
 | solution-hub-url | Abre la página del centro de Aprendizaje y asistencia. |
-| solution-icon | Muestra el icono de la solución junto al título de la solución. Aún no se ha implementado. |
+| solution-icon | Muestra un icono de la solución junto al título de la solución. No implementado aún. |
 | getting-started-url | Vínculo a la página de introducción. |
 | tutorials-url | Vínculo a los tutoriales de vídeo. |
 | mini-toc-levels | Determina el número de niveles de encabezado que aparecen en el carril derecho. El valor predeterminado es 2. |
@@ -32,5 +32,5 @@ En el archivo TOC.md
 
 | metadata | función |
 |--- |--- |
-| user-guide-title | Se utiliza como vínculo en el encabezado del artículo. |
+| user-guide-title | Se utiliza en el encabezado del artículo como vínculo. |
 | user-guide-url | Abre la página del centro de Aprendizaje y asistencia. |
