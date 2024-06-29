@@ -8,10 +8,10 @@ user-guide-description: Aprenda a utilizar la aplicación de escritorio de Exper
 feature-set: Experience Manager Assets,Experience Manager
 feature: Desktop App
 role: User, Admin
-source-git-commit: df5283f6bef6adbb007bf93c6dabb3b12e430f58
+source-git-commit: 5676e7ece8bb43f051dae72d17e15ab1c34caefc
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 93%
+source-wordcount: '64'
+ht-degree: 60%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 93%
 + [Solución de problemas](troubleshoot.md)
 + Ayuda de la versión anterior {#archive}
    + [Notas de la versión v1](release-notes-of-v1.md)
-   + [Instalar y configurar v1](install-configure-app-v1.md)
-   + [Uso de la aplicación v1](use-app-v1.md)
+   + [Instalación y configuración de v1](install-configure-app-v1.md)
+   + [Usar aplicación v1](use-app-v1.md)
    + [Prácticas recomendadas v1](best-practices-for-v1.md)
    + [Solución de problemas v1](troubleshoot-app-v1.md)
