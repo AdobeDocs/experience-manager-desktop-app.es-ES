@@ -2,9 +2,9 @@
 title: Notas de la versión 1.10 de la aplicación de escritorio
 description: AEM Detalles de la versión, mejoras, nuevas funciones, compatibilidad y vínculos de descarga para la versión 1.10 de la aplicación de escritorio de.
 exl-id: 886864e0-016a-4a17-b3ba-4b18a514214a
-source-git-commit: df5283f6bef6adbb007bf93c6dabb3b12e430f58
+source-git-commit: 23719d2f5d92f6031687df18036acdbc04722402
 workflow-type: tm+mt
-source-wordcount: '3898'
+source-wordcount: '3989'
 ht-degree: 1%
 
 ---
@@ -18,8 +18,8 @@ AEM Para la versión v1.x de la aplicación de escritorio, los siguientes son lo
 | Versión | 1.10 (1.10.0.6 en Mac y 1.10.0.3 en Windows) |
 | Tipo | Versión menor |
 | Fecha | 1.10.0.6 (Mac): 15 de abril de 2020; 1.10.0.3 (Win): 31 de agosto de 2018 |
-| Direcciones URL de descarga | [Mac OS X de 64 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-1.10.0.6.dmg); [Windows de 32 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-1.10.0.3.exe); [Windows de 64 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-1.10.0.3.exe) |
-| Compatibilidad | AEM AEM AEM AEM AEM.5.x; 6.4.x; 6.3 SP2; 6.2 SP1 CFP2+; 6.2 SP2 CFP2+; 6.1 SP2 CFP7+; 6.3 SP2; 6.4.x; 60000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 |
+| Direcciones URL de descarga | [macOS X de 64 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-1.10.0.6.dmg); [Windows de 32 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-1.10.0.3.exe); [Windows de 64 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-1.10.0.3.exe) |
+| Compatibilidad | AEM AEM AEM AEM AEM.5.x; 6.4.x; 6.3 SP2; 6.2 SP1 CFP2+; 6.2 SP2 CFP2+; 6.1 SP2 CFP7+; 6.3 SP2; 6.4.x; 600000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000 |
 
 >[!NOTE]
 >
@@ -27,19 +27,15 @@ AEM Para la versión v1.x de la aplicación de escritorio, los siguientes son lo
 
 ## Requisitos y requisitos previos del sistema {#system-requirements-and-prerequisites}
 
-[!DNL Adobe Experience Manager]La aplicación de escritorio de es compatible con los siguientes sistemas operativos:
+[!DNL Adobe Experience Manager] La aplicación de escritorio de es compatible con los siguientes sistemas operativos:
 
-* Mac OS X 10.10 o posterior, con las últimas correcciones de errores.
+* macOS X 10.10 o posterior, con las últimas correcciones de errores.
 
 * Windows 10 con los últimos paquetes de servicio y correcciones de errores.
 
->[!NOTE]
->
->Windows 7 ya no es compatible. Consulte [el artículo sobre el fin de la vida útil de Windows 7](https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
+El Adobe AEM recomienda utilizar la última versión de la aplicación de escritorio de para asegurarse de que está utilizando la funcionalidad más reciente, las correcciones de errores más recientes y el mejor rendimiento posible.
 
-Adobe AEM recomienda encarecidamente utilizar la última versión de la aplicación de escritorio de para disponer de las últimas funciones, las correcciones de errores más recientes y el mejor rendimiento posible.
-
-AEM AEM La versión de la aplicación de escritorio de que planea instalar en su equipo local requiere una versión específica del servidor o componentes adicionales del lado del servidor (paquetes de servicio, correcciones rápidas o paquetes de funciones). AEM Asegúrese de que el servidor de esté configurado correctamente antes de conectarse a él por primera vez. AEM Si necesita ayuda, póngase en contacto con su administrador de.
+AEM AEM La versión de la aplicación de escritorio de que planea instalar en su equipo local requiere una versión específica del servidor o componentes adicionales del servidor (paquetes de servicio, correcciones rápidas o paquetes de funciones). AEM Asegúrese de que el servidor de esté configurado correctamente antes de conectarse a él por primera vez. AEM Si necesita ayuda, póngase en contacto con su administrador de.
 
 Consulte la [matriz de compatibilidad detallada](#compatibilitymatrix) al final de este documento para evaluar los requisitos previos de la configuración.
 
@@ -53,13 +49,13 @@ AEM La aplicación de escritorio 1.10 de se centra en mejorar la experiencia del
 
 **Edición local / Desprotección**: las cargas automáticas de los cambios guardados en los recursos se pueden desactivar en la ventana de estado. De este modo, el usuario puede seguir trabajando en los archivos y guardando los cambios y, después, cuando estén listos, decidir cargar todos los cambios.
 
-**Ventana de estado de recursos simplificada**. La ventana de estado se ha simplificado. El [!UICONTROL Uploads] ahora muestra tanto los recursos individuales como las cargas de carpetas o masivas. Se ha eliminado la pestaña Carga masiva anterior.
+**Ventana de estado de recursos simplificada**. La ventana de estado se ha simplificado. El [!UICONTROL Uploads] ahora muestra tanto los recursos individuales como las cargas de carpetas o masivas. Se ha eliminado la pestaña de cargas masivas anterior.
 
 **Icono de aplicación para indicar cargas masivas**. El icono de la aplicación indica que se está realizando una carga masiva mediante la superposición &quot;transferir&quot;.
 
-**Notificaciones de conflictos de actualización**. Cuando la aplicación detecta un conflicto al intentar actualizar un recurso, muestra una notificación para que el usuario pueda revisarla sin necesidad de monitorizar la ventana de estado. Cuando se inicia la aplicación, se comprueban todos los conflictos para que el usuario pueda resolverlos.
+**Notificaciones de conflictos de actualización**. Cuando la aplicación detecta un conflicto durante una actualización de recursos, muestra una notificación que permite al usuario revisarlo sin monitorizar la ventana de estado. Durante el inicio, la aplicación comprueba todos los conflictos, lo que permite al usuario resolverlos.
 
-**Mejor manejo de las pérdidas de conexión**. Las cargas masivas se pausarán si se pierde la conexión y el usuario podrá reanudarlas más tarde. A [!UICONTROL Retry] está disponible para reintentar una carga fallida de un archivo individual.
+**Mejor manejo de las pérdidas de conexión**. Las cargas masivas se pausan si se pierde la conexión y el usuario puede reanudarlas más tarde. A [!UICONTROL Retry] está disponible para reintentar una carga fallida de un archivo individual.
 
 ## Instrucciones de instalación {#installation-instructions}
 
@@ -69,9 +65,9 @@ Para obtener instrucciones detalladas, consulte [AEM Instalación y configuraci�
 
 Esta versión amplía y reemplaza las versiones anteriores de [!DNL Experience Manager] aplicación de escritorio, que proporcionó las siguientes mejoras clave:
 
-* **Versión 1.9/1.9.1**: cargas reanudables, ventana de estado mejorada, iconos de aplicación que indican el estado de la aplicación/conexión, recuperación previa de recursos vinculados para archivos de InDesign.
+* **Versión 1.9 / 1.9.1**: cargas reanudables, ventana de estado mejorada, iconos de aplicación que indican el estado de la aplicación/conexión, recuperación previa de recursos vinculados para archivos de InDesign.
 
-* **Versión 1.8**: mejor control del tamaño de la caché para el usuario, experiencia de inicio de sesión mejorada para SAML/SSO en Windows, compatibilidad con proxy de red .pac en Mac y problemas notificados por el cliente.
+* **Versión 1.8**: mejor control del tamaño de la caché para el usuario, experiencia de inicio de sesión mejorada para SAML / SSO en Windows, compatible `.pac` proxy de red en Mac y problemas notificados por el cliente.
 
 * **Versión 1.7**: mejoras en la estabilidad y la lógica de almacenamiento en caché, mejor compatibilidad con el proxy de red y capacidad para limpiar archivos internos después de la desinstalación.
 
@@ -85,9 +81,9 @@ Esta versión amplía y reemplaza las versiones anteriores de [!DNL Experience M
 
 ### AEM Mejoras disponibles desde la aplicación de escritorio 1.9 de {#Enhancements-Available-Since-AEM-Desktop-App-19x}
 
-[!DNL Adobe Experience Manager] la aplicación de escritorio 1.9.1 fue una versión de parche que aborda algunos problemas clave de los clientes relacionados con la desprotección de recursos y la copia de archivos del recurso compartido de red a un directorio local.
+[!DNL Adobe Experience Manager] la versión 1.9.1 de la aplicación de escritorio fue un parche. Se diseñó para abordar los problemas clave de los clientes con el cierre de compra de recursos. Y, dirigir la copia de archivos de un recurso compartido de red a un directorio local.
 
-* Los recursos desprotegidos por un usuario no deben estar disponibles para su modificación por otros usuarios (CQ-4246009)
+* Assets desprotegido por un usuario no debe estar disponible para la modificación por otros usuarios (CQ-4246009)
 
 * Compatibilidad con la copia de una carpeta asignada a una carpeta local cuando la carpeta del usuario está en una partición de disco independiente (CQ-4243978)
 
@@ -97,19 +93,19 @@ AEM La aplicación de escritorio 1.9 de se centró en la mejora de la experienci
 En el caso de las cargas, especialmente en archivos grandes, existe la opción de pausarlas o reanudarlas en la nueva ventana Estado de los recursos.
 
 **Ventana de estado de recursos mejorada**
-Una ventana de estado de recursos mejorada proporciona la siguiente información sobre los recursos.
+Una ventana de Estado de recursos mejorada proporciona la siguiente información sobre los recursos.
 
 [!UICONTROL Changes]
 
 * Muestra los cambios actualmente en cola.
 
-* Muestra las cargas en curso, incluida una barra de progreso, la velocidad de transferencia, el tamaño total del archivo y el tamaño transferido hasta el momento.
+* Muestra las cargas en curso con una barra de progreso, la velocidad de transferencia, el tamaño total del archivo y la cantidad transferida hasta el momento.
 
 * Cargas completadas que se muestran con la tarifa total transferida y final.
 
 * Las cargas con errores se muestran junto con un mensaje de error y la información de transferencia, si está disponible.
 
-* Las cargas que hayan fallado 3 veces mostrarán un mensaje de error.
+* Las cargas que han fallado tres veces muestran un mensaje de error.
 
 * Los archivos en conflicto se muestran con un icono en el que el usuario puede hacer clic. Al hacer clic en el icono, se muestra un cuadro de diálogo con una explicación y dos opciones:
 
@@ -121,36 +117,36 @@ Una ventana de estado de recursos mejorada proporciona la siguiente información
 
 * Muestra las descargas en curso, incluida la tasa de transferencia y el tamaño transferidos hasta el momento.
 
-* Descargas completadas que se muestran con el total transferido, la tasa final y un icono que abrirá el archivo cuando se haga clic (solo disponible para archivos únicos).
+* Las descargas completadas se muestran con el total transferido, la tasa final y un icono que abre el archivo cuando se hace clic (solo disponible para archivos únicos).
 
 * Las descargas fallidas se muestran con un mensaje de error y transfieren información, si está disponible.
 
-* Pie de página muestra el número total de archivos descargados y la tasa de transferencia promedio.
+* El pie de página muestra el número total de archivos descargados y la velocidad de transferencia promedio.
 
 * Si un usuario decide abrir o editar varios archivos desde el [!DNL Experience Manager Assets] Interfaz web, se agrupan. Por ejemplo, myasset.jpeg y 4 archivos más.
 
-* Al descargar documentos de InDesign, incluidos los recursos vinculados almacenados en AEM Assets, la aplicación de escritorio descargará primero todos los recursos vinculados antes de abrir [!UICONTROL Adobe InDesign] e indicar la descarga de recursos vinculados. Por ejemplo, 5 de 24.
+* Al descargar documentos de InDesign con recursos vinculados desde AEM Assets, la aplicación de escritorio descarga primero todos los recursos vinculados antes de abrir el documento e indicar el estado de descarga. Por ejemplo, 5 de 24.
 
 [!UICONTROL Bulk Uploads]
 
-Carga de jerarquías de carpetas grandes mediante [!UICONTROL Create] > [!UICONTROL Upload Folder] AEM en la interfaz de usuario web de la aplicación o copiando y seleccionando &quot;Pegar recursos&quot; en el Finder o el Explorer en el menú contextual de la aplicación de escritorio, se almacenará en déclencheur el uso de este cuadro de diálogo.
+Carga de jerarquías de carpetas grandes mediante [!UICONTROL Create] > [!UICONTROL Upload Folder] AEM en el cuadro de diálogo IU web de los déclencheur. Lo mismo ocurre cuando copia y selecciona &quot;Pegar Assets&quot; en Finder o Explorer en el menú contextual de la aplicación de escritorio.
 
 * Muestra las cargas en curso, incluida una barra de progreso y el nombre del archivo que se está transfiriendo en ese momento.
 
-* Las cargas en curso incluyen un icono que cancela la carga cuando se hace clic en ella. La transferencia se detendrá una vez finalizado el archivo que se está transfiriendo.
+* Las cargas en curso incluyen un icono que cancela la carga cuando se hace clic en él. La transferencia se detiene una vez finalizado el archivo que se está transfiriendo.
 
 * Los procesos de transferencia fallidos se muestran con un mensaje de error (solo si falla toda la transferencia).
 
-* Si un archivo individual no se transfiere, aparecerá en la pestaña como un error. De lo contrario, los archivos individuales no se mostrarán en la pestaña * solo una entrada para toda la carga.
+* Si un archivo individual no se transfiere, se muestra en la pestaña como un error. De lo contrario, los archivos individuales no se muestran en la pestaña * solo una entrada para toda la carga.
 
 **Iconos para indicar el estado de las operaciones en segundo plano**
 
-El icono de la aplicación indicará el estado de las operaciones en segundo plano para proporcionar una mejor pista visual a los usuarios. AEM Por ejemplo, cuando la aplicación no está conectada a la aplicación, el icono se muestra atenuado, cuando hay una carga activa, se muestra una superposición de &quot;sincronización&quot;, etc.
+El icono de la aplicación indica el estado de las operaciones en segundo plano para proporcionar una mejor pista visual a los usuarios. AEM Por ejemplo, cuando la aplicación no está conectada a la aplicación, el icono aparece atenuado. Cuando hay una carga activa, se muestra una superposición de &quot;sincronización&quot;, etc.
 
-**Recuperación previa de recursos vinculados**
+**Recuperación previa de Assets vinculado**
 
-Para mejorar la experiencia del usuario al trabajar con documentos de InDesign AEM que incluyen recursos vinculados almacenados en la memoria caché, la aplicación de escritorio intentará recuperar previamente estos archivos vinculados en la memoria caché local antes de descargar y abrir el documento de InDesign. De este modo, el usuario tendrá los archivos vinculados disponibles localmente y no tendrá que esperar más tiempo al acceder a ellos en InDesign (en el panel Vínculos).
-AEM Tenga en cuenta que la recuperación previa solo funciona si reconoce los vínculos del lado del servidor de forma. Un recurso con vínculos reconocidos tendrá una lista de &quot;Referencias&quot; en la vista Propiedades del recurso de InDesign.
+Para mejorar la experiencia del usuario con los documentos de InDesign AEM que contienen recursos vinculados almacenados en la memoria caché, la aplicación de escritorio recupera previamente estos archivos vinculados en la memoria caché local. Este flujo se produce antes de que descargue y abra el documento de InDesign. De este modo, el usuario tiene los archivos vinculados disponibles localmente y no necesita esperar más cuando accede a los recursos en InDesign (en el panel Vínculos).
+AEM La recuperación previa solo funciona si reconoce los vínculos en el lado del servidor. Un recurso con vínculos reconocidos tiene una lista de &quot;Referencias&quot; en la vista Propiedades del recurso de InDesign.
 
 ### AEM Mejoras disponibles desde la aplicación de escritorio 1.8.x de {#enhancements-available-since-aem-desktop-app-18x}
 
@@ -172,11 +168,11 @@ AEM AEM La versión de seguimiento rápido 1.8.1 de la aplicación de escritorio
 
    * AEM cuando caduca una sesión de, ahora se notifica al usuario y puede hacer clic en la notificación para volver a iniciar sesión (CQ-4202028).
 
-   * (Mac AEM) Añada compatibilidad para conectarse a la red a través de la configuración de proxy .pac (CQ-4233430).
+   * (Mac AEM) Añada compatibilidad para conectarse a la aplicación de a través de la forma de usar el complemento de. `.pac` configuración proxy (CQ-4233430).
 
    * (Win) Solucione problemas con el cuadro de diálogo Avanzado: URL de inicio de sesión (CQ-4236061).
 
-* Corrección de errores:
+* Correcciones de errores:
 
    * Cuadro de diálogo Más información del recurso: a veces la barra de acciones no estaba visible (CQ-4208540).
 
@@ -186,7 +182,7 @@ AEM AEM La versión de seguimiento rápido 1.8.1 de la aplicación de escritorio
 
 * Estabilidad:
 
-   * AEM AEM Se ha mejorado la estabilidad cuando la aplicación de escritorio de la aplicación se conecta a un servidor de sobrecargado (CQ-4224803).
+   * AEM AEM Se ha mejorado la estabilidad al conectar la aplicación de escritorio de a un servidor de sobrecargado (CQ-4224803).
 
    * Se ha mejorado la estabilidad cuando se solicitan muchos archivos (CQ-4224212).
 
@@ -212,9 +208,9 @@ AEM AEM La versión de seguimiento rápido 1.8.1 de la aplicación de escritorio
 
 >[!NOTE]
 >
->AEM Los problemas encontrados en las cargas beta de la aplicación de escritorio 1.7 de (que no estaban presentes en la versión 1.6 no se notifican en las notas de la versión).
+>AEM Los problemas encontrados en las cargas beta de la aplicación de escritorio 1.7 de que estaban ausentes en la versión 1.6 se omiten de las notas de la versión.
 
-### AEM Mejoras disponibles desde la aplicación de escritorio de la aplicación de escritorio 10060000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 {#Enhancements-Available-Since-AEM-Desktop-App-16}
+### AEM Mejoras disponibles desde la aplicación de escritorio de la aplicación de escritorio 100600000000000000100000000000000000000000000000000000000000000000000 00000000000000000000000000000000000000000000000000000000000000000000000000 {#Enhancements-Available-Since-AEM-Desktop-App-16}
 
 * Documentación: nueva [Prácticas recomendadas para la aplicación v1.x](/help/using/best-practices-for-v1.md) documentación.
 
@@ -222,9 +218,9 @@ AEM AEM La versión de seguimiento rápido 1.8.1 de la aplicación de escritorio
 
    * Mejora de la gestión de SAML * reglas de relajación (CQ-4202781).
 
-   * Añada la capacidad de configurar direcciones URL de inicio de sesión independientes en Preferencias (CQ-4214052, CQ-4214051).
+   * Añada la capacidad de configurar una URL de inicio de sesión independiente en Preferencias (CQ-4214052, CQ-4214051).
 
-* Usabilidad: Notificar al usuario cuando el recurso aún se descarga para recursos más grandes (CQ-4216284).
+* Uso: notificar al usuario cuando un recurso aún se está descargando para recursos más grandes (CQ-4216284).
 
 * Redes:
 
@@ -246,7 +242,7 @@ AEM AEM La versión de seguimiento rápido 1.8.1 de la aplicación de escritorio
 
    * Se ha mejorado el rendimiento al examinar las carpetas con muchos recursos (CQ-4214933).
 
-   * La aplicación de escritorio 1.5 puede ralentizar el equipo de escritorio con el tiempo (CQ-4209159).
+   * La aplicación de escritorio 1.5 puede ralentizar un equipo de escritorio con el tiempo (CQ-4209159).
 
    * La función Mostrar estado de cola solo funciona para el usuario que instaló la aplicación (CQ-4212199).
 
@@ -260,7 +256,7 @@ AEM AEM La versión de seguimiento rápido 1.8.1 de la aplicación de escritorio
 
 ### AEM Mejoras disponibles desde la aplicación de escritorio 1.5 de {#Enhancements-Available-Since-AEM-Desktop-App-15}
 
-**Versión 1.5.1.5 para Mac OS X:** La versión 1.5.1.5 ofrece las siguientes ventajas:
+**Versión 1.5.1.5 para macOS X:** La versión 1.5.1.5 ofrece las siguientes ventajas:
 
 * AEM Nuevas funciones y mejoras: Añada la funcionalidad Copiar/Pegar a la integración de Finder para permitir la transferencia directa de Escritorio a (CQ-4208158).
 
@@ -274,23 +270,23 @@ AEM AEM La versión de seguimiento rápido 1.8.1 de la aplicación de escritorio
 
    * El punto de montaje de la aplicación de escritorio ahora es /Volumes/DAM, por lo que es coherente para todos los usuarios (CQ-4208159).
 
-   * Al colocar el archivo en el InDesign por primera vez se inicia una advertencia de actualización (CQ-4207454).
+   * Al colocar un archivo en el InDesign por primera vez se inicia una advertencia de actualización (CQ-4207454).
 
-Nota sobre las advertencias de vínculos: las aplicaciones de Creative Cloud (como InDesigns) toman una &quot;instantánea&quot; de la última modificación del artículo en el momento en que se coloca. Si esa fecha cambia posteriormente, la aplicación de Adobe Creative Cloud informará de que los vínculos han quedado obsoletos. Se informa de este problema de dos formas:
+Nota sobre las advertencias de vínculos: las aplicaciones de Creative Cloud (como InDesigns) toman una &quot;instantánea&quot; de la última modificación del artículo en el momento en que se coloca. Si esa fecha cambia en un momento posterior, la aplicación de Adobe Creative Cloud informa de que los vínculos no están actualizados. Se informa de esta información de un par de maneras:
 
 * Cuando se inicia la aplicación de Adobe Creative Cloud, muestra un cuadro de diálogo que informa al usuario de que los recursos vinculados no están actualizados y le solicita que realice una acción.
 
-* Si la aplicación de Adobe Creative Cloud ya se está ejecutando, mostrará un icono de advertencia de triángulo amarillo en el recurso vinculado.
+* Si la aplicación de Adobe Creative Cloud ya se está ejecutando, muestra un icono de advertencia de triángulo amarillo en el recurso vinculado.
 
 AEM Este comportamiento es el mismo para los recursos del disco local y los recursos de un directorio montado en el escritorio de la aplicación, con las siguientes excepciones:
 
-* Si otro usuario modifica un recurso colocado, el icono de advertencia se mostrará la primera vez que otros usuarios abran un documento que lo contenga. Esto solo ocurrirá si el recurso colocado ya se ha almacenado en caché localmente.
+* Si otro usuario edita un recurso colocado, el icono de advertencia se mostrará la primera vez que otros usuarios abran un documento que lo contenga. Esta advertencia solo se produce si el recurso colocado ya se ha almacenado en caché localmente.
 
-* AEM Si un usuario modifica un recurso colocado a través del directorio montado del escritorio y, a continuación, borra su caché local, el recurso colocado se registrará como obsoleto.
+* AEM Si un usuario modifica un recurso colocado a través del directorio montado del escritorio del y luego borra su caché local, el recurso colocado se registra como obsoleto.
 
-AEM Ambos casos son previsibles y son efectos secundarios de la arquitectura de &quot;sincronización retardada&quot; de Escritorio de la aplicación de escritorio de la aplicación.
+AEM Ambos casos son previsibles y son efectos secundarios de la arquitectura de &quot;sincronización retardada&quot; de los equipos de escritorio de la aplicación de escritorio.
 
-**Versión 1.5.0.x para Mac OS X y Windows:** AEM Esta versión de la aplicación de escritorio de ofrece las siguientes ventajas:
+**Versión 1.5.0.x para macOS X y Windows:** AEM Esta versión de la aplicación de escritorio de ofrece las siguientes ventajas:
 
 * Mejor estabilidad y resiliencia frente a los problemas de red.
 
@@ -298,20 +294,20 @@ AEM Ambos casos son previsibles y son efectos secundarios de la arquitectura de 
 
    * Mejor gestión de los archivos en caché (CQ-4204336, CQ-4206263).
 
-   * Se ha mejorado la gestión de la descarga/carga de archivos grandes de más de 2 GB de tamaño (CQ-4206438).
+   * Se ha mejorado la gestión de la descarga/carga de archivos de gran tamaño de más de 2 GB (CQ-4206438).
 
    * Se ha corregido el &quot;Error 36&quot; al mover o cambiar el nombre de un mayor número de archivos en Finder (CQ-4204640).
 
 * AEM Optimizaciones en la comunicación de red con el servidor de (CQ-4204974, CQ-100903).
 
-* AEM Se ha mejorado la fiabilidad de apertura, colocación y guardado de recursos en aplicaciones de Creative Cloud (CQ-4203968, CQ-4205511, CQ-103543, CQ-4207141, CQ-90980).
+* AEM Se ha mejorado la fiabilidad de apertura, colocación y guardado de recursos desde las aplicaciones de Creative Cloud (CQ-4203968, CQ-4205511, CQ-103543, CQ-4207141, CQ-90980).
 
 * Compatibilidad mejorada: opción para borrar la caché (CQ-4202541), fácil acceso a los registros (CQ-4202340, CQ-4204673).
 
 * Otras correcciones:
    * Mejor compatibilidad con recursos y carpetas que tienen caracteres japoneses en la configuración de nombre/idioma no inglés (CQ-4195433, CQ-4205793, CQ-4199446).
 
-   * Mejor gestión del inicio de sesión con SSL (CQ-4200217).
+   * Mejor gestión de inicio de sesión con SSL (CQ-4200217).
 
    * Montaje compartido más fiable (CQ-4200793).
 
@@ -322,14 +318,14 @@ AEM Ambos casos son previsibles y son efectos secundarios de la arquitectura de 
 ### AEM Mejoras disponibles desde la aplicación de escritorio 1.4 de {#Enhancements-Available-Since-AEM-Desktop-App-14}
 
 * Carga simplificada de carpetas jerárquicas mediante la nueva acción Crear > Cargar carpeta en la IU táctil.
-   * La acción inicia una operación de carga de carpetas realizada por la aplicación de escritorio
-   * La aplicación de escritorio atraviesa la jerarquía de carpetas determinada en el escritorio en segundo plano y carga los archivos en AEM Assets
-   * El usuario puede monitorizar el progreso en la nueva ventana Cargar estado de cola con la barra de progreso para las operaciones en curso
-   * El estado de la cola de carga también proporciona mejor información para la resolución de problemas (por ejemplo, sin conexión al servidor)
-* Nueva acción Editar en la IU táctil, que combina las operaciones Desproteger y Abrir en una
-* AEM Agrupación optimizada de acciones relacionadas con el escritorio en la IU táctil (6.3)
-* Compatibilidad mejorada con las últimas versiones del sistema operativo
-* Correcciones notificadas por el cliente
+   * Esta acción inicia una operación de carga de carpetas realizada por la aplicación de escritorio.
+   * La aplicación de escritorio atraviesa la jerarquía de carpetas determinada en el escritorio en segundo plano y carga los archivos en AEM Assets.
+   * El usuario puede supervisar el progreso en la nueva ventana Cargar estado de cola para las operaciones en curso.
+   * El estado de la cola de carga también proporciona mejor información de solución de problemas (por ejemplo, sin conexión al servidor).
+* Nueva acción de edición en la IU táctil que combina las operaciones de cierre de compra y apertura en una.
+* AEM Se ha optimizado la agrupación de acciones relacionadas con el escritorio en la IU táctil (6.3 de).
+* Compatibilidad mejorada con las últimas versiones del sistema operativo.
+* Correcciones notificadas por el cliente.
 
 ### AEM Mejoras disponibles desde la aplicación de escritorio 1.3 de {#Enhancements-Available-Since-AEM-Desktop-App-13}
 
@@ -337,35 +333,35 @@ AEM Ambos casos son previsibles y son efectos secundarios de la arquitectura de 
 * Se ha mejorado la integración de Finder, que proporciona más estabilidad y acceso a funciones como las miniaturas.
 * Mejoras de almacenamiento en caché y rendimiento.
 * Mejor compatibilidad para guardar directamente desde aplicaciones de escritorio (PS, ID, AI, etc.).
-* Se ha mejorado la integración con el sistema operativo Mac (el protocolo de unidad de red local cambió de WebDAV a SMB1 más estable).
+* Se ha mejorado la integración con macOS (el protocolo de unidad de red local cambió de WebDAV a SMB1 más estable).
 * AEM AEM La aplicación de escritorio se conecta con el servidor de mediante protocolo HTTP RESTful nativo.
-* AEM Los archivos se guardan localmente primero y luego se cargan de nuevo en segundo plano, después de un tiempo predefinido (30 segundos), para volver a colocarlos en segundo plano. Esto reduce el tiempo para guardar archivos.
+* AEM Los archivos se guardan localmente primero y luego se cargan de nuevo en segundo plano, después de un tiempo predefinido (30 segundos), para volver a colocarlos en segundo plano. Este flujo de trabajo reduce el tiempo para guardar archivos.
 * AEM Mejor gestión de las aplicaciones de escritorio que utilizan operaciones de archivo intermedias para guardar un archivo (guardados parciales y archivos temporales), lo que permite que la cronología de recursos de la muestre la versión correcta y la información de carga de recursos.
-* Cuadro de diálogo proporcionado para rastrear el estado de las tareas de carga en segundo plano.
+* Se proporciona un cuadro de diálogo para realizar un seguimiento del estado de las tareas de carga en segundo plano.
 
 ## Lista de cambios {#list-of-changes}
 
 ### Punto de montaje en Mac {#mount-point-on-mac}
 
-Desde MacOS 10.12 (Sierra), Apple ha cambiado los permisos de la carpeta /Volumes utilizada para montar unidades y dispositivos de red a más restrictivos. La creación de un nuevo punto de montaje requería derechos administrativos. Este problema se solucionó en MacOS 10.12.5.
+Desde macOS 10.12 (Sierra), Apple ha cambiado los permisos de la carpeta /Volumes que se usan para montar unidades de red y dispositivos para que sean más restrictivos. La creación de un nuevo punto de montaje en esa ubicación requería derechos administrativos. Este problema se solucionó en macOS 10.12.5.
 
-AEM Como la aplicación de escritorio debe ejecutarse para usuarios que no tengan derechos de administrador en el equipo local, el punto de montaje del repositorio de AEM Assets se cambió en 1.4 y 1.5 a una subcarpeta DAM en la carpeta local del usuario en MacOS (CQ-104183).
+AEM El punto de montaje de la aplicación de escritorio de la aplicación de escritorio de la aplicación ha cambiado en las versiones 1.4 y 1.5. En macOS, se cambió a una subcarpeta DAM dentro de la carpeta local del usuario, que admite usuarios no administradores (CQ-104183).
 
-Dado que la carpeta /Volumes ya no requiere derechos administrativos, este cambio se revirtió en 1.5.1. Esto también permite compartir documentos de InDesign AEM que han colocado recursos de la entre usuarios de MacOS.
+Debido a que el `/Volumes` ya no requiere derechos administrativos, este cambio se revirtió en 1.5.1. Este cambio también permite compartir documentos de InDesign AEM que han colocado recursos de entre los usuarios de macOS a partir de una ubicación que los ha.
 
 ### Cambio de protocolo (desde la versión 1.3) {#protocol-change-since}
 
-* Mac OS X:
+* macOS X:
    * El protocolo de unidad de red local para la integración de escritorio de OS X cambió de WebDAV a SMB1.
-   * AEM El repositorio de montado con la aplicación de escritorio será visible como una unidad de red &quot;smb&quot; en Finder, en lugar de como una unidad WebDAV.
+   * AEM El repositorio de montado con la aplicación de escritorio se puede ver como un `smb` en el Finder, en lugar de en una unidad WebDAV.
 * Windows:
-   * AEM El protocolo de unidad de red local para las integraciones de escritorio de Windows permanece; se montará como un recurso compartido de WebDAV.
+   * AEM El protocolo de unidad de red local para las integraciones de escritorio de Windows permanece; se monta como un recurso compartido de WebDAV.
 * Para ambas plataformas (Windows y Mac):
-   * AEM AEM El protocolo para acceder/descargar recursos y cargar cambios en los recursos se ha cambiado a la versión nativa del protocolo de, que es un protocolo RESTful basado en HTTP. Proporciona el bueno control sobre las operaciones de red y es más compatible con la infraestructura de red.
+   * AEM AEM El protocolo para acceder/descargar recursos y cargar cambios en los recursos se ha cambiado a la versión nativa del protocolo de, que es un protocolo RESTful basado en HTTP. Proporciona un mayor control sobre las operaciones de red y es más compatible con la infraestructura de red.
 
 >[!NOTE]
 >
->En Mac OS X, el cambio del protocolo de la unidad de red local de WebDAV a SMB1 da como resultado una ruta local diferente al mismo recurso del repositorio. Esto puede afectar a los vínculos a archivos colocados en aplicaciones de Adobe Creative Cloud mediante el comando &quot;Colocar&quot;. Consulte la [AEM Usar aplicación de escritorio](use-app-v1.md) para obtener más información.
+>En macOS X, el cambio del protocolo de la unidad de red local de WebDAV a SMB1 da como resultado una ruta local diferente al mismo recurso del repositorio. Este cambio podría afectar a los vínculos a archivos colocados en aplicaciones de Adobe Creative Cloud mediante el comando &quot;Colocar&quot;. Consulte la [AEM Usar aplicación de escritorio](use-app-v1.md) para obtener más información.
 
 ### Administración de archivos (desde 1.3) {#file-handling-since}
 
@@ -373,15 +369,15 @@ Dado que la carpeta /Volumes ya no requiere derechos administrativos, este cambi
 * Los archivos desprotegidos por otros usuarios se marcan como de sólo lectura.
 * Los archivos se guardan en una ubicación de unidad de red montada mediante la aplicación de escritorio en dos fases.
 * En la primera fase, se guarda un archivo localmente. AEM De este modo, el usuario que guarde el archivo no tendrá que esperar hasta que el archivo se transfiera completamente a la red de archivos y podrá reanudar el trabajo en cuanto se guarde el archivo.
-* AEM En la segunda fase, la aplicación de escritorio carga un archivo actualizado en el servidor después de un retraso predefinido (por ejemplo, 30 s ). Esta operación se produce en segundo plano. Utilice el **Mostrar estado de sincronización de archivos en segundo plano** para ver el estado de la operación de carga.
+* AEM En la segunda fase, la aplicación de escritorio carga un archivo actualizado en el servidor de después de un retraso predefinido (por ejemplo, treinta segundos). Esta operación se produce en segundo plano. Utilice el **Mostrar estado de sincronización de archivos en segundo plano** para ver el estado de la operación de carga.
 
 ## Avisos importantes {#important-notices}
 
-**Carga de carpeta.** AEM AEM Se recomienda utilizar la nueva capacidad Carga de carpetas para cargar carpetas más grandes y jerárquicas en los recursos, en lugar de utilizar una copia o arrastrar y soltar en un repositorio de carpetas montado desde el nivel de Finder/Explorador. AEM Al utilizar la función de carga de carpetas, la aplicación de escritorio se comunica directamente con los usuarios y, por lo tanto, tiene un control mucho mejor sobre el proceso general.
+**Carga de carpeta.** El Adobe AEM recomienda utilizar la nueva capacidad de carga de carpetas para cargar carpetas jerárquicas de mayor tamaño en las carpetas de la carpeta de la carpeta de destino AEM Se recomienda este método en lugar de utilizar una copia/arrastrar y soltar en un repositorio de recursos montado desde el nivel de Finder/Explorador. AEM Al utilizar la función de carga de carpetas, la aplicación de escritorio se comunica directamente con los usuarios y, por lo tanto, tiene un control mucho mejor sobre el proceso general.
 
-**AEM Mantenga la sesión disponible.** AEM La aplicación de escritorio depende de una sesión abierta en el servidor de AEM Assets para garantizar un funcionamiento adecuado. Para los usuarios que trabajan con aplicaciones de escritorio todos los días, se recomienda desmontar AEM Assets al final del día para forzar el cierre de sesión y luego &quot;montar AEM Assets&quot; por la mañana para asegurarse de que han iniciado sesión y de que el recurso compartido de red está operativo.
+**AEM Mantenga la sesión disponible.** AEM La aplicación de escritorio depende de una sesión abierta en el servidor de AEM Assets para garantizar un funcionamiento adecuado. Los usuarios diarios deben desmontar AEM Assets al final del día para cerrar la sesión y volver a montarla por la mañana para garantizar el inicio de sesión y la funcionalidad de uso compartido de red.
 
-**Desactive &quot;Icon Preview&quot; en el Finder.** Para una exploración eficaz de las carpetas grandes con Finder, especialmente con una mala conectividad de red, asegúrese de que tanto &quot;Icon&quot; como &quot;Icon Preview&quot; estén desactivados. De lo contrario, Finder empezará a descargar cada recurso en una carpeta para generar una pequeña previsualización, lo que puede provocar un rendimiento deficiente y un uso elevado del ancho de banda (CQ-4219779)
+**Desactive &quot;Icon Preview&quot; en el Finder.** Para una exploración eficaz de las carpetas grandes con Finder, especialmente con una conectividad de red deficiente, asegúrese de que tanto &quot;Icon&quot; como &quot;Icon Preview&quot; estén desactivados. De lo contrario, Finder comienza a descargar cada recurso en una carpeta para generar una pequeña previsualización, lo que puede provocar un rendimiento deficiente y un uso elevado del ancho de banda (CQ-4219779)
 
 * En Finder, vaya a AEM Assets shared network folder
 * Haga clic con el botón derecho en el punto de montaje DAM
@@ -389,38 +385,38 @@ Dado que la carpeta /Volumes ya no requiere derechos administrativos, este cambi
 * Anular la selección de &quot;Mostrar icono de previsualización&quot;
 * Haga clic en &quot;Usar como valores predeterminados&quot;
 
-**AEM Limpie la caché al conectarse a un nuevo servidor de.** AEM Si la aplicación de escritorio se conecta a otro servidor de con la misma dirección URL, la caché no se borra automáticamente. Borre la caché manualmente para garantizar las operaciones adecuadas. AEM Tenga en cuenta que esto suele ocurrir en las pruebas, cuando las instalaciones de la se pueden reemplazar mientras se ejecutan en la misma dirección URL (CQ-4216982)
+**AEM Limpie la caché al conectarse a un nuevo servidor de la.** AEM Si la aplicación de escritorio se conecta a otro servidor de con la misma dirección URL, la caché no se borra automáticamente. Borre la caché manualmente para garantizar las operaciones adecuadas. AEM Tenga en cuenta que este proceso generalmente se produciría en pruebas, cuando las instalaciones de la se pueden reemplazar mientras se ejecutan en la misma dirección URL (CQ-4216982)
 
-**Utilice certificados SSL firmados por la CA.** AEM AEM Tenga en cuenta que la aplicación de escritorio de no admite certificados SSL autofirmados al conectarse a a través de una conexión segura HTTPS. Se requiere un certificado firmado por la CA en el servidor para estas conexiones. (CQ-87941)
+**Utilice certificados SSL firmados por la CA.** AEM AEM La aplicación de escritorio de la aplicación no admite certificados SSL autofirmados al conectarse a la aplicación a través de una conexión segura HTTPS. Se requiere un certificado firmado por la CA en el servidor para estas conexiones. (CQ-87941)
 
 ## Problemas conocidos {#known-issues}
 
 * General:
    * Las URL de servidor son necesarias para señalar al servidor sin una ruta (por ejemplo, `http://server`, `https://server`, `http://server:port`, o `https://server:port`). No se admiten rutas de contexto ni subcarpetas que no sean /content/dam (CQ-89343, CQ-87272)
 * Nombres de archivo / localización:
-   * Los nombres de archivo y carpeta con caracteres reservados no se gestionan correctamente. AEM Asegúrese de utilizar nombres de archivo y carpeta que se ajusten a los requisitos de la (CQ-93361, CQ-93308, CQ-89276, CQ-4217183)
-   * Algunas aplicaciones, como Adobe Illustrator AEM, pueden crear archivos con nombres no admitidos en los archivos de datos de la aplicación de la aplicación de la aplicación de tipo de archivo. Por ejemplo, agregar `Converted` después de convertir un archivo, lo que impide que se cargue (CQ-4216985)
-   * Los activos con nombres internacionales pueden aparecer y desaparecer cada pocos segundos
-* Registro de entrada y salida:
+   * Los nombres de archivo y carpeta con caracteres reservados no se gestionan correctamente. AEM Asegúrese de utilizar nombres de archivo y carpeta que se ajusten a los requisitos de la. (CQ-93361, CQ-93308, CQ-89276, CQ-4217183)
+   * Algunas aplicaciones, como Adobe Illustrator AEM, pueden crear archivos con nombres no admitidos en los archivos de datos de la aplicación de la aplicación de la aplicación de tipo de archivo. Por ejemplo, agregar `Converted` después de convertir un archivo, lo que impide que se cargue. (CQ-4216985)
+   * Assets con nombres internacionales puede aparecer y desaparecer cada pocos segundos.
+* Proteger y desproteger:
    * Un recurso desprotegido por un usuario no se puede abrir para otro usuario, ni mediante la acción Abrir de la interfaz de usuario táctil ni directamente en el escritorio. Algunas aplicaciones pueden informarlo como bloqueado, pero también dañado o incluso colgado al intentar abrir. (CQ-4199234)
-   * Cambiar archivos simultáneamente por varios usuarios puede causar que se pierdan algunas modificaciones. La solución consiste en utilizar la funcionalidad de protección y desprotección para evitar que varios usuarios cambien el mismo archivo (CQ-97035)
-   * Algunas aplicaciones no admiten correctamente el indicador de solo lectura, que permite al usuario guardar un archivo desprotegido por otro usuario. El archivo modificado no se transferirá hasta que el otro usuario lo registre. AEM Ambas modificaciones están disponibles en los recursos en versiones diferentes (CQ-89551, CQ-87572, CQ-89615), según el tipo de versión que se utilice
-   * El estado de cierre y solo lectura se informa de forma independiente en el Buscador. Esto da como resultado dos iconos de bloqueo cuando un usuario desprotege un recurso (CQ-89507)
+   * Cambiar archivos simultáneamente por varios usuarios puede causar que se pierdan algunas modificaciones. La solución consiste en utilizar la funcionalidad de protección y desprotección para evitar que varios usuarios cambien el mismo archivo. (CQ-97035)
+   * Algunas aplicaciones no admiten correctamente el indicador de solo lectura, lo que permite al usuario guardar un archivo que otro usuario ha desprotegido. El archivo modificado no se transferirá hasta que el otro usuario lo registre. AEM Ambas modificaciones están disponibles en los recursos en forma de versiones diferentes del recurso. (CQ-89551, CQ-87572, CQ-89615)
+   * Los estados de cierre y solo lectura se informan de forma independiente en el Buscador. Este método genera dos iconos de bloqueo cuando un usuario desprotege un recurso. (CQ-89507)
 * Integración de Finder:
-   * Al arrastrar y soltar archivos grandes, Finder puede agotar el tiempo de espera mientras los archivos se transfieren en segundo plano. Esto da como resultado una `Error - 36`. La solución consiste en arrastrar y soltar el recurso o abrirlo de nuevo (CQ-4219628)
-   * La recarga manual de carpetas no siempre funciona. Solución alternativa: espere 30 segundos a que la carpeta se actualice automáticamente. (CQ-97389)
-   * Más información del recurso... se limita a selecciones de un solo archivo (CQ-89542, CQ-87656)
-   * Abrir en AEM Assets... se limita a selecciones de carpeta y un solo archivo (CQ-83382)
-   * Error al cambiar el nombre de recursos que no tienen extensión (CQ-4218971)
-* Funcionalidad Copiar/Pegar: La opción Pegar está disponible cuando no se ha copiado ningún recurso en el portapapeles
+   * Al arrastrar y soltar archivos grandes, el Finder podría agotar el tiempo de espera mientras los archivos se transfieren en segundo plano. Este retraso provoca un `Error - 36`. La solución consiste en arrastrar y soltar o abrir el recurso de nuevo. (CQ-4219628)
+   * La recarga manual de carpetas no siempre funciona. Solución alternativa: espere treinta segundos para que la carpeta se actualice automáticamente. (CQ-97389)
+   * Más información del recurso... se limita a selecciones de un solo archivo. (CQ-89542, CQ-87656)
+   * Abrir en AEM Assets... está limitado a selecciones de carpeta y un solo archivo. (CQ-83382)
+   * Error al cambiar el nombre de recursos que no tienen extensión. (CQ-4218971)
+* Funcionalidad Copiar/Pegar: La opción Pegar está disponible cuando no se ha copiado ningún recurso en el portapapeles.
 * Windows:
-   * Los archivos con secuencias de datos alternativas (ADS) sólo son totalmente compatibles con NTFS. Si se copian estos archivos en el recurso compartido WebDAV proporcionado por la aplicación de escritorio, aparecerá un cuadro de diálogo de precaución en el que se advierte al usuario de que el archivo tiene propiedades que no se pueden copiar en la nueva ubicación. Esto suele estar bien, ya que las propiedades solo son relevantes para una aplicación en particular en el escritorio del usuario y no tienen nada que ver con el contenido real del archivo (CQ-103770) (Win)
-   * la aplicación de escritorio en Windows debe instalarla el usuario que la vaya a utilizar (CQ-4216389) (win)
-   * La aplicación puede bloquearse al seleccionar [!UICONTROL Retry] en una carga fallida bajo ciertas circunstancias después de haber reanudado la carga por lotes cuando estaba desconectado (CQ-4251884) (Win)
+   * Los archivos con secuencias de datos alternativas (ADS) sólo son totalmente compatibles con NTFS. Al copiar archivos en el recurso compartido WebDAV a través de la aplicación de escritorio, un cuadro de diálogo de precaución advierte que algunas propiedades de archivo no se pueden transferir a la nueva ubicación. Esta advertencia suele ser correcta porque las propiedades solo son relevantes para una aplicación concreta en el escritorio del usuario y no tienen nada que ver con el contenido real del archivo. (CQ-103770) (Win)
+   * El usuario que utiliza la aplicación de escritorio en Windows debe ser el que la instale. (CQ-4216389) (Win)
+   * La aplicación puede bloquearse al seleccionar [!UICONTROL Retry] en una carga fallida. Este bloqueo puede producirse en determinadas circunstancias después de reanudar la carga por lotes cuando se desconecta. (CQ-4251884) (Win)
 
 ## Recursos útiles {#helpful-resources}
 
-* [AEM Documentación de](https://experienceleague.adobe.com/docs/)
+* [AEM Documentación de](https://experienceleague.adobe.com/en/docs)
 * [AEM Uso de la aplicación de escritorio v1.x](use-app-v1.md)
 * [AEM Prácticas recomendadas para la aplicación de escritorio v1.x](best-practices-for-v1.md)
 
@@ -430,7 +426,7 @@ AEM AEM La aplicación de escritorio de funciona con varias versiones de la apli
 
 | Versión | Revisión | Fecha de lanzamiento | Compatibilidad |
 |--- |--- |--- |--- |
-| 1.10 | 1.10.0.3 (Mac y Win) | 31 de agosto de 2018 | AEM AEM AEM AEM AEM.5; 6.4 SP1; 6.3 SP2; 6.2 SP1 CFP2+; 6.1 SP2 CFP7+ |
-| 1.9 | 1.9.1.1 (Mac y Win) | 21 de junio de 2018 | AEM AEM AEM AEM.4; 6.3 SP1; 6.2 SP1 CFP2+; 6.1 SP2 CFP7+ |
-| 1.8 | 1.8.1.0 (Mac y Win) | 28 de marzo de 2018 | AEM AEM AEM AEM.4; 6.3 SP1; 6.2 SP1 CFP2+; 6.1 SP2 CFP7+ |
-| 1.7 | 1.7.0.3 (Mac y Win) | 10 de enero de 2018 | AEM AEM AEM 6.3 SP1; 6.2 SP1 CFP2+; 6.1 SP2 CFP7+ |
+| 1,10 | 1.10.0.3 (Mac y Win) | sábado, 31 de agosto de 2018 | AEM AEM AEM AEM AEM.5; 6.4 SP1; 6.3 SP2; 6.2 SP1 CFP2+; 6.1 SP2 CFP7+ |
+| 1,9 | 1.9.1.1 (Mac y Win) | 21 de junio de 2018 | AEM AEM AEM AEM.4; 6.3 SP1; 6.2 SP1 CFP2+; 6.1 SP2 CFP7+ |
+| 1.8 | 1.8.1.0 (Mac y Win) | jueves, 28 de marzo de 2018 | AEM AEM AEM AEM.4; 6.3 SP1; 6.2 SP1 CFP2+; 6.1 SP2 CFP7+ |
+| 1,7 | 1.7.0.3 (Mac y Win) | jueves, 10 de enero de 2018 | AEM AEM AEM 6.3 SP1; 6.2 SP1 CFP2+; 6.1 SP2 CFP7+ |
