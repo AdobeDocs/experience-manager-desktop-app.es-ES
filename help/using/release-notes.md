@@ -1,5 +1,5 @@
 ---
-title: "[!DNL Adobe Experience Manager] notas de la versión de la aplicación de escritorio"
+title: '[!DNL Adobe Experience Manager] notas de la versión de la aplicación de escritorio'
 description: Detalles de la versión, mejoras, nuevas características, compatibilidad y vínculos de descarga para la aplicación de escritorio  [!DNL Adobe Experience Manager] iOS.
 mini-toc-levels: 1
 feature: Desktop App,Release Information
@@ -23,7 +23,7 @@ La versión más reciente de la aplicación de escritorio incluye las siguientes
 
 Las **versiones compatibles de [!DNL Experience Manager]** son:
 
-* [!DNL Experience Manager] como [!DNL Cloud Service]. Ver [notas de la versión](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/home).
+* [!DNL Experience Manager] como [!DNL Cloud Service]. Ver [notas de la versión](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/release-notes/home).
 * [!DNL Experience Manager] 6.5.0 o posterior, en Adobe Managed Services (AMS) o local. Ver [notas de la versión del Service Pack](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/release-notes/release-notes).
 
 La aplicación de escritorio [!DNL Adobe Experience Manager] está disponible para los siguientes **sistemas operativos**:
