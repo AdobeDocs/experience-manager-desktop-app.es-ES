@@ -95,7 +95,7 @@ En macOS X, hay un directorio similar en `~/Library/Group Containers/group.com.a
 
 ### Opción en la aplicación para administrar la caché {#in-app-option-to-manage-cache}
 
-Puede controlar la cantidad de espacio en disco disponible para el almacenamiento en caché local. Los artefactos del servidor de Assets se almacenan en caché localmente para una experiencia más fluida. Puede cambiar los valores predeterminados para adaptarlos a sus necesidades. Además, puede borrar la caché para recuperar todos los recursos de nuevo. Para establecer las opciones deseadas, haga clic en el icono de la aplicación y luego en **[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**. ****
+Puede controlar la cantidad de espacio en disco disponible para el almacenamiento en caché local. Los artefactos del servidor de Assets se almacenan en caché localmente para una experiencia más fluida. Puede cambiar los valores predeterminados para adaptarlos a sus necesidades. Además, puede borrar la caché para recuperar todos los recursos de nuevo. Para establecer las opciones deseadas, haga clic en el icono de la aplicación y luego en **[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**. **&#x200B;**
 
 >[!NOTE]
 >
@@ -127,6 +127,6 @@ Para dirigir la aplicación a una carpeta o unidad diferente, edite el archivo d
 
 >[!MORELIKETHIS]
 >
-* Vea una [introducción a la [!DNL Experience Manager] aplicación de escritorio](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) (5 minutos y 43 segundos).
-* [Usar [!DNL Experience Manager] aplicación de escritorio](use-app-v1.md).
-* [Solución de problemas [!DNL Experience Manager] aplicación de escritorio](troubleshoot-app-v1.md).
+>* Vea una [introducción a la [!DNL Experience Manager] aplicación de escritorio](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) (5 minutos y 43 segundos).
+>* [Usar [!DNL Experience Manager] aplicación de escritorio](use-app-v1.md).
+>* [Solución de problemas [!DNL Experience Manager] aplicación de escritorio](troubleshoot-app-v1.md).
