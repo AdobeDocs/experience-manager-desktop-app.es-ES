@@ -60,7 +60,7 @@ Para instalar la aplicación de escritorio, siga estos pasos. Desinstale cualqui
 
 1. Si está actualizando desde otra versión de la aplicación, consulte [Actualizar la aplicación de escritorio](#upgrade-from-previous-version).
 
-1. Omita este paso si usa [!DNL Experience Manager] como [!DNL Cloud Service], [!DNL Experience Manager] 6.4.4 o posterior, o [!DNL Experience Manager] 6.5.0 o posterior. Asegúrese de que la configuración de [!DNL Experience Manager] cumpla los requisitos de compatibilidad mencionados en las [notas de la versión](release-notes.md). Si es necesario, descargue el [paquete de compatibilidad](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) aplicable e instálelo con el Administrador de paquetes [!DNL Experience Manager] como administrador de [!DNL Experience Manager]. Para instalar un paquete, vea [Cómo trabajar con paquetes](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager).
+1. Omita este paso si usa [!DNL Experience Manager] como [!DNL Cloud Service], [!DNL Experience Manager] 6.4.4 o posterior, o [!DNL Experience Manager] 6.5.0 o posterior. Asegúrese de que la configuración de [!DNL Experience Manager] cumpla los requisitos de compatibilidad mencionados en las [notas de la versión](release-notes.md). Si es necesario, descargue el [paquete de compatibilidad](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) aplicable e instálelo con el Administrador de paquetes [!DNL Experience Manager] como administrador de [!DNL Experience Manager]. Para instalar un paquete, vea [Cómo trabajar con paquetes](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager).
 
 1. Ejecute el binario del instalador y siga las instrucciones que aparecen en pantalla para instalar.
 
@@ -92,7 +92,7 @@ Para instalar la aplicación de escritorio, siga estos pasos. Desinstale cualqui
 
    *Imagen: la aplicación muestra el contenido de DAM después del inicio de sesión*
 
-1. ([!DNL Experience Manager] 6.5.1 o posterior) Si utiliza la aplicación de escritorio con [!DNL Experience Manager] 6.5.1 o posterior, actualice S3 o el conector de Azure a la versión 1.10.4 o posterior. Ver [conector de Azure](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store) o [conector S3](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store).
+1. ([!DNL Experience Manager] 6.5.1 o posterior) Si utiliza la aplicación de escritorio con [!DNL Experience Manager] 6.5.1 o posterior, actualice S3 o el conector de Azure a la versión 1.10.4 o posterior. Ver [conector de Azure](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store) o [conector S3](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store).
 
    Si es cliente de Adobe Managed Services (AMS), póngase en contacto con el servicio de atención al cliente de Adobe.
 

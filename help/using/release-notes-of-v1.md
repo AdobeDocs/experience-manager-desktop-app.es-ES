@@ -417,7 +417,7 @@ AEM **Limpie la caché al conectarse a un nuevo servidor de.AEM**: si la aplicac
 
 ## Recursos útiles {#helpful-resources}
 
-* AEM [Documentación de](https://experienceleague.adobe.com/en/docs)
+* AEM [Documentación de](https://experienceleague.adobe.com/es/docs)
 * [AEM Uso de la aplicación de escritorio v1.x](use-app-v1.md)
 * [AEM Prácticas recomendadas para la aplicación de escritorio v1.x](best-practices-for-v1.md)
 

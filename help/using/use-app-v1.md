@@ -156,7 +156,7 @@ Para localizar el recurso concreto en el sistema de archivos local, haga clic en
 
 [!DNL Experience Manager Assets] le permite extraer recursos para editarlos y volver a protegerlos una vez que haya completado los cambios. Después de desproteger un recurso, solo puede editarlo, anotarlo, publicarlo, moverlo o eliminarlo. La extracción de un recurso bloquea el recurso y evita que otros usuarios realicen cualquiera de estas operaciones. Para poder desproteger o proteger recursos, se requiere acceso de escritura en ellos.
 
-Existen dos formas de extraer recursos de la interfaz web [!DNL Experience Manager]. Para obtener información detallada sobre el primer método, consulte los [archivos de protección y desprotección de la interfaz de usuario de Assets](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/check-out-and-submit-assets). Siga estos pasos para los segundos métodos para desproteger y abrir el recurso cuando la aplicación de escritorio [!DNL Experience Manager] esté instalada.
+Existen dos formas de extraer recursos de la interfaz web [!DNL Experience Manager]. Para obtener información detallada sobre el primer método, consulte los [archivos de protección y desprotección de la interfaz de usuario de Assets](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/managing/check-out-and-submit-assets). Siga estos pasos para los segundos métodos para desproteger y abrir el recurso cuando la aplicación de escritorio [!DNL Experience Manager] esté instalada.
 
 1. Abra la interfaz [!DNL Assets] y pase el puntero sobre una carpeta o un recurso para mostrar las acciones del escritorio como acciones rápidas en la vista de tarjeta.
 

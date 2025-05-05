@@ -61,9 +61,9 @@ Los métodos copy y move de la API de Assets requieren que se pasen los siguient
 * Profundidad X
 * Sobrescribir X
 
-El escritorio [!DNL Experience Manager] se conecta a [!DNL Experience Manager] mediante una dirección URL que incluye el puerto predeterminado. Por lo tanto, la configuración de `virtualhosts` en la configuración de Dispatcher debe incluir el número de puerto predeterminado. Para obtener más información sobre la configuración de `virtualhosts`, consulte [identificar hosts virtuales](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#identifying-virtual-hosts-virtualhosts).
+El escritorio [!DNL Experience Manager] se conecta a [!DNL Experience Manager] mediante una dirección URL que incluye el puerto predeterminado. Por lo tanto, la configuración de `virtualhosts` en la configuración de Dispatcher debe incluir el número de puerto predeterminado. Para obtener más información sobre la configuración de `virtualhosts`, consulte [identificar hosts virtuales](https://experienceleague.adobe.com/es/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#identifying-virtual-hosts-virtualhosts).
 
-Para obtener información adicional sobre cómo configurar Dispatcher para que pase estos encabezados adicionales, consulte [Especificación de los encabezados HTTP](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#specifying-the-http-headers-to-pass-through-clientheaders).
+Para obtener información adicional sobre cómo configurar Dispatcher para que pase estos encabezados adicionales, consulte [Especificación de los encabezados HTTP](https://experienceleague.adobe.com/es/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#specifying-the-http-headers-to-pass-through-clientheaders).
 
 ### Compatibilidad con proxy {#proxy-support}
 
@@ -127,6 +127,6 @@ Para dirigir la aplicación a una carpeta o unidad diferente, edite el archivo d
 
 >[!MORELIKETHIS]
 >
->* Vea una [introducción a la [!DNL Experience Manager] aplicación de escritorio](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) (5 minutos y 43 segundos).
+>* Vea una [introducción a la [!DNL Experience Manager] aplicación de escritorio](https://experienceleague.adobe.com/es/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) (5 minutos y 43 segundos).
 >* [Usar [!DNL Experience Manager] aplicación de escritorio](use-app-v1.md).
 >* [Solución de problemas [!DNL Experience Manager] aplicación de escritorio](troubleshoot-app-v1.md).
