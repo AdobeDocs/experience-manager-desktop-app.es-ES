@@ -4,22 +4,27 @@ description: Detalles de la versión, mejoras, nuevas características, compatib
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 19f059875a7519cf28628fd801662da7243b077b
+source-git-commit: b5dace65444ca15d09ec8648deb4c262415f40cf
 workflow-type: tm+mt
-source-wordcount: '1955'
-ht-degree: 11%
+source-wordcount: '2195'
+ht-degree: 10%
 
 ---
 
 # [!DNL Adobe Experience Manager] notas de la versión de la aplicación de escritorio {#release-notes-v2}
 
-A continuación, encontrará información de la última versión de la aplicación de escritorio, 2.3.1. La fecha de la versión es el 25 de julio de 2024.
+A continuación, encontrará información de la última versión de la aplicación de escritorio, 2.3.3. La fecha de la versión es el 16 de mayo de 2025.
 
 La versión más reciente de la aplicación de escritorio incluye las siguientes correcciones de errores y mejoras:
 
-* El nuevo instalador de Enterprise Windows instala la aplicación en Archivos de programa.
-* AEM Compatibilidad con **Autenticación básica** durante los inicios de sesión de e inicio de sesión único (SSO) y de.
-* Número configurable de recursos permitidos durante la operación de carga.
+* Puede cargar los recursos recién creados desde el equipo local a AEM, donde se almacena el repositorio central, y verlos en la aplicación de escritorio.
+* La función de actualización automática actualiza automáticamente el contenido en tiempo real, lo que garantiza que siempre vea la información más reciente sin volver a cargar manualmente la página y obtener la lista de recursos actualizados.
+* La función de anclar o desanclar carpetas permite mantener carpetas importantes de fácil acceso anclándolas o desordenando la vista desanclándolas cuando ya no sean necesarias.
+* La función Cambiar el nombre del título le permite actualizar o modificar fácilmente el título de un recurso, lo que le ayuda a mantener los nombres precisos y organizados a medida que evoluciona el contenido.
+* Puede conservar el archivo original y realizar cambios en uno similar duplicando archivos en ubicaciones locales y de la nube mediante la operación de duplicación de archivos.
+* La función de protección y desprotección permite administrar el acceso a archivos bloqueando un archivo para su edición (desprotección) y guardando los cambios al tiempo que lo hace disponible para otros (protección).
+* Puede ver, descargar y examinar colecciones.
+* Puede asignar metadatos al crear una carpeta nueva.
 
 Las **versiones compatibles de [!DNL Experience Manager]** son:
 
@@ -31,12 +36,16 @@ La aplicación de escritorio [!DNL Adobe Experience Manager] está disponible pa
 * macOS X 10.14 o posterior, con las últimas correcciones de errores.
 * Windows 10 con los últimos paquetes de servicio y correcciones de errores.
 
-AEM Hay dos versiones del programa de instalación de Windows disponibles para la versión 2.3.1 y versiones posteriores de la aplicación de escritorio de. AEM El programa de instalación base instala la aplicación de escritorio de la aplicación en el directorio local de datos de la aplicación del usuario. Adobe recomienda este proceso de instalación para la mayoría de sus usuarios. AEM También hay disponible un instalador de Enterprise Windows, que instala la aplicación de escritorio de la aplicación en el directorio compartido Archivos de programa. AEM Estos dos instaladores instalan la misma versión de la aplicación de escritorio de, sin diferencias en la funcionalidad.
+Hay dos versiones del programa de instalación de Windows disponibles para AEM Desktop App versión 2.3.1 y versiones posteriores. El instalador base instala AEM Desktop App en el directorio local de datos de la aplicación del usuario. Adobe recomienda este proceso de instalación para la mayoría de sus usuarios. También hay disponible un instalador de Enterprise Windows que instala AEM Desktop App en el directorio compartido Archivos de programa. Estos dos instaladores instalan la misma versión de la aplicación de escritorio de AEM, sin diferencias de funcionalidad.
 
 Las **URL de descarga** para el sistema operativo admitido son:
 
 | Sistema operativo | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
+| macOS (versión 2.3.3) | [Vínculo de descarga](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-2.3.3.dmg) | [Vínculo de descarga](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-2.3.3.dmg) |
+| macOS Apple Silicon (M1) (v2.3.3) | [Vínculo de descarga](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-2.3.3.dmg) | [Vínculo de descarga](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-2.3.3.dmg) |
+| Windows de 64 bits (v2.3.3) | [Vínculo de descarga](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-2.3.3.exe) | [Vínculo de descarga](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-2.3.3.exe) |
+| Windows Enterprise de 64 bits (v2.3.3) | [Vínculo de descarga](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-2.3.3.msi) | [Vínculo de descarga](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-2.3.3.msi) |
 | macOS (v2.3.1) | [Vínculo de descarga](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faemcloud.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faemcloud%2Fpublic%2Faem-desktop-app%2Faem-desktop-osx-x64-2.3.1.dmg&amp;data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081954149%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=mwSX5ilZL0he2raIx8t5ecQ%2FWuizky4MpcCXX3mEN38%3D&amp;reserved=0) | [Vínculo de descarga](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faem.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Fadobe%2Fpackages%2Fadobe%2Faem-desktop-app%2Faem-desktop-osx-x64-2.3.1.dmg&amp;data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081981239%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=LJH3OCFq7yRykN4wU8HN9%2FBXC%2BjfXLJH4QizeFZfRHE%3D&amp;reserved=0) |
 | macOS Apple Silicon (M1) (v2.3.1) | [Vínculo de descarga](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faemcloud.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faemcloud%2Fpublic%2Faem-desktop-app%2Faem-desktop-osx-arm64-2.3.1.dmg&amp;data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081965822%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=2YENn0tDduiucogClt6aBZHDOE6dbzBdigq8VQawIO0%3D&amp;reserved=0) | [Vínculo de descarga](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faem.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Fadobe%2Fpackages%2Fadobe%2Faem-desktop-app%2Faem-desktop-osx-arm64-2.3.1.dmg&amp;data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081986151%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=jCepldg4dMej0%2BrK2mUonXwqsWL8ksE8%2BLMSgsH9qTA%3D&amp;reserved=0) |
 | Windows de 64 bits (v2.3.1) | [Vínculo de descarga](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faemcloud.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faemcloud%2Fpublic%2Faem-desktop-app%2Faem-desktop-win-x64-2.3.1.exe&amp;data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081970892%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=sRn2UWW%2Bi7SMEvSO74ZGGvJ40vHh1KhLc7zAfKc37Es%3D&amp;reserved=0) | [Vínculo de descarga](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faem.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Fadobe%2Fpackages%2Fadobe%2Faem-desktop-app%2Faem-desktop-win-x64-2.3.1.exe&amp;data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081991004%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=aQWZtEK%2F3cWX8n8Au%2FwZ5Zd9xPVo5phvk%2FuF%2Be0HRrE%3D&amp;reserved=0) |
@@ -77,15 +86,21 @@ La característica es compatible con [!DNL Adobe Creative Cloud] versiones de 20
 
 * Las rutas para colocar archivos en la aplicación nativa usan una ruta de escritorio global (desde el recurso compartido de red local que se muestra con la opción [!UICONTROL Reveal]).
 
-* XMP La aplicación nativa almacena las rutas en el registro de rutas de acceso del archivo en el registro de rutas de acceso del archivo.
+* La aplicación nativa almacena las rutas en el registro XMP del archivo.
 
-* XMP [!DNL Experience Manager] ha extraído el registro de con las rutas al registro de metadatos del recurso.
+* [!DNL Experience Manager] ha extraído el registro de XMP con las rutas al registro de metadatos del recurso.
 
 * Las rutas de acceso pueden coincidir con los recursos de [!DNL Experience Manager], es decir, los archivos colocados también se encuentran en [!DNL Experience Manager] bajo una ruta de acceso coincidente.
 
 ## Nuevas funciones, mejoras y correcciones de errores {#what-is-new}
 
 Para obtener más información, consulte [Novedades de la versión 2.0](introduction.md#whats-new-v2).
+
+**Actualizaciones en la aplicación v2.3.1**
+
+* El nuevo instalador de Enterprise Windows instala la aplicación en Archivos de programa.
+* Compatibilidad con **Autenticación básica** durante los inicios de sesión de AEM y SSO.
+* Número configurable de recursos permitidos durante la operación de carga
 
 **Actualizaciones en la aplicación v2.3.0**
 
@@ -165,7 +180,7 @@ El error corregido en esta versión es:
 
 Las correcciones de errores y actualizaciones son:
 
-* La configuración de aceleración de carga ya está disponible para mejorar el rendimiento de carga. Cuando esta opción está activada, la aplicación se carga más rápido usando más subprocesos de CPU locales y consume más recursos.
+* La configuración de aceleración de carga ya está disponible para mejorar el rendimiento de carga. Cuando esta configuración está activada, la aplicación se carga más rápido usando más subprocesos locales de CPU y consume más recursos.
 
 * Se carga un recurso cuando se corrigen los nombres de archivo o las rutas que contienen determinados caracteres GB18030. <!-- CQ-4283494 -->
 
@@ -231,7 +246,7 @@ El diagrama siguiente ilustra el flujo de recursos y archivos desde la nube al s
 
 **Problemas de CRUD (Crear, Leer, Actualizar y Eliminar):**
 
-* Al cargar cambios en un recurso con comentarios, los comentarios se almacenan con el recurso en [!DNL Experience Manager], pero no se pueden ver como comentarios de versiones. Este problema se resolvió en [!DNL Experience Manager] 6.4.5 y [!DNL Experience Manager] 6.5.1. El Adobe recomienda instalar los Service Pack más recientes. <!-- CQ-4268990 -->
+* Al cargar cambios en un recurso con comentarios, los comentarios se almacenan con el recurso en [!DNL Experience Manager], pero no se pueden ver como comentarios de versiones. Este problema se resolvió en [!DNL Experience Manager] 6.4.5 y [!DNL Experience Manager] 6.5.1. Adobe recomienda instalar los Service Packs más recientes. <!-- CQ-4268990 -->
 
 * Un usuario no puede cancelar las transferencias de recursos. Si ha activado una transferencia de gran volumen sin querer, salga de la aplicación y vuelva a iniciarla. <!-- CQ-4278940 -->
 

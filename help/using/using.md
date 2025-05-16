@@ -4,9 +4,9 @@ description: Use la aplicación de escritorio  [!DNL Adobe Experience Manager] p
 mini-toc-levels: 1
 feature: Desktop App,Asset Management
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-source-git-commit: ba980c1a1bad4a9627fc28ac7f6619b644fb1f04
+source-git-commit: fb11b41020a4c2b2c40e8adcde822c65a7fe8985
 workflow-type: tm+mt
-source-wordcount: '4060'
+source-wordcount: '4734'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Las tareas clave que realiza con la aplicación de escritorio [!DNL Adobe Experi
 
 ![Flujos de trabajo y tareas que puede realizar con [!DNL Experience Manager] aplicación de escritorio](assets/aem_desktop_app_usecases_v2.png "Flujos de trabajo y tareas que puede realizar con [!DNL Adobe Experience Manager] aplicación de escritorio")
 
-Descargar [este](assets/aem_desktop_app_usecases_print.pdf) archivo de PDF listo para imprimir.
+<!--Download [this](assets/aem_desktop_app_usecases_print.pdf) print-ready PDF file.-->
 
 ## Cómo funciona la aplicación de escritorio {#how-app-works2}
 
@@ -43,9 +43,13 @@ Antes de empezar a usar la aplicación, debes saber [cómo funciona](release-not
 
 * **[!UICONTROL Check-out]**: si está editando un archivo o desea editarlo, cambia el estado para desprotegerlo. Agrega un icono de candado en el recurso de la aplicación y la interfaz web [!DNL Experience Manager]. El icono de bloqueo indica a otros usuarios que eviten editar simultáneamente el mismo recurso, ya que provoca un conflicto de edición.
 
-* **[!UICONTROL Check-in]**: marcar el recurso como seguro para que otros usuarios lo editen sin provocar un conflicto de edición. Al cargar los cambios, el icono de candado se elimina automáticamente. Al cambiar el estado de protección, también se elimina el icono de bloqueo, aunque el Adobe recomienda evitar el registro manual sin cargar los cambios. Si descarta los cambios, active manualmente la protección.
+* **[!UICONTROL Check-in]**: marcar el recurso como seguro para que otros usuarios lo editen sin provocar un conflicto de edición. Al cargar los cambios, el icono de candado se elimina automáticamente. Al cambiar el estado de protección, también se elimina el icono de bloqueo, aunque Adobe recomienda evitar el registro manual sin cargar los cambios. Si descarta los cambios, active manualmente la protección.
 
-* **[!UICONTROL Open]** acción: simplemente abra el recurso para previsualizarlo en la aplicación nativa. El Adobe recomienda evitar editar el recurso mediante esta acción. El motivo es que no se desprotege el recurso. Mientras tanto, otros usuarios pueden hacer ediciones que conducen a conflictos de edición.
+* **[!UICONTROL Open]** acción: simplemente abra el recurso para previsualizarlo en la aplicación nativa. Adobe recomienda evitar editar el recurso mediante esta acción. El motivo es que no se desprotege el recurso. Mientras tanto, otros usuarios pueden hacer ediciones que conducen a conflictos de edición.
+
+* **[!UICONTROL Open with]** acción: la característica &quot;Abrir con&quot; permite abrir un archivo con una aplicación específica que no sea la predeterminada. Esto resulta útil para elegir un programa preferido, acceder a archivos en diferentes formatos, solucionar problemas con la aplicación predeterminada o trabajar con varios programas. Proporciona flexibilidad al permitirle anular temporalmente la aplicación predeterminada sin cambiar la configuración de forma permanente.
+
+* **[!UICONTROL Open In Web]** acción: para ver el recurso en la interfaz web [!DNL Experience Manager], ábralo en el Web. Puede iniciar más flujos de trabajo desde la interfaz [!DNL Experience Manager], como la actualización de metadatos o la detección de recursos.
 
 * **[!UICONTROL Edit]** acción: use la acción para modificar la imagen. Al hacer clic en [!UICONTROL Edit], se desprotege el recurso y se agrega un icono de bloqueo al recurso. Después de hacer clic en Editar, si no desea editar el recurso, haga clic en [!UICONTROL Toggle check-in]. Para eliminar, cambiar el nombre o mover recursos en la jerarquía de carpetas DAM [!DNL Experience Manager], use las acciones de la interfaz web [!DNL Experience Manager] y no la acción de edición.
 
@@ -53,9 +57,7 @@ Antes de empezar a usar la aplicación, debes saber [cómo funciona](release-not
 
 * Acción **[!UICONTROL Reveal File]** o **[!UICONTROL Reveal Folder]**: mientras los recursos se descargan en una carpeta de caché local, la aplicación imita una unidad de red local. Proporciona una ruta local para cada recurso. Para conocer esta ruta, utilice la opción de visualización adecuada en la aplicación. La acción Mostrar es necesaria para colocar recursos en la aplicación de Creative Cloud. Ver [colocar recursos](using.md#place-assets-in-native-documents).
 
-* **[!UICONTROL Open In Web]** acción: para ver el recurso en la interfaz web [!DNL Experience Manager], ábralo en el Web. Puede iniciar más flujos de trabajo desde la interfaz [!DNL Experience Manager], como la actualización de metadatos o la detección de recursos.
-
-* **[!UICONTROL Delete]** acción: elimine el recurso del repositorio DAM [!DNL Experience Manager]. La acción elimina la copia original del recurso en el servidor del Experience Manager. Si solo desea descartar las modificaciones al recurso local, consulte [descartar cambios](using.md#edit-assets-upload-updated-assets).
+* **[!UICONTROL Delete]** acción: elimine el recurso del repositorio DAM [!DNL Experience Manager]. La acción elimina la copia original del recurso en el servidor de Experience Manager. Si solo desea descartar las modificaciones al recurso local, consulte [descartar cambios](using.md#edit-assets-upload-updated-assets).
 
 * **[!UICONTROL Upload Changes]**: la aplicación de escritorio carga el recurso actualizado solo cuando se carga explícitamente en el servidor [!DNL Experience Manager]. Al guardar las ediciones, los cambios se guardan únicamente en el equipo local. Al cargar, el recurso se registra automáticamente y se elimina el icono de bloqueo. Consulte [editar recursos](using.md#edit-assets-upload-updated-assets).
 
@@ -71,6 +73,28 @@ Desde la interfaz de usuario de [!DNL Assets] en un explorador, puede explorar l
    ![Seleccione Mostrar acciones de escritorio para Assets para habilitar las acciones de escritorio](assets/enable_desktop_actions.png)
 
    *Figura: Seleccione [!UICONTROL Show Desktop Actions For Assets] para habilitar las acciones de escritorio.*
+
+## Visualización de recursos {#view-assets}
+
+La aplicación de escritorio de AEM le permite ver recursos en cuatro vistas diferentes:
+
+* **[!UICONTROL Show Assets]:** Permite ver todos los recursos.
+* **[!UICONTROL Show Collections]:** Permite ver todas las colecciones creadas en la aplicación nativa de AEM. Ver más [colecciones](#collections-desktop-app).
+* **[!UICONTROL Edited Locally]:** Permite mostrar todos los recursos modificados localmente. En esta vista, puede agregar y cargar varios recursos.
+* **[!UICONTROL Asset transfers]:** Permite ver todos los recursos que se transfieren de la aplicación nativa a la local o viceversa.
+* **[!UICONTROL Pinned items]:** Permite ver todos los elementos anclados.
+
+Para elegir entre varias vistas de recursos en la aplicación de escritorio de AEM, ejecute los siguientes pasos:
+
+1. Abra AEM Desktop App.
+
+1. Vaya a la lista desplegable de vista en la parte superior derecha. Elija una de las vistas disponibles.
+
+   ![fijar o desanclar la carpeta](assets/view-pinned-assets.png)
+
+### Ver carpetas y archivos agregados recientemente {#view-newly-added-files-folders}
+
+Puede cargar los recursos recién creados desde el equipo local a AEM, donde se almacena el repositorio central. Para ver estos recursos recién creados localmente, vaya al menú desplegable **[!UICONTROL View]** y seleccione **[!UICONTROL Show Assets]** para ver todas las actualizaciones con su cronología y títulos, o bien seleccione **[!UICONTROL Edited Locally]**. Ambas opciones muestran explícitamente los recursos editados localmente.
 
 ## Examinar, buscar y previsualizar recursos {#browse-search-preview-assets}
 
@@ -95,11 +119,59 @@ Puede buscar, buscar y obtener una vista previa de los recursos disponibles en e
 >
 >La aplicación muestra los recursos haciendo coincidir los criterios de búsqueda en varios campos de metadatos, y no solo el título del recurso o el nombre del archivo.
 
+## Administración de recursos {#assets-management}
+
+La administración de recursos implica organizar, mantener y optimizar los recursos digitales para optimizar los flujos de trabajo. Incluye tareas como duplicar y cambiar el nombre de archivos, fijar o desanclar carpetas para un acceso rápido y ver recursos en varios diseños. Esto ayuda a mejorar la eficacia, simplificar el seguimiento de recursos y garantizar una fácil recuperación y organización de los recursos digitales entre plataformas.
+
+### Archivos duplicados {#duplicate-files}
+
+Si desea conservar un archivo original y realizar cambios en un archivo similar, puede duplicar archivos en diferentes ubicaciones (local y en la nube) simultáneamente. Se puede realizar mediante la operación de duplicar archivos en todos los recursos.
+
+Para duplicar archivos en AEM Desktop App, siga los pasos a continuación:
+
+1. Busque una carpeta y seleccione el recurso que desea duplicar.
+
+   ![Archivos duplicados](assets/more-options.png)
+
+1. Haga clic en **[!UICONTROL More actions]** ![icono de más acciones](assets/do-not-localize/more2_da2.png) y seleccione la acción ![icono duplicado](assets/do-not-localize/duplicate.svg) **[!UICONTROL Duplicate File]**.
+
+1. El archivo duplicado se crea con un nombre de archivo y contenido idénticos.
+
+### Cambiar el nombre del título de un recurso {#rename-asset-title}
+
+Para cambiar el nombre del título de un recurso, ejecute los pasos siguientes:
+
+1. Explore el recurso al que desea cambiar el nombre.
+
+1. Haga clic en **[!UICONTROL More actions]** ![icono de más acciones](assets/do-not-localize/more2_da2.png) y seleccione **[!UICONTROL Rename]** para agregar el título de recurso que desee.
+
+<!--1. Click **[!UICONTROL More actions]** ![More actions icon](assets/do-not-localize/more2_da2.png) and select **[!UICONTROL open in web]** to open the asset in its native application.
+
+1. Go to asset details. Under [!UICONTROL Basic] tab, go to title and enter the text.-->
+
+### Fijar o desanclar carpeta {#pin-unpin-folder}
+
+Para acceder rápidamente, puede anclar o desanclar una carpeta ejecutando los pasos a continuación:
+
+1. Explore el recurso que desea anclar o desanclar.
+
+1. Haga clic en **[!UICONTROL More actions]** ![icono de más acciones](assets/do-not-localize/more2_da2.png) y seleccione [!UICONTROL pin] para anclar el recurso o la carpeta. También puede hacer clic en [!UICONTROL unpin] para desanclarlo.
+
+   ![fijar o desanclar la carpeta](assets/pin-unpin.png)
+
+### Actualización automática {#auto-refresh}
+
+La función de actualización automática actualiza automáticamente el contenido en tiempo real, lo que garantiza que siempre vea la información más reciente sin volver a cargar manualmente la página. Siga estos pasos para actualizar los recursos automáticamente y obtener la lista de recursos actualizados:
+
+1. Abra AEM Desktop App.
+
+1. Haga clic en ![icono de actualización](assets/do-not-localize/refresh.png) en la barra de menús para obtener las actualizaciones.
+
 ## Descarga de recursos {#download-assets}
 
 Puede descargar los recursos en su sistema de archivos local. La aplicación recupera los recursos del servidor [!DNL Experience Manager] y guarda la misma copia en el sistema de archivos local.
 
-Haga clic en ![Icono de más opciones](assets/do-not-localize/more2_da2.png) para ver las opciones y haga clic en ![Icono de descarga](assets/do-not-localize/download_cloud_da2.png) para descargar.
+Haga clic en **[!UICONTROL More actions]** ![icono de más opciones](assets/do-not-localize/more2_da2.png) para ver las opciones y haga clic en ![Icono de descarga](assets/do-not-localize/download_cloud_da2.png) para descargar.
 
 ![Opción de descarga para un recurso](assets/download_option_da2.png "Opción de descarga para un recurso")
 
@@ -128,13 +200,49 @@ Haga clic en **[!UICONTROL Open]** en el menú de recursos. El recurso se descar
 
 Para abrir la carpeta de descarga local de un recurso, haga clic en ![Icono de más acciones](assets/do-not-localize/more2_da2.png) y luego en ![Icono de mostrar](assets/do-not-localize/reveal_action2_da2.png) **[!UICONTROL Reveal File]** acción.
 
+## Colecciones {#collections-desktop-app}
+
+La aplicación de escritorio AEM te permite [ver](#view-collections-desktop-app), [descargar](#download-collections-desktop-app) y examinar colecciones que se crean en la aplicación [!DNL Adobe Experience Manager Assets].
+
+### Ver colecciones {#view-collections-desktop-app}
+
+Siga estos pasos para ver las colecciones en la aplicación de escritorio:
+
+1. Abra AEM Desktop App y vaya a [ver recursos](#view-assets).
+
+1. Seleccione **[!UICONTROL Show Collections]**. Se muestran las colecciones disponibles en la aplicación nativa.
+
+   ![Colecciones de aplicación de escritorio](assets/collections-desktop-app.png)
+
+### Descargar colecciones {#download-collections-desktop-app}
+
+Siga estos pasos para descargar colecciones en la aplicación de escritorio:
+
+1. Siga los pasos 1 y 2 que se muestran en [ver colecciones](#view-collections-desktop-app).
+
+1. Vaya a más acciones ![Más acciones](assets/do-not-localize/more2_da2.png) en la colección que desee descargar.
+
+1. Haga clic en **[!UICONTROL Download]** para descargar la colección en particular.
+
+## Crear carpeta con esquema de metadatos {#create-folder-with-metadata-schema}
+
+Con AEM Desktop App, puede asignar metadatos al crear una carpeta nueva. Para ello, ejecute los siguientes pasos:
+
+1. Vaya a crear icono de directorio ![Agregar icono de carpeta](assets/do-not-localize/add-folder.svg). Aparece la pantalla **[!UICONTROL Create Directory]**.
+
+1. Añada los siguientes detalles:
+   * **[!UICONTROL Name]** de la carpeta.
+   * **[!UICONTROL Folder Metadata Schema]** para elegir la jerarquía de metadatos de la carpeta o elija **[!UICONTROL none]** si no desea relacionarle ningún metadato.
+
+1. Haga clic **[!UICONTROL OK]** para continuar.
+
 ## Uso o colocación de recursos en documentos nativos {#place-assets-in-native-documents}
 
 En algunos casos, por ejemplo, al colocar un recurso en un documento nativo, se accede a un archivo en el Explorador de Windows o en el Buscador de Mac. Para llegar a la ubicación del sistema de archivos del archivo descargado localmente, use la opción ![Mostrar icono](assets/do-not-localize/reveal_action2_da2.png) **[!UICONTROL Reveal File]**.
 
 ![Mostrar acción de archivo para un recurso](assets/revealfile_action_da2.png "Mostrar acción de archivo para un recurso")
 
-Haga clic en **[!UICONTROL Reveal File]** o en **[!UICONTROL Reveal Folder]** de una carpeta para abrir el Explorador de Windows o el Buscador de Mac con el archivo o la carpeta preseleccionados en el equipo local. Por ejemplo, la opción resulta útil para colocar los archivos de [!DNL Experience Manager] en las aplicaciones nativas que admiten la colocación o vinculación de archivos locales. Para ver cómo colocar archivos en Adobe InDesign, consulte [Colocación de gráficos](https://helpx.adobe.com/es/indesign/using/placing-graphics.html).
+Haga clic en **[!UICONTROL Reveal File]** o en **[!UICONTROL Reveal Folder]** de una carpeta para abrir el Explorador de Windows o el Buscador de Mac con el archivo o la carpeta preseleccionados en el equipo local. Por ejemplo, la opción resulta útil para colocar los archivos de [!DNL Experience Manager] en las aplicaciones nativas que admiten la colocación o vinculación de archivos locales. Para ver cómo colocar archivos en Adobe InDesign, consulte [Colocación de gráficos](https://helpx.adobe.com/indesign/using/placing-graphics.html).
 
 La acción **[!UICONTROL Reveal File]** abre un recurso compartido de red local. Muestra únicamente los recursos que están disponibles localmente. Es decir, muestra los recursos que se revelaron, descargaron o abrieron o editaron mediante la aplicación. El recurso compartido de red local no carga ningún cambio en [!DNL Experience Manager]. Para cargar los cambios, utilice explícitamente las acciones **[!UICONTROL Upload Changes]** o **[!UICONTROL Upload]** en la aplicación.
 
@@ -157,7 +265,7 @@ Use **[!UICONTROL Toggle Check-out]** para bloquear el recurso y evitar conflict
 * Ha empezado a editar un recurso sin desprotegerlo primero (por ejemplo, abriéndolo).
 * Tiene intención de empezar a editar un recurso pronto y no desea que otros lo editen.
 
-Una vez que haya terminado de realizar las ediciones, la aplicación mostrará el estado **[!UICONTROL Edited Locally]** de los recursos modificados. Todos los cambios guardados en los recursos son de tipo local solamente hasta que cargue los cambios en [!DNL Experience Manager]. Para cargar un individuo o algunos recursos uno por uno, haga clic en **[!UICONTROL Upload Changes]** desde las opciones de un recurso. Crea una versión del recurso en [!DNL Experience Manager]. Mediante la interfaz web de [!DNL Assets], puede ver el historial de recursos en la [vista Escala de tiempo](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/using/activity-stream).
+Una vez que haya terminado de realizar las ediciones, la aplicación mostrará el estado **[!UICONTROL Edited Locally]** de los recursos modificados. Todos los cambios guardados en los recursos son de tipo local solamente hasta que cargue los cambios en [!DNL Experience Manager]. Para cargar un individuo o algunos recursos uno por uno, haga clic en **[!UICONTROL Upload Changes]** desde las opciones de un recurso. Crea una versión del recurso en [!DNL Experience Manager]. Mediante la interfaz web de [!DNL Assets], puede ver el historial de recursos en la [vista Escala de tiempo](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/activity-stream).
 
 ![Cargar cambios en la opción de la aplicación](assets/upload_changes_single1_da2.png "Cargar cambios en la aplicación")
 
@@ -191,6 +299,9 @@ Puede controlar la concurrencia de carga (aceleración) en la configuración **[
 >[!NOTE]
 >
 >La lista de transferencias no es persistente y no está disponible si sale de la aplicación y la vuelve a abrir.
+
+<!--### Upload local file to AEM {#upload-local-file-to-aem}-->
+
 
 ### Administrar caracteres especiales en los nombres de recursos {#special-characters-in-filename}
 
@@ -291,13 +402,13 @@ La aplicación proporciona una vista, llamada **[!UICONTROL Edited locally]**, p
 
 Los usuarios u organizaciones, como los fotógrafos o las agencias creativas, pueden crear numerosos recursos locales durante actividades como sesiones de fotos, retoques o selecciones entre un conjunto más amplio. Estas tareas se realizan a menudo fuera de [!DNL Experience Manager]. Pueden cargar estas carpetas locales grandes en [!DNL Assets] directamente desde la aplicación de escritorio. Las jerarquías de carpetas se conservan y se cargan todas las subcarpetas anidadas y los recursos incluidos. Los recursos cargados también están disponibles inmediatamente para otros usuarios del mismo servidor para su consumo. Assets se carga en segundo plano, por lo que la operación no está vinculada a una sesión del explorador web.
 
-![Cargar varias carpetas locales de forma masiva desde el escritorio a [!DNL Experience Manager]](assets/upload_local_folders_da2.png "Cargar varias carpetas locales de forma masiva desde el escritorio al Experience Manager")
+![Carga en lotes de varias carpetas locales desde tu escritorio a [!DNL Experience Manager]](assets/upload_local_folders_da2.png "Carga en lotes de varias carpetas locales desde tu escritorio a Experience Manager")
 
 Después de la carga, si los cambios esperados no se reflejan en la aplicación, haga clic en el icono de actualización ![Actualizar icono](assets/do-not-localize/refresh.png).
 
 >[!NOTE]
 >
->No use la funcionalidad de carga para migrar recursos en dos implementaciones de [!DNL Experience Manager]. En su lugar, consulte la [guía de migración](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/administer/assets-migration-guide).
+>No use la funcionalidad de carga para migrar recursos en dos implementaciones de [!DNL Experience Manager]. En su lugar, consulte la [guía de migración](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide).
 
 ### Lista de activos transferidos {#list-of-transferred-assets}
 
@@ -317,7 +428,7 @@ La funcionalidad de la aplicación de escritorio se utiliza al intentar las sigu
 
 Por ejemplo, las acciones en la interfaz web disponibles para un recurso desprotegido en la aplicación son [!UICONTROL Open], [!UICONTROL Reveal] y [!UICONTROL Check in].
 
-![Acciones de escritorio en la interfaz web de [!DNL Experience Manager]](assets/assets_web_actions_da2.png "Acciones de escritorio en la interfaz web del Experience Manager")
+![Acciones de escritorio en la interfaz web de [!DNL Experience Manager]](assets/assets_web_actions_da2.png "Acciones de escritorio en la interfaz web de Experience Manager")
 
 >[!NOTE]
 >
@@ -352,11 +463,11 @@ Si un recurso que está editando localmente también se actualiza en el servidor
 
 ![Opciones para resolver un conflicto de edición](assets/editing_conflict_dialog_da2.png "Opciones para resolver un conflicto de edición")
 
-## Flujo de trabajo avanzado: colocar y vincular recursos en un archivo de InDesign {#adv-workflow-place-assets-indesign}
+## Flujo de trabajo avanzado: colocar y vincular recursos en un archivo InDesign {#adv-workflow-place-assets-indesign}
 
 Cuando utiliza la aplicación de escritorio [!DNL Experience Manager] para abrir archivos con recursos vinculados, los recursos se descargan previamente y aparecen colocados en las aplicaciones nativas. Para que este flujo de trabajo funcione, su aplicación nativa debe admitir la colocación de vínculos a recursos locales y [!DNL Experience Manager] debe admitir la resolución de estos vínculos en los archivos binarios a referencias del lado del servidor.
 
-La aplicación de escritorio [!DNL Experience Manager] admite este flujo de trabajo con algunas aplicaciones de escritorio y formatos de archivo seleccionados de Adobe Creative Cloud: Adobe InDesign, Adobe Illustrator y Adobe Photoshop. El flujo de trabajo le permite trabajar de forma eficaz con los archivos de Creative Cloud admitidos. Si el usuario A agrega recursos a un archivo de InDesign y lo protege en [!DNL Experience Manager], el usuario B puede ver los recursos del archivo aunque no formen parte de él. Los recursos se descargan localmente en el equipo del usuario B.
+La aplicación de escritorio [!DNL Experience Manager] admite este flujo de trabajo con algunas aplicaciones de escritorio y formatos de archivo seleccionados de Adobe Creative Cloud: Adobe InDesign, Adobe Illustrator y Adobe Photoshop. El flujo de trabajo le permite trabajar de forma eficaz con los archivos Creative Cloud admitidos. Si el usuario A agrega recursos a un archivo InDesign y lo protege en [!DNL Experience Manager], el usuario B puede ver los recursos del archivo aunque no formen parte de él. Los recursos se descargan localmente en el equipo del usuario B.
 
 >[!NOTE]
 >
@@ -364,12 +475,12 @@ La aplicación de escritorio [!DNL Experience Manager] admite este flujo de trab
 
 Para conocer las limitaciones de este flujo de trabajo, consulte [requisitos del sistema y versiones compatibles](release-notes.md).
 
-Para probar este flujo de trabajo con un recurso de imagen y un InDesign, siga estos pasos:
+Para probar este flujo de trabajo con un recurso de imagen y InDesign, siga estos pasos:
 
-1. Mantenga a mano un archivo INDD con recursos colocados en [!DNL Experience Manager]. Para saber cómo crear un archivo INDD de este tipo, consulte [Colocación de gráficos](https://helpx.adobe.com/es/indesign/using/placing-graphics.html).
+1. Mantenga a mano un archivo INDD con recursos colocados en [!DNL Experience Manager]. Para saber cómo crear un archivo INDD de este tipo, consulte [Colocación de gráficos](https://helpx.adobe.com/indesign/using/placing-graphics.html).
 1. Desde la aplicación de escritorio, **[!UICONTROL Edit]** el archivo INDD con recursos colocados en [!DNL Experience Manager].
 1. La aplicación descarga el archivo de InDesign y los recursos vinculados. Cuando InDesign abre el documento, los vínculos se resuelven, los recursos se descargan y los recursos se muestran en el documento de InDesign.
-1. Para colocar un nuevo gráfico en el archivo de InDesign, use la acción **[!UICONTROL Reveal File]** en el recurso. La acción descarga el recurso localmente y abre la ubicación del recurso compartido de red local en el Explorador de Windows o el Buscador de Mac.
+1. Para colocar un nuevo gráfico en el archivo InDesign, use la acción **[!UICONTROL Reveal File]** en el recurso. La acción descarga el recurso localmente y abre la ubicación del recurso compartido de red local en el Explorador de Windows o el Buscador de Mac.
 1. Coloque el recurso mostrado en el documento de InDesign. Al hacerlo, se crea un vínculo en el documento.
 1. Una vez que haya completado las ediciones en el documento de InDesign, guárdelo y cárguelo en [!DNL Experience Manager] mediante la aplicación de escritorio.
 
