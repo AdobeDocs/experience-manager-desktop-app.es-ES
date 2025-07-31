@@ -8,20 +8,27 @@ user-guide-description: Aprenda a utilizar la aplicación de escritorio de Exper
 feature-set: Experience Manager Assets,Experience Manager
 feature: Desktop App
 role: User, Admin
-source-git-commit: 5676e7ece8bb43f051dae72d17e15ab1c34caefc
+source-git-commit: 3f9f5da87647b552e31fae9d19226ac6d20e336f
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 60%
+source-wordcount: '85'
+ht-degree: 49%
 
 ---
 
 
-# Guía de aplicación de escritorio de Adobe {#using}
+# Guía de aplicación de escritorio de Adobe Experience Manager {#get-started}
 
 + [Información general](introduction.md)
 + [Notas de la versión](release-notes.md)
 + [Instalación o actualización](install-upgrade.md)
-+ [Uso de la aplicación](using.md)
++ [Introducción a la aplicación de escritorio de AEM](get-started.md)
++ [Interfaz de usuario](user-interface.md)
++ [Búsqueda](search.md)
++ [Usar aplicación de escritorio](using-desktop-app.md)
++ [Administración de Assets](assets-management-tasks.md)
++ [Descarga de recursos](download-assets.md)
++ [Carga de activos](upload-assets.md)
++ [Uso de varios recursos](working-with-multiple-assets.md)
 + [Solución de problemas](troubleshoot.md)
 + Ayuda de la versión anterior {#archive}
    + [Notas de la versión v1](release-notes-of-v1.md)
