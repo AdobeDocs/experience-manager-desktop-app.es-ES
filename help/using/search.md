@@ -54,7 +54,7 @@ En algunos casos, por ejemplo, al colocar un recurso en un documento nativo, se 
 
 ![Mostrar acción de archivo para un recurso](assets/revealfile_action_da2.png "Mostrar acción de archivo para un recurso")
 
-Haga clic en **[!UICONTROL Reveal File]** o en **[!UICONTROL Reveal Folder]** de una carpeta para abrir el Explorador de Windows o el Buscador de Mac con el archivo o la carpeta preseleccionados en el equipo local. Por ejemplo, la opción resulta útil para colocar los archivos de [!DNL Experience Manager] en las aplicaciones nativas que admiten la colocación o vinculación de archivos locales. Para ver cómo colocar archivos en Adobe InDesign, consulte [Colocación de gráficos](https://helpx.adobe.com/indesign/using/placing-graphics.html).
+Haga clic en **[!UICONTROL Reveal File]** o en **[!UICONTROL Reveal Folder]** de una carpeta para abrir el Explorador de Windows o el Buscador de Mac con el archivo o la carpeta preseleccionados en el equipo local. Por ejemplo, la opción resulta útil para colocar los archivos de [!DNL Experience Manager] en las aplicaciones nativas que admiten la colocación o vinculación de archivos locales. Para ver cómo colocar archivos en Adobe InDesign, consulte [Colocación de gráficos](https://helpx.adobe.com/es/indesign/using/placing-graphics.html).
 
 La acción **[!UICONTROL Reveal File]** abre un recurso compartido de red local. Muestra únicamente los recursos que están disponibles localmente. Es decir, muestra los recursos que se revelaron, descargaron o abrieron o editaron mediante la aplicación. El recurso compartido de red local no carga ningún cambio en [!DNL Experience Manager]. Para cargar los cambios, utilice explícitamente las acciones **[!UICONTROL Upload Changes]** o **[!UICONTROL Upload]** en la aplicación.
 
@@ -92,7 +92,7 @@ La aplicación proporciona una vista, llamada **[!UICONTROL Edited locally]**, p
 
 ## Próximos pasos {#next-steps}
 
-* [Vea un vídeo para empezar a usar la aplicación de escritorio de Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [Vea un vídeo para empezar a usar la aplicación de escritorio de Adobe Experience Manager](https://experienceleague.adobe.com/es/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * Proporcione comentarios sobre la documentación usando [!UICONTROL Edit this page] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Log an issue] ![crear un problema de GitHub](assets/do-not-localize/github-issue.png), disponibles en la barra lateral derecha
 

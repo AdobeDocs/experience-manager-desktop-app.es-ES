@@ -92,7 +92,7 @@ Para instalar la aplicación de escritorio, siga estos pasos. Desinstale las apl
 
    *Imagen: la aplicación muestra el contenido de DAM después del inicio de sesión*
 
-1. ([!DNL Experience Manager] 6.5.1 o posterior) Si utiliza la aplicación de escritorio con [!DNL Experience Manager] 6.5.1 o posterior, actualice S3 o el conector de Azure a la versión 1.10.4 o posterior. Ver [conector de Azure](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store) o [conector S3](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store).
+1. ([!DNL Experience Manager] 6.5.1 o posterior) Si utiliza la aplicación de escritorio con [!DNL Experience Manager] 6.5.1 o posterior, actualice S3 o el conector de Azure a la versión 1.10.4 o posterior. Ver [conector de Azure](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store) o [conector S3](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store).
 
    Si es cliente de Adobe Managed Services (AMS), póngase en contacto con Asistencia al cliente de Adobe.
 

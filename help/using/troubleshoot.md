@@ -21,7 +21,7 @@ Siga las siguientes prácticas recomendadas para evitar algunos problemas comune
 
 * **Comprenda cómo funciona la aplicación de escritorio**: Antes de empezar a utilizarla, dedique unos minutos a conocer cómo funciona la aplicación. Obtenga información sobre la vinculación entre la interfaz web [!DNL Experience Manager] y el escritorio, la asignación de repositorios, el almacenamiento en caché de recursos, el almacenamiento local y la carga en segundo plano. Ver [cómo funciona](release-notes.md#how-app-works).
 
-* **Evite los caracteres no admitidos en los nombres de carpeta**: no utilice espacios en blanco ni caracteres no válidos al crear o cargar carpetas. Ver una lista de caracteres en [Crear carpetas en [!DNL Adobe Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/manage-assets#creating-folders). Los caracteres no admitidos en el nombre de la carpeta pueden afectar algunos casos de uso de [!DNL Experience Manager].
+* **Evite los caracteres no admitidos en los nombres de carpeta**: no utilice espacios en blanco ni caracteres no válidos al crear o cargar carpetas. Ver una lista de caracteres en [Crear carpetas en [!DNL Adobe Experience Manager Assets]](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/managing/manage-assets#creating-folders). Los caracteres no admitidos en el nombre de la carpeta pueden afectar algunos casos de uso de [!DNL Experience Manager].
 
 * **Prácticas recomendadas para evitar conflictos**: Para evitar posibles conflictos al colaborar en varios recursos, ve a [evitar conflictos de edición](assets-management-tasks.md#adv-workflow-collaborate-avoid-conflicts).
 
@@ -301,8 +301,8 @@ En ambos métodos, la aplicación se inicia en la carpeta raíz DAM.
 
 Al examinar los recursos desde la interfaz de usuario de [!DNL Experience Manager], no se muestran los recursos caducados. Los administradores pueden configurar opciones para evitar la visualización, la búsqueda y la captura de recursos caducados al navegar desde la aplicación de escritorio y Asset Link. Al hacerlo, se garantiza que los recursos caducados no sean accesibles durante estas operaciones. La configuración funciona para todos los usuarios, independientemente del privilegio de administrador.
 
-* [Configuración en Experience Manager 6.5 para ocultar recursos caducados](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/manage-assets#hide-expired-assets-via-acp-api).
-* [Configuración en Experience Manager as a Cloud Service para ocultar recursos caducados](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#hide-expired-assets-via-acp-api).
+* [Configuración en Experience Manager 6.5 para ocultar recursos caducados](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/managing/manage-assets#hide-expired-assets-via-acp-api).
+* [Configuración en Experience Manager as a Cloud Service para ocultar recursos caducados](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#hide-expired-assets-via-acp-api).
 
 <!--
 ### Need additional help with [!DNL Experience Manager] desktop app {#additional-help}

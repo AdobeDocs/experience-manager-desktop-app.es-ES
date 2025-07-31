@@ -134,7 +134,7 @@ En algunos casos, por ejemplo, al colocar un recurso en un documento nativo, se 
 
 ![Mostrar acción de archivo para un recurso](assets/revealfile_action_da2.png "Mostrar acción de archivo para un recurso")
 
-Haga clic en **[!UICONTROL Reveal File]** o en **[!UICONTROL Reveal Folder]** de una carpeta para abrir el Explorador de Windows o el Buscador de Mac con el archivo o la carpeta preseleccionados en el equipo local. Por ejemplo, la opción resulta útil para colocar los archivos de [!DNL Experience Manager] en las aplicaciones nativas que admiten la colocación o vinculación de archivos locales. Para ver cómo colocar archivos en Adobe InDesign, consulte [Colocación de gráficos](https://helpx.adobe.com/indesign/using/placing-graphics.html).
+Haga clic en **[!UICONTROL Reveal File]** o en **[!UICONTROL Reveal Folder]** de una carpeta para abrir el Explorador de Windows o el Buscador de Mac con el archivo o la carpeta preseleccionados en el equipo local. Por ejemplo, la opción resulta útil para colocar los archivos de [!DNL Experience Manager] en las aplicaciones nativas que admiten la colocación o vinculación de archivos locales. Para ver cómo colocar archivos en Adobe InDesign, consulte [Colocación de gráficos](https://helpx.adobe.com/es/indesign/using/placing-graphics.html).
 
 La acción **[!UICONTROL Reveal File]** abre un recurso compartido de red local. Muestra únicamente los recursos que están disponibles localmente. Es decir, muestra los recursos que se revelaron, descargaron o abrieron o editaron mediante la aplicación. El recurso compartido de red local no carga ningún cambio en [!DNL Experience Manager]. Para cargar los cambios, utilice explícitamente las acciones **[!UICONTROL Upload Changes]** o **[!UICONTROL Upload]** en la aplicación.
 
@@ -157,7 +157,7 @@ Use **[!UICONTROL Toggle Check-out]** para bloquear el recurso y evitar conflict
 * Ha empezado a editar un recurso sin desprotegerlo primero (por ejemplo, abriéndolo).
 * Tiene intención de empezar a editar un recurso pronto y no desea que otros lo editen.
 
-Una vez que haya terminado de realizar las ediciones, la aplicación mostrará el estado **[!UICONTROL Edited Locally]** de los recursos modificados. Todos los cambios guardados en los recursos son de tipo local solamente hasta que cargue los cambios en [!DNL Experience Manager]. Para cargar un individuo o algunos recursos uno por uno, haga clic en **[!UICONTROL Upload Changes]** desde las opciones de un recurso. Crea una versión del recurso en [!DNL Experience Manager]. Mediante la interfaz web de [!DNL Assets], puede ver el historial de recursos en la [vista Escala de tiempo](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/activity-stream).
+Una vez que haya terminado de realizar las ediciones, la aplicación mostrará el estado **[!UICONTROL Edited Locally]** de los recursos modificados. Todos los cambios guardados en los recursos son de tipo local solamente hasta que cargue los cambios en [!DNL Experience Manager]. Para cargar un individuo o algunos recursos uno por uno, haga clic en **[!UICONTROL Upload Changes]** desde las opciones de un recurso. Crea una versión del recurso en [!DNL Experience Manager]. Mediante la interfaz web de [!DNL Assets], puede ver el historial de recursos en la [vista Escala de tiempo](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/using/activity-stream).
 
 ![Cargar cambios en la opción de la aplicación](assets/upload_changes_single1_da2.png "Cargar cambios en la aplicación")
 
@@ -297,7 +297,7 @@ Después de la carga, si los cambios esperados no se reflejan en la aplicación,
 
 >[!NOTE]
 >
->No use la funcionalidad de carga para migrar recursos en dos implementaciones de [!DNL Experience Manager]. En su lugar, consulte la [guía de migración](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide).
+>No use la funcionalidad de carga para migrar recursos en dos implementaciones de [!DNL Experience Manager]. En su lugar, consulte la [guía de migración](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/administer/assets-migration-guide).
 
 ### Lista de activos transferidos {#list-of-transferred-assets}
 
@@ -366,7 +366,7 @@ Para conocer las limitaciones de este flujo de trabajo, consulte [requisitos del
 
 Para probar este flujo de trabajo con un recurso de imagen y InDesign, siga estos pasos:
 
-1. Mantenga a mano un archivo INDD con recursos colocados en [!DNL Experience Manager]. Para saber cómo crear un archivo INDD de este tipo, consulte [Colocación de gráficos](https://helpx.adobe.com/indesign/using/placing-graphics.html).
+1. Mantenga a mano un archivo INDD con recursos colocados en [!DNL Experience Manager]. Para saber cómo crear un archivo INDD de este tipo, consulte [Colocación de gráficos](https://helpx.adobe.com/es/indesign/using/placing-graphics.html).
 1. Desde la aplicación de escritorio, **[!UICONTROL Edit]** el archivo INDD con recursos colocados en [!DNL Experience Manager].
 1. La aplicación descarga el archivo de InDesign y los recursos vinculados. Cuando InDesign abre el documento, los vínculos se resuelven, los recursos se descargan y los recursos se muestran en el documento de InDesign.
 1. Para colocar un nuevo gráfico en el archivo InDesign, use la acción **[!UICONTROL Reveal File]** en el recurso. La acción descarga el recurso localmente y abre la ubicación del recurso compartido de red local en el Explorador de Windows o el Buscador de Mac.
