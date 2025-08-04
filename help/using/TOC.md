@@ -8,7 +8,7 @@ user-guide-description: Aprenda a utilizar la aplicación de escritorio de Exper
 feature-set: Experience Manager Assets,Experience Manager
 feature: Desktop App
 role: User, Admin
-source-git-commit: 3f9f5da87647b552e31fae9d19226ac6d20e336f
+source-git-commit: cde31207ddb0da1057db15f3fcbeec4dd3d0cd8c
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 49%
@@ -16,7 +16,7 @@ ht-degree: 49%
 ---
 
 
-# Guía de aplicación de escritorio de Adobe Experience Manager {#get-started}
+# Guía de aplicación de escritorio de Adobe Experience Manager {#using}
 
 + [Información general](introduction.md)
 + [Notas de la versión](release-notes.md)
