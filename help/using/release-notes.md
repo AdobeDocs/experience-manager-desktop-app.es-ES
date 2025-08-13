@@ -4,9 +4,9 @@ description: Detalles de la versión, mejoras, nuevas características, compatib
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: b1fad118e1ffbd0809afe9a33bcb848648cd8bdd
+source-git-commit: 3ee1e39553b81e335e07c278537a826df3ad9482
 workflow-type: tm+mt
-source-wordcount: '2470'
+source-wordcount: '2502'
 ht-degree: 9%
 
 ---
@@ -15,25 +15,55 @@ ht-degree: 9%
 
 A continuación, encontrará información de la última versión de la aplicación de escritorio, 3.0.0. La fecha de la versión es el 31 de julio de 2025.
 
-La versión más reciente de la aplicación de escritorio incluye las siguientes correcciones de errores y mejoras:
+Esta versión incluye varias mejoras en Colecciones, Cargas, Registro/Registro de salida, Administración de metadatos y facilidad de uso general. Estas actualizaciones mejoran la eficacia, optimizan la administración de recursos y proporcionan una experiencia más intuitiva y en tiempo real en AEM Desktop App.
+
+![Interfaz de usuario de aplicación de escritorio](assets/dekktop-app-user-interface.png)
+
+**Colecciones**
+
+* Ahora puede ver, descargar y examinar colecciones.
+
+* Se ha agregado compatibilidad para descargar carpetas disponibles en colecciones.
+
+* La función de sincronización automática ahora permite que los recursos descargados de las colecciones sincronicen periódicamente la administración de recursos de AEM con el sistema de archivos local.
+
+* Al actualizar un recurso que forma parte de una colección, el sistema lo actualiza automáticamente en la carpeta de caché temporal y en la interfaz de usuario de la aplicación de escritorio.
+
+**Cargas**
 
 * Puede cargar los recursos recién creados desde el equipo local a AEM, donde se almacena el repositorio central, y verlos en la aplicación de escritorio.
-* La función de actualización automática actualiza automáticamente el contenido en tiempo real, lo que garantiza que siempre vea la información más reciente sin volver a cargar manualmente la página y obtener la lista de recursos actualizados.
-* La función de anclar o desanclar carpetas permite mantener carpetas importantes de fácil acceso anclándolas o desordenando la vista desanclándolas cuando ya no sean necesarias.
-* La función Cambiar el nombre del título le permite actualizar o modificar fácilmente el título de un recurso, lo que le ayuda a mantener los nombres precisos y organizados a medida que evoluciona el contenido.
-* Puede conservar el archivo original y realizar cambios en uno similar duplicando archivos en ubicaciones locales y de la nube mediante la operación de duplicación de archivos.
-* La función de protección y desprotección permite administrar el acceso a archivos bloqueando un archivo para su edición (desprotección) y guardando los cambios al tiempo que lo hace disponible para otros (protección).
-* Puede ver, descargar y examinar colecciones.
-* Puede asignar metadatos al crear una carpeta nueva.
-* La aplicación de escritorio de Experience Manager ahora le permite mover recursos o carpetas a una nueva ubicación conservando sus metadatos, lo que le ayuda a organizar y optimizar su sistema de archivos.
-* Se ha agregado compatibilidad para descargar carpetas disponibles en colecciones.
-* La opción de exportación ahora permite descargar archivos y carpetas seleccionados de la aplicación de escritorio a su ubicación de destino específica en una estructura plana.
+
 * Desktop App ahora identifica automáticamente los nuevos archivos creados en una carpeta ya descargada del sistema de archivos local y los carga en AEM. La aplicación de escritorio debe mantenerse abierta para identificar los nuevos archivos del sistema de archivos local.
-* La función de sincronización automática ahora permite que los recursos descargados de las colecciones sincronicen periódicamente la administración de recursos de AEM con el sistema de archivos local.
-* Ahora, la aplicación AEM Desktop permite ver las propiedades de la carpeta, como su miniatura, tamaño, ruta, fecha de creación, etiquetas, metadatos, etc.
-* Ahora puede acceder a los recursos en la vista de tarjeta, en la vista de cuadrícula o en una vista de árbol para obtener un diseño de los recursos limpio, organizado y visualmente atractivo.
+
+**Registro y salida**
+
+* La función de protección y desprotección permite administrar el acceso a archivos bloqueando un archivo para su edición (desprotección) y guardando los cambios al tiempo que lo hace disponible para otros (protección).
+
 * Capacidad para arrastrar un recurso desde la aplicación de escritorio a la aplicación de Creative Cloud de destino. La aplicación de escritorio extrae automáticamente los recursos y los descarga en el sistema de archivos local.
-* Al actualizar un recurso que forma parte de una colección, el sistema lo actualiza automáticamente en la carpeta de caché temporal y en la interfaz de usuario de la aplicación de escritorio.
+
+**Metadatos**
+
+* Puede asignar metadatos al crear una carpeta nueva.
+
+* La aplicación de escritorio de Experience Manager ahora le permite mover recursos o carpetas a una nueva ubicación conservando sus metadatos, lo que le ayuda a organizar y optimizar su sistema de archivos.
+
+* Ahora, la aplicación AEM Desktop permite ver las propiedades de la carpeta, como su miniatura, tamaño, ruta, fecha de creación, etiquetas, metadatos, etc.
+
+**Mejoras de uso**
+
+
+* La función de actualización automática actualiza automáticamente el contenido en tiempo real, lo que garantiza que siempre vea la información más reciente sin volver a cargar manualmente la página y obtener la lista de recursos actualizados.
+
+* La función de anclar o desanclar carpetas permite mantener carpetas importantes de fácil acceso anclándolas o desordenando la vista desanclándolas cuando ya no sean necesarias.
+
+* La función Cambiar el nombre del título le permite actualizar o modificar fácilmente el título de un recurso, lo que le ayuda a mantener los nombres precisos y organizados a medida que evoluciona el contenido.
+
+* Puede conservar el archivo original y realizar cambios en uno similar duplicando archivos en ubicaciones locales y de la nube mediante la operación de duplicación de archivos.
+
+* La opción de exportación ahora permite descargar archivos y carpetas seleccionados de la aplicación de escritorio a su ubicación de destino específica en una estructura plana.
+
+* Ahora puede acceder a los recursos en la vista de tarjeta, en la vista de cuadrícula o en una vista de árbol para obtener un diseño de los recursos limpio, organizado y visualmente atractivo.
+
 * Se actualizan varias etiquetas para varias opciones en la interfaz de usuario de para que la aplicación sea más intuitiva.
 
 Las **versiones compatibles de [!DNL Experience Manager]** son:
