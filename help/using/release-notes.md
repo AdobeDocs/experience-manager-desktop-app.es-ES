@@ -1,70 +1,35 @@
 ---
 title: '[!DNL Adobe Experience Manager] notas de la versión de la aplicación de escritorio'
-description: Detalles de la versión, mejoras, nuevas características, compatibilidad y vínculos de descarga para la aplicación de escritorio  [!DNL Adobe Experience Manager] iOS.
+description: Detalles de la versión, mejoras, nuevas características, compatibilidad y vínculos de descarga para la aplicación de escritorio  [!DNL Adobe Experience Manager] Desktop.
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 3ee1e39553b81e335e07c278537a826df3ad9482
+source-git-commit: 64c918a17efd082aee2d63f1379023b1da05a13b
 workflow-type: tm+mt
-source-wordcount: '2502'
-ht-degree: 9%
+source-wordcount: '2662'
+ht-degree: 8%
 
 ---
 
-# [!DNL Adobe Experience Manager] notas de la versión de la aplicación de escritorio {#release-notes-v2}
+# [!DNL Adobe Experience Manager] notas de la versión de Desktop App {#release-notes-v2}
 
-A continuación, encontrará información de la última versión de la aplicación de escritorio, 3.0.0. La fecha de la versión es el 31 de julio de 2025.
+La fecha de la versión 3.0.1 de la aplicación de escritorio es el 18 de diciembre de 2025.  La versión incorpora las siguientes mejoras:
 
-Esta versión incluye varias mejoras en Colecciones, Cargas, Registro/Registro de salida, Administración de metadatos y facilidad de uso general. Estas actualizaciones mejoran la eficacia, optimizan la administración de recursos y proporcionan una experiencia más intuitiva y en tiempo real en AEM Desktop App.
+**Flujos de trabajo más suaves y fiables**
 
-![Interfaz de usuario de aplicación de escritorio](assets/dekktop-app-user-interface.png)
+* Se ha asegurado una nomenclatura de carpetas coherente al corregir los problemas de sincronización entre AEM Desktop App y AEM Author.
+* Se han habilitado flujos de trabajo ininterrumpidos al permitir la funcionalidad completa de la aplicación durante las operaciones de transferencia activas.
+* Se ha mejorado la fiabilidad de la página de propiedades de la carpeta, lo que permite un acceso coherente a los metadatos y la configuración de la carpeta.
 
-**Colecciones**
+**Experiencia del usuario más rápida y adaptable**
 
-* Ahora puede ver, descargar y examinar colecciones.
+* Capacidad de respuesta de la interfaz de usuario mejorada al reemplazar el bloqueo de E/S por procesamiento asincrónico, lo que ofrece una experiencia más fluida durante las operaciones de alta carga.
+* Se han mejorado las transferencias de archivos grandes al introducir la paginación en los flujos de carga y descarga, lo que permite una gestión eficaz de los conjuntos de datos grandes.
 
-* Se ha agregado compatibilidad para descargar carpetas disponibles en colecciones.
+**Mayor estabilidad y confiabilidad**
 
-* La función de sincronización automática ahora permite que los recursos descargados de las colecciones sincronicen periódicamente la administración de recursos de AEM con el sistema de archivos local.
-
-* Al actualizar un recurso que forma parte de una colección, el sistema lo actualiza automáticamente en la carpeta de caché temporal y en la interfaz de usuario de la aplicación de escritorio.
-
-**Cargas**
-
-* Puede cargar los recursos recién creados desde el equipo local a AEM, donde se almacena el repositorio central, y verlos en la aplicación de escritorio.
-
-* Desktop App ahora identifica automáticamente los nuevos archivos creados en una carpeta ya descargada del sistema de archivos local y los carga en AEM. La aplicación de escritorio debe mantenerse abierta para identificar los nuevos archivos del sistema de archivos local.
-
-**Registro y salida**
-
-* La función de protección y desprotección permite administrar el acceso a archivos bloqueando un archivo para su edición (desprotección) y guardando los cambios al tiempo que lo hace disponible para otros (protección).
-
-* Capacidad para arrastrar un recurso desde la aplicación de escritorio a la aplicación de Creative Cloud de destino. La aplicación de escritorio extrae automáticamente los recursos y los descarga en el sistema de archivos local.
-
-**Metadatos**
-
-* Puede asignar metadatos al crear una carpeta nueva.
-
-* La aplicación de escritorio de Experience Manager ahora le permite mover recursos o carpetas a una nueva ubicación conservando sus metadatos, lo que le ayuda a organizar y optimizar su sistema de archivos.
-
-* Ahora, la aplicación AEM Desktop permite ver las propiedades de la carpeta, como su miniatura, tamaño, ruta, fecha de creación, etiquetas, metadatos, etc.
-
-**Mejoras de uso**
-
-
-* La función de actualización automática actualiza automáticamente el contenido en tiempo real, lo que garantiza que siempre vea la información más reciente sin volver a cargar manualmente la página y obtener la lista de recursos actualizados.
-
-* La función de anclar o desanclar carpetas permite mantener carpetas importantes de fácil acceso anclándolas o desordenando la vista desanclándolas cuando ya no sean necesarias.
-
-* La función Cambiar el nombre del título le permite actualizar o modificar fácilmente el título de un recurso, lo que le ayuda a mantener los nombres precisos y organizados a medida que evoluciona el contenido.
-
-* Puede conservar el archivo original y realizar cambios en uno similar duplicando archivos en ubicaciones locales y de la nube mediante la operación de duplicación de archivos.
-
-* La opción de exportación ahora permite descargar archivos y carpetas seleccionados de la aplicación de escritorio a su ubicación de destino específica en una estructura plana.
-
-* Ahora puede acceder a los recursos en la vista de tarjeta, en la vista de cuadrícula o en una vista de árbol para obtener un diseño de los recursos limpio, organizado y visualmente atractivo.
-
-* Se actualizan varias etiquetas para varias opciones en la interfaz de usuario de para que la aplicación sea más intuitiva.
+* El servidor de creación resuelto se reinicia activado por las interacciones de la aplicación de escritorio, lo que mejora significativamente la estabilidad del sistema.
+* La aplicación se bloquea durante una descarga o carga de carpeta grande (miles de archivos).
 
 Las **versiones compatibles de [!DNL Experience Manager]** son:
 
@@ -82,6 +47,10 @@ Las **URL de descarga** para el sistema operativo admitido son:
 
 | Sistema operativo | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
+| macOS (v3.0.1) | [Vínculo de descarga](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.1.dmg) | [Vínculo de descarga](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.1.dmg) |
+| macOS Apple Silicon (M1) (v3.0.1) | [Vínculo de descarga](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.1.dmg) | [Vínculo de descarga](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.1.dmg) |
+| Windows de 64 bits (v3.0.1) | [Vínculo de descarga](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.1.exe) | [Vínculo de descarga](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.1.exe) |
+| Windows Enterprise de 64 bits (v3.0.1) | [Vínculo de descarga](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-ent-3.0.1.msi) | [Vínculo de descarga](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-ent-3.0.1.msi) |
 | macOS (v3.0.0) | [Vínculo de descarga](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.0.dmg) | [Vínculo de descarga](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.0.dmg) |
 | macOS Apple Silicon (M1) (v3.0.0) | [Vínculo de descarga](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.0.dmg) | [Vínculo de descarga](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.0.dmg) |
 | Windows de 64 bits (v3.0.0) | [Vínculo de descarga](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.0.exe) | [Vínculo de descarga](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.0.exe) |
@@ -138,25 +107,77 @@ La característica es compatible con [!DNL Adobe Creative Cloud] versiones de 20
 
 ## Nuevas funciones, mejoras y correcciones de errores {#what-is-new}
 
-Para obtener más información, consulte [Novedades de la versión 2.0](introduction.md#whats-new-v2).
+Para obtener más información, consulte [Novedades de la versión 3.0.1](introduction.md#whats-new-v2).
 
-**Actualizaciones en la aplicación v2.3.1**
+### Actualizaciones en la aplicación 3.0.0 {#app-version-3.0.0}
+
+Esta versión incluye varias mejoras en Colecciones, Cargas, Registro/Registro de salida, Administración de metadatos y facilidad de uso general. Estas actualizaciones mejoran la eficacia, optimizan la administración de recursos y proporcionan una experiencia más intuitiva y en tiempo real en AEM Desktop App.
+
+![Interfaz de usuario de aplicación de escritorio](assets/dekktop-app-user-interface.png)
+
+**Colecciones**
+
+* Ahora puede ver, descargar y examinar colecciones.
+
+* Se ha agregado compatibilidad para descargar carpetas disponibles en colecciones.
+
+* La función de sincronización automática ahora permite que los recursos descargados de las colecciones sincronicen periódicamente la administración de recursos de AEM con el sistema de archivos local.
+
+* Al actualizar un recurso que forma parte de una colección, el sistema lo actualiza automáticamente en la carpeta de caché temporal y en la interfaz de usuario de la aplicación de escritorio.
+
+**Cargas**
+
+* Puede cargar los recursos recién creados desde el equipo local a AEM, donde se almacena el repositorio central, y verlos en la aplicación de escritorio.
+
+* Desktop App ahora identifica automáticamente los nuevos archivos creados en una carpeta ya descargada del sistema de archivos local y los carga en AEM. La aplicación de escritorio debe mantenerse abierta para identificar los nuevos archivos del sistema de archivos local.
+
+**Registro y salida**
+
+* La función de protección y desprotección permite administrar el acceso a archivos bloqueando un archivo para su edición (desprotección) y guardando los cambios al tiempo que lo hace disponible para otros (protección).
+
+* Capacidad para arrastrar un recurso desde la aplicación de escritorio a la aplicación de Creative Cloud de destino. La aplicación de escritorio extrae automáticamente los recursos y los descarga en el sistema de archivos local.
+
+**Metadatos**
+
+* Puede asignar metadatos al crear una carpeta nueva.
+
+* La aplicación de escritorio de Experience Manager ahora le permite mover recursos o carpetas a una nueva ubicación conservando sus metadatos, lo que le ayuda a organizar y optimizar su sistema de archivos.
+
+* Ahora, la aplicación AEM Desktop permite ver las propiedades de la carpeta, como su miniatura, tamaño, ruta, fecha de creación, etiquetas, metadatos, etc.
+
+**Mejoras de uso**
+
+* La función de actualización automática actualiza automáticamente el contenido en tiempo real, lo que garantiza que siempre vea la información más reciente sin volver a cargar manualmente la página y obtener la lista de recursos actualizados.
+
+* La función de anclar o desanclar carpetas permite mantener carpetas importantes de fácil acceso anclándolas o desordenando la vista desanclándolas cuando ya no sean necesarias.
+
+* La función Cambiar el nombre del título le permite actualizar o modificar fácilmente el título de un recurso, lo que le ayuda a mantener los nombres precisos y organizados a medida que evoluciona el contenido.
+
+* Puede conservar el archivo original y realizar cambios en uno similar duplicando archivos en ubicaciones locales y de la nube mediante la operación de duplicación de archivos.
+
+* La opción de exportación ahora permite descargar archivos y carpetas seleccionados de la aplicación de escritorio a su ubicación de destino específica en una estructura plana.
+
+* Ahora puede acceder a los recursos en la vista de tarjeta, en la vista de cuadrícula o en una vista de árbol para obtener un diseño de los recursos limpio, organizado y visualmente atractivo.
+
+* Se actualizan varias etiquetas para varias opciones en la interfaz de usuario de para que la aplicación sea más intuitiva.
+
+### Actualizaciones en la aplicación v2.3.1 {#app-version-2.3.1}
 
 * El nuevo instalador de Enterprise Windows instala la aplicación en Archivos de programa.
 * Compatibilidad con **Autenticación básica** durante los inicios de sesión de AEM y SSO.
 * Número configurable de recursos permitidos durante la operación de carga
 
-**Actualizaciones en la aplicación v2.3.0**
+### Actualizaciones en la aplicación v2.3.0 {#app-version-2.3.0}
 
 * Se ha añadido compatibilidad con el inicio de sesión IMS. La integración de IMS permite a la aplicación de escritorio realizar la actualización del token de acceso automáticamente, lo que permite al usuario permanecer conectado durante un máximo de 14 días.
 
 * Se ha mejorado la compatibilidad con los proxies corporativos y el filtrado web.
 
-**Actualizaciones en la aplicación v2.2.2**
+### Actualizaciones en la aplicación v2.2.2 {#app-version-2.2.2}
 
 * (Solo Windows) La aplicación de escritorio muestra una pantalla en blanco después de instalar las versiones 2.2.0 y 2.2.1.
 
-**Actualizaciones en la aplicación v2.2.1**
+### Actualizaciones en la aplicación v2.2.1 {#app-version-2.2.1}
 
 * La aplicación de escritorio muestra un mensaje de error de tiempo de espera de sesión al hacer clic en **[!UICONTROL Sign In]**.
 
@@ -164,41 +185,41 @@ Para obtener más información, consulte [Novedades de la versión 2.0](introduc
 
 * La aplicación de escritorio muestra un mensaje de error al ordenar los recursos al hacer clic en **[!UICONTROL Edited Locally]**.
 
-**Actualizaciones en la aplicación v2.2.0**
+### Actualizaciones en la aplicación v2.2.0 {#app-version-2.2.0}
 
 * Soporte para Apple Silicon (M1).
 
 * Capacidad para recordar la cadena de conexión al iniciar sesión en la aplicación de escritorio.
 
-**Actualizaciones en la aplicación v2.1.5.0**
+### Actualizaciones en la aplicación v2.1.5.0 {#app-version-2.1.5.0}
 
-* La aplicación de escritorio deja de responder al cargar archivos en una carpeta que contiene caracteres chinos (ASSETS-9237).
+* La aplicación de escritorio deja de responder cuando carga archivos en una carpeta que contiene caracteres chinos (ASSETS-9237).
 
-* La aplicación de escritorio de reemplaza los puntos con guiones en los nombres de archivo (ASSETS-10955).
+* Desktop App reemplaza los puntos con guiones en los nombres de archivo (ASSETS-10955).
 
-**Actualizaciones en la aplicación v2.1.4.0**
+### Actualizaciones en la aplicación v2.1.4.0 {#app-version-2.1.4.0}
 
 La nueva versión de la aplicación ofrece correcciones de errores.
 
-**Actualizaciones en la aplicación v2.1.3.4**
+### Actualizaciones en la aplicación v2.1.3.4 {#app-version-2.1.3.4}
 
 La nueva versión de la aplicación ofrece una corrección de errores.
 
-**Actualizaciones en la aplicación v2.1.3.3**
+### Actualizaciones en la aplicación v2.1.3.3 {#app-version-2.1.3.3}
 
 La nueva versión de la aplicación ofrece una corrección de errores.
 
-**Actualizaciones en la aplicación v2.1.3.2**
+### Actualizaciones en la aplicación v2.1.3.2 {#app-version-2.1.3.2}
 
 Esta versión de la aplicación ofrece una corrección de errores.
 
-**Actualizaciones en la aplicación v2.1.3.1**
+### Actualizaciones en la aplicación v2.1.3.1 {#app-version-2.1.3.1}
 
 El error corregido en esta versión es:
 
 * Las velocidades de carga y descarga de recursos han mejorado, incluso con recursos grandes. Esta versión corrigió un problema en el cual las cargas de recursos con [!DNL desktop app] fallaban a veces cuando se cargaban archivos muy grandes.
 
-**Actualización en la aplicación v2.1.2.0**
+### Actualizaciones en la aplicación v2.1.2.0 {#app-version-2.1.2.0}
 
 * Se agrega una nueva opción a [!UICONTROL Clear Cookies] al menú principal de la aplicación. Ayuda con posibles problemas de inicio de sesión, por ejemplo al cambiar una conexión de un servidor a otro. Ver [borrar cookies antes de conectar](/help/using/troubleshoot.md#cannot-login-cookies-issue).
 
@@ -206,21 +227,21 @@ El error corregido en esta versión es:
 
   Este comportamiento es similar al comportamiento predeterminado en la versión 1 de la aplicación de escritorio. Mientras que en la versión actual, si la opción no está habilitada, los espacios en blanco y los caracteres `% ; # , + ? ^ { } "` de los nombres de carpeta se reemplazan con guiones en las rutas de carpeta. Además, los caracteres en mayúsculas se convierten en minúsculas en las rutas de carpetas. Sin embargo, en los nombres de archivo, los caracteres `# % { } ? &` se reemplazan por guiones; pero se conservan los espacios en blanco y las mayúsculas y minúsculas. Para obtener más información, consulte [Preferencias de la aplicación](/help/using/install-upgrade.md#set-preferences) y [Cargar y agregar nuevos recursos](/help/using/upload-assets.md#upload-and-add-new-assets-to-aem).
 
-**Actualización en la aplicación v2.1.1.0**
+### Actualizaciones en la aplicación v2.1.1.0 {#app-version-2.1.1.0}
 
 * Una configuración avanzada permite que la aplicación emule el comportamiento de la aplicación v1.10 al cargar carpetas. En la versión 1.10, los nombres de nodo creados en el repositorio respetan los espacios y mayúsculas de los nombres de carpeta proporcionados por el usuario. En la versión 2.1, el comportamiento predeterminado no cambia: los espacios múltiples en los nombres de carpeta se sustituyen por guiones en el nombre del nodo del repositorio y los nombres de nodo se convierten a minúsculas. Ver [las preferencias de la aplicación](/help/using/install-upgrade.md#set-preferences).
 
-**Actualización en la aplicación v2.1.0.0**
+### Actualizaciones en la aplicación 2.1.0.0 {#app-version-2.1.0.0}
 
 * Para cargar recursos, los usuarios ahora pueden arrastrar los archivos o carpetas a la interfaz de la aplicación, directamente desde el Explorador de Windows o el Buscador de Mac. Este proceso funciona además de la opción de carga disponible en la aplicación. Ver [cargar recursos](/help/using/upload-assets.md#upload-and-add-new-assets-to-aem) <!-- CQ-4309527 -->
 
-**Actualización en la aplicación v2.0.3**
+### Actualizaciones en la aplicación v2.0.3 {#app-version-2.0.3}
 
 El error corregido en esta versión es:
 
 * Se ha corregido el problema de inicio de sesión de los usuarios de la aplicación en Windows que intentaban acceder al repositorio DAM en [!DNL Adobe Experience Manager] 6.5.5.0.
 
-**Actualizaciones en la aplicación v2.0.2**
+### Actualizaciones en la aplicación v2.0.2 {#app-version-2.0.2}
 
 Las correcciones de errores y actualizaciones son:
 
@@ -234,7 +255,7 @@ Las correcciones de errores y actualizaciones son:
 
 * (Windows) Se ha corregido un problema poco frecuente de interfaz de aplicación inutilizable en algunos equipos con Windows. Los usuarios no pueden hacer clic en la interfaz de la aplicación porque parece distorsionada con el área de clics de los elementos de la interfaz &quot;desplazada&quot; de lado. <!-- CQ-4280785 -->
 
-**Actualizaciones en la aplicación v2.0.1**
+### Actualizaciones en la aplicación v2.0.1 {#app-version-2.0.1}
 
 Las correcciones de errores y actualizaciones son:
 
