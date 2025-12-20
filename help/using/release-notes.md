@@ -4,7 +4,7 @@ description: Detalles de la versión, mejoras, nuevas características, compatib
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 64c918a17efd082aee2d63f1379023b1da05a13b
+source-git-commit: ad234d05e7a011b148b74e92adcbf86de476f78d
 workflow-type: tm+mt
 source-wordcount: '2662'
 ht-degree: 8%
@@ -13,7 +13,7 @@ ht-degree: 8%
 
 # [!DNL Adobe Experience Manager] notas de la versión de Desktop App {#release-notes-v2}
 
-La fecha de la versión 3.0.1 de la aplicación de escritorio es el 18 de diciembre de 2025.  La versión incorpora las siguientes mejoras:
+La fecha de la versión 3.0.1 de la aplicación de escritorio es el 20 de diciembre de 2025.  La versión incorpora las siguientes mejoras:
 
 **Flujos de trabajo más suaves y fiables**
 
