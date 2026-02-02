@@ -2,13 +2,13 @@
 title: Introducción [!DNL Experience Manager] aplicación de escritorio
 description: Descubra cómo la aplicación de escritorio  [!DNL Experience Manager] mejora la creación y publicación de contenido con flujos de trabajo y funciones de productividad optimizados.
 feature: Desktop App,Asset Management
-source-git-commit: 2947fbd3bfeb15b37a8f1b0118e969b5d70499d0
+exl-id: 6cf29b6a-74e6-4860-a25b-d3e91abbaa9d
+source-git-commit: a579ab861aa0af8c8415a0f38126de7f33c7a7b3
 workflow-type: tm+mt
 source-wordcount: '1213'
 ht-degree: 0%
 
 ---
-
 
 # Introducción a la aplicación de escritorio [!DNL Adobe Experience Manager] {#getting-started-desktop-app}
 
@@ -17,6 +17,8 @@ Utilice la aplicación de escritorio [!DNL Adobe Experience Manager] para accede
 La integración permite que varios roles de la organización administren los recursos de forma centralizada en [!DNL Experience Manager Assets] y tengan acceso a los recursos en el escritorio local en las aplicaciones nativas de Windows o macOS.
 
 Cuando abra la aplicación después de cerrar sesión o por primera vez, proporcione la dirección URL del servidor [!DNL Experience Manager] con el formato `https://[aem-server-url]:[port]/`. Luego seleccione la opción [!UICONTROL Connect]. Proporcione credenciales para conectar la aplicación con el servidor.
+
+>[!VIDEO](https://video.tv.adobe.com/v/28868?quality=12&learn=on)
 
 Las tareas clave que realiza con la aplicación de escritorio [!DNL Adobe Experience Manager] son las siguientes:
 
@@ -98,11 +100,11 @@ Por el contrario, puede abrir el recurso en la interfaz web desde la aplicación
 
 ## Próximos pasos {#next-steps}
 
-* [Vea un vídeo para empezar a usar la aplicación de escritorio de Adobe Experience Manager](https://experienceleague.adobe.com/es/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [Vea un vídeo para empezar a usar la aplicación de escritorio de Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * Proporcione comentarios sobre la documentación usando [!UICONTROL Edit this page] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Log an issue] ![crear un problema de GitHub](assets/do-not-localize/github-issue.png), disponibles en la barra lateral derecha
 
-* Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/es?support-solution=General#support)
+* Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/es/home?support-solution=General#support)
 
 >[!MORELIKETHIS]
 >
