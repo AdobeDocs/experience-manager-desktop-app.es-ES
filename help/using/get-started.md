@@ -18,7 +18,7 @@ La integración permite que varios roles de la organización administren los rec
 
 Cuando abra la aplicación después de cerrar sesión o por primera vez, proporcione la dirección URL del servidor [!DNL Experience Manager] con el formato `https://[aem-server-url]:[port]/`. Luego seleccione la opción [!UICONTROL Connect]. Proporcione credenciales para conectar la aplicación con el servidor.
 
->[!VIDEO](https://video.tv.adobe.com/v/28868?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/32778?captions=spa&quality=12&learn=on)
 
 Las tareas clave que realiza con la aplicación de escritorio [!DNL Adobe Experience Manager] son las siguientes:
 
