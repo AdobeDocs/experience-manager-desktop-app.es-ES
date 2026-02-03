@@ -3,7 +3,7 @@ title: Introducción [!DNL Experience Manager] aplicación de escritorio
 description: Descubra cómo la aplicación de escritorio  [!DNL Experience Manager] mejora la creación y publicación de contenido con flujos de trabajo y funciones de productividad optimizados.
 feature: Desktop App,Asset Management
 exl-id: 6cf29b6a-74e6-4860-a25b-d3e91abbaa9d
-source-git-commit: a579ab861aa0af8c8415a0f38126de7f33c7a7b3
+source-git-commit: 2bf5ee7454846c288cc1c976d8f69c6bfed8eabf
 workflow-type: tm+mt
 source-wordcount: '1213'
 ht-degree: 0%
@@ -18,7 +18,7 @@ La integración permite que varios roles de la organización administren los rec
 
 Cuando abra la aplicación después de cerrar sesión o por primera vez, proporcione la dirección URL del servidor [!DNL Experience Manager] con el formato `https://[aem-server-url]:[port]/`. Luego seleccione la opción [!UICONTROL Connect]. Proporcione credenciales para conectar la aplicación con el servidor.
 
->[!VIDEO](https://video.tv.adobe.com/v/32778?captions=spa&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/28868?quality=12&learn=on){transcript=true}
 
 Las tareas clave que realiza con la aplicación de escritorio [!DNL Adobe Experience Manager] son las siguientes:
 
@@ -100,7 +100,7 @@ Por el contrario, puede abrir el recurso en la interfaz web desde la aplicación
 
 ## Próximos pasos {#next-steps}
 
-* [Vea un vídeo para empezar a usar la aplicación de escritorio de Adobe Experience Manager](https://experienceleague.adobe.com/es/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [Vea un vídeo para empezar a usar la aplicación de escritorio de Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * Proporcione comentarios sobre la documentación usando [!UICONTROL Edit this page] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Log an issue] ![crear un problema de GitHub](assets/do-not-localize/github-issue.png), disponibles en la barra lateral derecha
 
