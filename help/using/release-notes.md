@@ -4,32 +4,16 @@ description: Detalles de la versión, mejoras, nuevas características, compatib
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: ad234d05e7a011b148b74e92adcbf86de476f78d
+source-git-commit: 826e667f11792797629e0edad5db62aea6f61774
 workflow-type: tm+mt
-source-wordcount: '2662'
-ht-degree: 8%
+source-wordcount: '5259'
+ht-degree: 4%
 
 ---
 
 # [!DNL Adobe Experience Manager] notas de la versión de Desktop App {#release-notes-v2}
 
-La fecha de la versión 3.0.1 de la aplicación de escritorio es el 20 de diciembre de 2025.  La versión incorpora las siguientes mejoras:
-
-**Flujos de trabajo más suaves y fiables**
-
-* Se ha asegurado una nomenclatura de carpetas coherente al corregir los problemas de sincronización entre AEM Desktop App y AEM Author.
-* Se han habilitado flujos de trabajo ininterrumpidos al permitir la funcionalidad completa de la aplicación durante las operaciones de transferencia activas.
-* Se ha mejorado la fiabilidad de la página de propiedades de la carpeta, lo que permite un acceso coherente a los metadatos y la configuración de la carpeta.
-
-**Experiencia del usuario más rápida y adaptable**
-
-* Capacidad de respuesta de la interfaz de usuario mejorada al reemplazar el bloqueo de E/S por procesamiento asincrónico, lo que ofrece una experiencia más fluida durante las operaciones de alta carga.
-* Se han mejorado las transferencias de archivos grandes al introducir la paginación en los flujos de carga y descarga, lo que permite una gestión eficaz de los conjuntos de datos grandes.
-
-**Mayor estabilidad y confiabilidad**
-
-* El servidor de creación resuelto se reinicia activado por las interacciones de la aplicación de escritorio, lo que mejora significativamente la estabilidad del sistema.
-* La aplicación se bloquea durante una descarga o carga de carpeta grande (miles de archivos).
+Esta versión de la aplicación de escritorio 3.0.2 incluye correcciones de errores para mejorar la estabilidad general y el rendimiento de la aplicación.
 
 Las **versiones compatibles de [!DNL Experience Manager]** son:
 
@@ -47,6 +31,10 @@ Las **URL de descarga** para el sistema operativo admitido son:
 
 | Sistema operativo | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
+| macOS (v3.0.2) | [Vínculo de descarga](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.2.dmg) | [Vínculo de descarga](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.2.dmg) |
+| macOS Apple Silicon (M1) (v3.0.2) | [Vínculo de descarga](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.2.dmg) | [Vínculo de descarga](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.2.dmg) |
+| Windows de 64 bits (v3.0.2) | [Vínculo de descarga](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.2.exe) | [Vínculo de descarga](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.2.exe) |
+| Windows Enterprise de 64 bits (v3.0.2) | [Vínculo de descarga](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-ent-3.0.2.msi) | [Vínculo de descarga](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-ent-3.0.2.msi) |
 | macOS (v3.0.1) | [Vínculo de descarga](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.1.dmg) | [Vínculo de descarga](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.1.dmg) |
 | macOS Apple Silicon (M1) (v3.0.1) | [Vínculo de descarga](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.1.dmg) | [Vínculo de descarga](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.1.dmg) |
 | Windows de 64 bits (v3.0.1) | [Vínculo de descarga](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.1.exe) | [Vínculo de descarga](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.1.exe) |
@@ -107,7 +95,27 @@ La característica es compatible con [!DNL Adobe Creative Cloud] versiones de 20
 
 ## Nuevas funciones, mejoras y correcciones de errores {#what-is-new}
 
-Para obtener más información, consulte [Novedades de la versión 3.0.1](introduction.md#whats-new-v2).
+Para obtener más información, consulte [Novedades de la versión 3.0.2](introduction.md#whats-new-v2).
+
+### Actualizaciones en la aplicación 3.0.1 {#app-version-3.0.1}
+
+La versión 3.0.1 de la aplicación de escritorio de incluye las siguientes mejoras:
+
+**Flujos de trabajo más suaves y fiables**
+
+* Se ha asegurado una nomenclatura de carpetas coherente al corregir los problemas de sincronización entre AEM Desktop App y AEM Author.
+* Se han habilitado flujos de trabajo ininterrumpidos al permitir la funcionalidad completa de la aplicación durante las operaciones de transferencia activas.
+* Se ha mejorado la fiabilidad de la página de propiedades de la carpeta, lo que permite un acceso coherente a los metadatos y la configuración de la carpeta.
+
+**Experiencia del usuario más rápida y adaptable**
+
+* Capacidad de respuesta de la interfaz de usuario mejorada al reemplazar el bloqueo de E/S por procesamiento asincrónico, lo que ofrece una experiencia más fluida durante las operaciones de alta carga.
+* Se han mejorado las transferencias de archivos grandes al introducir la paginación en los flujos de carga y descarga, lo que permite una gestión eficaz de los conjuntos de datos grandes.
+
+**Mayor estabilidad y confiabilidad**
+
+* El servidor de creación resuelto se reinicia activado por las interacciones de la aplicación de escritorio, lo que mejora significativamente la estabilidad del sistema.
+* La aplicación se bloquea durante una descarga o carga de carpeta grande (miles de archivos).
 
 ### Actualizaciones en la aplicación 3.0.0 {#app-version-3.0.0}
 
@@ -287,7 +295,7 @@ Es importante comprender lo siguiente sobre la aplicación y su funcionamiento.
 
 * Si la aplicación no muestra los resultados esperados, haga clic en el icono de actualización situado en la barra superior.
 
-* El recurso compartido de red local, que se muestra cuando se usa la acción [!UICONTROL Reveal File], solo muestra los archivos (y carpetas) disponibles a nivel local. [!UICONTROL Reveal File] y [!UICONTROL Reveal Folder] descarga previamente los recursos para que se muestren los que son correctos en el recurso compartido de red local.
+* El recurso compartido de red local, que se muestra cuando se usa la acción [!UICONTROL Reveal File], solo muestra los archivos (y carpetas) disponibles localmente. [!UICONTROL Reveal File] y [!UICONTROL Reveal Folder] descarga previamente los recursos para que se muestren los correctos en el recurso compartido de red local.
 
 * El recurso compartido de red local SMB (Mac)/WebDAV (Win) se utiliza cuando una aplicación de Adobe Creative Cloud lee los archivos de recursos vinculados o colocados en un archivo nativo de la aplicación de Creative Cloud.
 
