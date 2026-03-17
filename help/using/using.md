@@ -4,9 +4,9 @@ description: Use la aplicación de escritorio  [!DNL Adobe Experience Manager] p
 mini-toc-levels: 1
 feature: Desktop App,Asset Management
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-source-git-commit: f519cb355affea9249d5f5d92c789e993f3ff67d
+source-git-commit: 19e4b92016670de20474b251cda9f2f5274dbc26
 workflow-type: tm+mt
-source-wordcount: '4060'
+source-wordcount: '4093'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,8 @@ Puede abrir los recursos remotos para verlos en la aplicación nativa. Los recur
 
 Haga clic en **[!UICONTROL Open]** en el menú de recursos. El recurso se descarga localmente y se abre en la aplicación nativa. Compruebe el progreso de descarga y la velocidad de transferencia de recursos grandes en la barra de estado.
 
-<!-- ![Download progress bar for large-sized assets](assets/download_status_bar_da2.png "Download progress bar for large-sized assets")
+<!-- 
+![Download progress bar for large-sized assets](assets/download_status_bar_da2.png "Download progress bar for large-sized assets")
 -->
 
 >[!NOTE]
@@ -134,7 +135,7 @@ En algunos casos, por ejemplo, al colocar un recurso en un documento nativo, se 
 
 ![Mostrar acción de archivo para un recurso](assets/revealfile_action_da2.png "Mostrar acción de archivo para un recurso")
 
-Haga clic en **[!UICONTROL Reveal File]** o en **[!UICONTROL Reveal Folder]** de una carpeta para abrir el Explorador de Windows o el Buscador de Mac con el archivo o la carpeta preseleccionados en el equipo local. Por ejemplo, la opción resulta útil para colocar los archivos de [!DNL Experience Manager] en las aplicaciones nativas que admiten la colocación o vinculación de archivos locales. Para ver cómo colocar archivos en Adobe InDesign, consulte [Colocación de gráficos](https://helpx.adobe.com/es/indesign/using/placing-graphics.html).
+Haga clic en **[!UICONTROL Reveal File]** o en **[!UICONTROL Reveal Folder]** de una carpeta para abrir el Explorador de Windows o el Buscador de Mac con el archivo o la carpeta preseleccionados en el equipo local. Por ejemplo, la opción resulta útil para colocar los archivos de [!DNL Experience Manager] en las aplicaciones nativas que admiten la colocación o vinculación de archivos locales. Para ver cómo colocar archivos en Adobe InDesign, consulte [Colocación de gráficos](https://helpx.adobe.com/indesign/using/placing-graphics.html).
 
 La acción **[!UICONTROL Reveal File]** abre un recurso compartido de red local. Muestra únicamente los recursos que están disponibles localmente. Es decir, muestra los recursos que se revelaron, descargaron o abrieron o editaron mediante la aplicación. El recurso compartido de red local no carga ningún cambio en [!DNL Experience Manager]. Para cargar los cambios, utilice explícitamente las acciones **[!UICONTROL Upload Changes]** o **[!UICONTROL Upload]** en la aplicación.
 
@@ -157,7 +158,7 @@ Use **[!UICONTROL Toggle Check-out]** para bloquear el recurso y evitar conflict
 * Ha empezado a editar un recurso sin desprotegerlo primero (por ejemplo, abriéndolo).
 * Tiene intención de empezar a editar un recurso pronto y no desea que otros lo editen.
 
-Una vez que haya terminado de realizar las ediciones, la aplicación mostrará el estado **[!UICONTROL Edited Locally]** de los recursos modificados. Todos los cambios guardados en los recursos son de tipo local solamente hasta que cargue los cambios en [!DNL Experience Manager]. Para cargar un individuo o algunos recursos uno por uno, haga clic en **[!UICONTROL Upload Changes]** desde las opciones de un recurso. Crea una versión del recurso en [!DNL Experience Manager]. Mediante la interfaz web de [!DNL Assets], puede ver el historial de recursos en la [vista Escala de tiempo](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/using/activity-stream).
+Una vez que haya terminado de realizar las ediciones, la aplicación mostrará el estado **[!UICONTROL Edited Locally]** de los recursos modificados. Todos los cambios guardados en los recursos son de tipo local solamente hasta que cargue los cambios en [!DNL Experience Manager]. Para cargar un individuo o algunos recursos uno por uno, haga clic en **[!UICONTROL Upload Changes]** desde las opciones de un recurso. Crea una versión del recurso en [!DNL Experience Manager]. Mediante la interfaz web de [!DNL Assets], puede ver el historial de recursos en la [vista Escala de tiempo](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/activity-stream).
 
 ![Cargar cambios en la opción de la aplicación](assets/upload_changes_single1_da2.png "Cargar cambios en la aplicación")
 
@@ -177,7 +178,8 @@ Si es necesario, cambie la desprotección. El recurso actualizado se eliminará 
 
 Los usuarios pueden agregar nuevos recursos al repositorio de DAM. Por ejemplo, puede ser un fotógrafo o contratista de una agencia que desee agregar un gran número de fotos de una sesión de fotos al repositorio [!DNL Experience Manager]. Para agregar contenido nuevo a [!DNL Experience Manager], seleccione ![cargar a la nube](assets/do-not-localize/upload_to_cloud_da2.png) en la barra superior de la aplicación. Busque los archivos de recursos en el sistema de archivos local y haga clic en **[!UICONTROL Select]**. Como alternativa, para cargar recursos, arrastre los archivos o carpetas a la interfaz de la aplicación. En Windows, si arrastra recursos a una carpeta dentro de la aplicación, estos se cargarán en la carpeta. Si tarda más en cargarse, la aplicación muestra una barra de progreso.
 
-<!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
+<!-- 
+![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
 
 Puede cargar carpetas o archivos individuales desde el sistema de archivos local. La jerarquía de una carpeta se conserva cuando se carga. Antes de cargar recursos en lotes, consulte [Cargas en lotes](#bulk-upload-assets).
@@ -200,7 +202,8 @@ En la aplicación heredada, los nombres de nodo creados en el repositorio conser
 >
 >La aplicación solo cambia los nombres de nodo en el repositorio mediante las siguientes convenciones de nomenclatura. La aplicación retiene el(la) `Title` del recurso tal cual.
 
-<!-- TBD: Do NOT use this table.
+<!-- 
+TBD: Do NOT use this table.
 
 | Where do characters occur | Characters | Legacy preference | Renaming convention | Example |
 |---|---|---|---|---|
@@ -224,13 +227,15 @@ En la aplicación heredada, los nombres de nodo creados en el repositorio conser
 
 ‡ La lista de caracteres es una lista separada por espacios en blanco.
 
-<!-- TBD: Check if the following is to be included in the footnote.
+<!-- 
+TBD: Check if the following is to be included in the footnote.
 
 Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names of folders. 
 -->
 
 
-<!-- TBD: Securing the below presentation of the same content in a comment.
+<!-- 
+TBD: Securing the below presentation of the same content in a comment.
 
 **File names**
 
@@ -297,7 +302,7 @@ Después de la carga, si los cambios esperados no se reflejan en la aplicación,
 
 >[!NOTE]
 >
->No use la funcionalidad de carga para migrar recursos en dos implementaciones de [!DNL Experience Manager]. En su lugar, consulte la [guía de migración](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/administer/assets-migration-guide).
+>No use la funcionalidad de carga para migrar recursos en dos implementaciones de [!DNL Experience Manager]. En su lugar, consulte la [guía de migración](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide).
 
 ### Lista de activos transferidos {#list-of-transferred-assets}
 
@@ -366,7 +371,7 @@ Para conocer las limitaciones de este flujo de trabajo, consulte [requisitos del
 
 Para probar este flujo de trabajo con un recurso de imagen y InDesign, siga estos pasos:
 
-1. Mantenga a mano un archivo INDD con recursos colocados en [!DNL Experience Manager]. Para saber cómo crear un archivo INDD de este tipo, consulte [Colocación de gráficos](https://helpx.adobe.com/es/indesign/using/placing-graphics.html).
+1. Mantenga a mano un archivo INDD con recursos colocados en [!DNL Experience Manager]. Para saber cómo crear un archivo INDD de este tipo, consulte [Colocación de gráficos](https://helpx.adobe.com/indesign/using/placing-graphics.html).
 1. Desde la aplicación de escritorio, **[!UICONTROL Edit]** el archivo INDD con recursos colocados en [!DNL Experience Manager].
 1. La aplicación descarga el archivo de InDesign y los recursos vinculados. Cuando InDesign abre el documento, los vínculos se resuelven, los recursos se descargan y los recursos se muestran en el documento de InDesign.
 1. Para colocar un nuevo gráfico en el archivo InDesign, use la acción **[!UICONTROL Reveal File]** en el recurso. La acción descarga el recurso localmente y abre la ubicación del recurso compartido de red local en el Explorador de Windows o el Buscador de Mac.

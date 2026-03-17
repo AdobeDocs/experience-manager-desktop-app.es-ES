@@ -3,10 +3,10 @@ title: Cargar recursos mediante  [!DNL Experience Manager] aplicación de escrit
 description: Cargar recursos mediante  [!DNL Adobe Experience Manager] aplicación de escritorio.
 feature: Desktop App,Asset Management
 exl-id: f082c712-dc04-4bed-bac8-fa78f93de1c7
-source-git-commit: db592420ded4d2f7288982a1ea17618484c82537
+source-git-commit: 19e4b92016670de20474b251cda9f2f5274dbc26
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 1%
+source-wordcount: '841'
+ht-degree: 2%
 
 ---
 
@@ -25,7 +25,7 @@ Use **[!UICONTROL Toggle Check-out]** para bloquear el recurso y evitar conflict
 * Ha empezado a editar un recurso sin desprotegerlo primero (por ejemplo, abriéndolo).
 * Tiene intención de empezar a editar un recurso pronto y no desea que otros lo editen.
 
-Una vez que haya terminado de realizar las ediciones, la aplicación mostrará el estado **[!UICONTROL Edited Locally]** de los recursos modificados. Todos los cambios guardados en los recursos son de tipo local solamente hasta que cargue los cambios en [!DNL Experience Manager]. Para cargar un individuo o algunos recursos uno por uno, haga clic en **[!UICONTROL Upload Changes]** desde las opciones de un recurso. Crea una versión del recurso en [!DNL Experience Manager]. Mediante la interfaz web de [!DNL Assets], puede ver el historial de recursos en la [vista Escala de tiempo](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/using/activity-stream).
+Una vez que haya terminado de realizar las ediciones, la aplicación mostrará el estado **[!UICONTROL Edited Locally]** de los recursos modificados. Todos los cambios guardados en los recursos son de tipo local solamente hasta que cargue los cambios en [!DNL Experience Manager]. Para cargar un individuo o algunos recursos uno por uno, haga clic en **[!UICONTROL Upload Changes]** desde las opciones de un recurso. Crea una versión del recurso en [!DNL Experience Manager]. Mediante la interfaz web de [!DNL Assets], puede ver el historial de recursos en la [vista Escala de tiempo](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/activity-stream).
 
 ![Cargar cambios en la opción de la aplicación](assets/upload_changes_single1_da2.png "Cargar cambios en la aplicación")
 
@@ -45,7 +45,8 @@ Si es necesario, cambie la desprotección. El recurso actualizado se eliminará 
 
 Los usuarios pueden agregar nuevos recursos al repositorio de DAM. Por ejemplo, puede ser un fotógrafo o contratista de una agencia que desee agregar un gran número de fotos de una sesión de fotos al repositorio [!DNL Experience Manager]. Para agregar contenido nuevo a [!DNL Experience Manager], seleccione ![cargar a la nube](assets/do-not-localize/upload_to_cloud_da2.png) en la barra superior de la aplicación. Busque los archivos de recursos en el sistema de archivos local y haga clic en **[!UICONTROL Select]**. Como alternativa, para cargar recursos, arrastre los archivos o carpetas a la interfaz de la aplicación. En Windows, si arrastra recursos a una carpeta dentro de la aplicación, estos se cargarán en la carpeta. Si tarda más en cargarse, la aplicación muestra una barra de progreso.
 
-<!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
+<!-- 
+![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
 
 Puede cargar carpetas o archivos individuales desde el sistema de archivos local. La jerarquía de una carpeta se conserva cuando se carga. Antes de cargar recursos en lotes, consulte [Cargas en lotes](#bulk-upload-assets).
@@ -70,15 +71,15 @@ Después de la carga, si los cambios esperados no se reflejan en la aplicación,
 
 >[!NOTE]
 >
->No use la funcionalidad de carga para migrar recursos en dos implementaciones de [!DNL Experience Manager]. En su lugar, consulte la [guía de migración](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/administer/assets-migration-guide).
+>No use la funcionalidad de carga para migrar recursos en dos implementaciones de [!DNL Experience Manager]. En su lugar, consulte la [guía de migración](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide).
 
 ## Próximos pasos {#next-steps}
 
-* [Vea un vídeo para empezar a usar la aplicación de escritorio de Adobe Experience Manager](https://experienceleague.adobe.com/es/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [Vea un vídeo para empezar a usar la aplicación de escritorio de Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * Proporcione comentarios sobre la documentación usando [!UICONTROL Edit this page] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Log an issue] ![crear un problema de GitHub](assets/do-not-localize/github-issue.png), disponibles en la barra lateral derecha
 
-* Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/es?support-solution=General#support)
+* Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/es/home?support-solution=General#support)
 
 >[!MORELIKETHIS]
 >

@@ -3,9 +3,9 @@ title: Use [!DNL Experience Manager] versión de aplicación de escritorio 1.10.
 description: Aprenda a utilizar la versión 1.10 de la aplicación de escritorio de Adobe Experience Manager y a optimizar su trabajo con los recursos en el escritorio.
 feature: Desktop App,Asset Management
 exl-id: 2fdc1c8d-b822-4cca-ad06-bd875a00aa6d
-source-git-commit: 5676e7ece8bb43f051dae72d17e15ab1c34caefc
+source-git-commit: 19e4b92016670de20474b251cda9f2f5274dbc26
 workflow-type: tm+mt
-source-wordcount: '2329'
+source-wordcount: '2358'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Con la aplicación, los recursos de [!DNL Experience Manager] son fácilmente accesibles desde el escritorio local y se pueden usar en cualquier aplicación de escritorio. Assets se puede mostrar fácilmente en el Finder de Mac o en el Explorador de Windows, abrirse en aplicaciones de escritorio y cambiarse localmente; los cambios se vuelven a guardar en [!DNL Experience Manager] con una nueva versión creada en el repositorio.
 
-Esta integración permite la administración centralizada de recursos y el acceso entre Creative Cloud y otras aplicaciones, lo que garantiza la conformidad con la marca y otros estándares.
+Esta integración permite la administración centralizada de recursos y el acceso a través de Creative Cloud y otras aplicaciones, lo que garantiza la conformidad con la marca y otros estándares.
 
 Las tareas clave que realiza con la aplicación de escritorio [!DNL Experience Manager] v1 son las siguientes:
 
@@ -122,7 +122,7 @@ Para archivos Adobe InDesign (INDD), seleccione **[!UICONTROL Open]** en el men�
 
 >[!NOTE]
 >
->El Adobe recomienda ir a Opciones de vista de Finder en Mac y desactivar las opciones **Mostrar información de elemento**, **Mostrar vista previa de elemento** y **Mostrar columna de vista previa** para la carpeta [!DNL Assets] montada. Mejora el rendimiento.
+>Adobe recomienda ir a Opciones de vista de Finder en Mac y desactivar las opciones **Mostrar información de elemento**, **Mostrar vista previa de elemento** y **Mostrar columna de vista previa** para la carpeta [!DNL Assets] montada. Mejora el rendimiento.
 
 ### Opciones adicionales en la interfaz [!DNL Experience Manager] {#additional-options-in-aem-assets}
 
@@ -145,7 +145,7 @@ Para localizar el recurso concreto en el sistema de archivos local, haga clic en
 ## Comprender los estados de los recursos {#understand-the-asset-statuses}
 
 | ![Icono de aplicación predeterminada de Windows](assets/do-not-localize/win_default.png) | La aplicación está conectada al servidor y todos los recursos están sincronizados. |
---- |--- |
+| --- |--- |
 | ![Icono de Windows deshabilitado](assets/do-not-localize/win_disabled.png) | La aplicación se inicia, pero no está conectada con el servidor. Es posible que algunos recursos estén pendientes de sincronización. |
 | ![Icono de sincronización de archivos de Windows](assets/do-not-localize/win_sync.png) | Assets se está sincronizando. Los archivos se están cargando o descargando. Puede ver los estados exactos y pausar las transferencias desde la ventana Estado de los Activos. |
 | ![Icono de reconexión de Windows](assets/do-not-localize/win_refresh.png) | La aplicación está intentando volver a conectarse. Es posible que los problemas de red estén provocando la desconexión. |
@@ -156,7 +156,7 @@ Para localizar el recurso concreto en el sistema de archivos local, haga clic en
 
 [!DNL Experience Manager Assets] le permite extraer recursos para editarlos y volver a protegerlos una vez que haya completado los cambios. Después de desproteger un recurso, solo puede editarlo, anotarlo, publicarlo, moverlo o eliminarlo. La extracción de un recurso bloquea el recurso y evita que otros usuarios realicen cualquiera de estas operaciones. Para poder desproteger o proteger recursos, se requiere acceso de escritura en ellos.
 
-Existen dos formas de extraer recursos de la interfaz web [!DNL Experience Manager]. Para obtener información detallada sobre el primer método, consulte los [archivos de protección y desprotección de la interfaz de usuario de Assets](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/managing/check-out-and-submit-assets). Siga estos pasos para los segundos métodos para desproteger y abrir el recurso cuando la aplicación de escritorio [!DNL Experience Manager] esté instalada.
+Existen dos formas de extraer recursos de la interfaz web [!DNL Experience Manager]. Para obtener información detallada sobre el primer método, consulte los [archivos de protección y desprotección de la interfaz de usuario de Assets](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/check-out-and-submit-assets). Siga estos pasos para los segundos métodos para desproteger y abrir el recurso cuando la aplicación de escritorio [!DNL Experience Manager] esté instalada.
 
 1. Abra la interfaz [!DNL Assets] y pase el puntero sobre una carpeta o un recurso para mostrar las acciones del escritorio como acciones rápidas en la vista de tarjeta.
 
@@ -183,7 +183,7 @@ Existen dos formas de extraer recursos de la interfaz web [!DNL Experience Manag
 
 La aplicación permite retirar archivos de recursos para evitar que otros usuarios modifiquen los archivos en los que está trabajando.
 
-1. En el menú contextual de Mac, seleccione la opción Abrir carpeta de AEM Assets para abrir el Buscador.
+1. En el menú contextual de Mac, seleccione la opción Abrir carpeta de AEM Assets para abrir el Finder.
 
    ![Opciones de menú contextual para acceder y abrir recursos mediante [!DNL Experience Manager] aplicación de escritorio](assets/aem_desktopapp_mac_context_menu.png)
 
@@ -242,7 +242,7 @@ Con la aplicación de escritorio [!DNL Experience Manager], puede cargar una car
 
 1. Una vez cargada la carpeta, cierre el cuadro de diálogo y vaya a la interfaz de usuario de Assets. La carpeta cargada se muestra en la interfaz web.
 
-El Adobe no recomienda copiar y pegar ni arrastrar un número mayor de archivos o carpetas anidadas, desde el sistema de archivos local, al área de recursos compartidos de red. La aplicación no puede controlar el proceso de carga debido a limitaciones técnicas y a que el rendimiento es deficiente.
+Adobe no recomienda copiar y pegar ni arrastrar un número mayor de archivos o carpetas anidadas, desde el sistema de archivos local, al área de recurso compartido de red. La aplicación no puede controlar el proceso de carga debido a limitaciones técnicas y a que el rendimiento es deficiente.
 
 También puede seleccionar archivos o carpetas en Finder o Explorer, copiarlos, navegar a la carpeta de destino en el área de uso compartido de red y elegir **Pegar Assets** en el menú contextual de la aplicación de escritorio [!DNL Experience Manager]. De este modo, la aplicación de escritorio [!DNL Experience Manager] comienza a cargar los recursos pegados de forma similar a la opción **Cargar carpeta** disponible en la interfaz web [!DNL Experience Manager].
 
