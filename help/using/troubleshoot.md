@@ -2,9 +2,25 @@
 title: Prácticas recomendadas y solución de problemas de la aplicación de escritorio  [!DNL Adobe Experience Manager] iOS
 description: Siga las prácticas recomendadas y solucione problemas para resolver los problemas ocasionales relacionados con la instalación, actualización, configuración, etc.
 exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
-source-git-commit: a8cb0aaab08f24c83a9b5640a96a5ae8895685d2
+TQID: https://experienceleague.adobe.com/-dzlMXZ6SeCoc-QvFbEbWr1YNbK3A4nNIYI6xBudotI
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: da3860b0-d637-47df-bef0-273751180266
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: 2338
 ht-degree: 0%
 
 ---
@@ -180,7 +196,7 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 ## No se pueden cargar archivos {#upload-fails}
 
-Si utiliza la aplicación de escritorio con [!DNL Experience Manager] 6.5.1 o posterior, actualice S3 o el conector de Azure a la versión 1.10.4 o posterior. Resuelve el problema de error de carga de archivo relacionado con [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599). Ver [instrucciones de instalación](install-upgrade.md#install-v2).
+Si utiliza la aplicación de escritorio con [!DNL Experience Manager] 6.5.1 o posterior, actualice el conector S3 o Azure a la versión 1.10.4 o posterior. Resuelve el problema de error de carga de archivo relacionado con [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599). Ver [instrucciones de instalación](install-upgrade.md#install-v2).
 
 ## [!DNL Experience Manager] problemas de conexión de aplicación de escritorio {#connection-issues}
 

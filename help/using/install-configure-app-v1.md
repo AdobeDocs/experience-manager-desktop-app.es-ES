@@ -2,9 +2,23 @@
 title: Instalación y configuración de la aplicación de escritorio v1.10
 description: Instala y configura la  [!DNL Experience Manager] versión 1.10 de la aplicación de escritorio para que funcione con [!DNL Assets] servidores y asigne los recursos que se van a montar como una unidad en el escritorio.
 exl-id: 7f3bdfb1-d345-4e48-b020-6e06531f46f2
-source-git-commit: 1c7437786a50eeafa884ce92b745f3438b2d2b88
+TQID: https://experienceleague.adobe.com/q8HwCAJiC2BlVsKHHC-Pg6NrvQEuI4bfhPV6q4s9xBE
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: a9d2a4a6-0a32-4f6e-8eb1-128ec2b18a80
+  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: 928
 ht-degree: 0%
 
 ---
@@ -85,7 +99,7 @@ Puede personalizar el cuadro de diálogo Información del recurso superponiendo 
 
 * El componente HTL `/css/javascript` en `/libs/dam/gui/components/admin/moreinfo`.
 
-El componente que se superponga depende de la naturaleza de la personalización. Para cambiar qué componentes se muestran como parte del cuadro de diálogo Información del recurso, superponga la página de interfaz de usuario de Granite. Para cambiar el contenido del HTML, CSS o JavaScript del cuadro de diálogo, superponga el componente HTL.
+El componente que se superponga depende de la naturaleza de la personalización. Para cambiar qué componentes se muestran como parte del cuadro de diálogo Información del recurso, superponga la página de interfaz de usuario de Granite. Para cambiar el contenido de HTML, CSS o JavaScript del cuadro de diálogo, superponga el componente HTL.
 
 ## Administrar caché {#manage-cache}
 
@@ -123,7 +137,7 @@ Para dirigir la aplicación a una carpeta o unidad diferente, edite el archivo d
 
    >[!NOTE]
    >
-   >AEM La aplicación crea automáticamente un subdirectorio *&lt;Codificado Extremo>*. Este comportamiento no se puede configurar.
+   >La aplicación crea automáticamente un subdirectorio *&lt;Punto final de AEM codificado>*. Este comportamiento no se puede configurar.
 
 >[!MORELIKETHIS]
 >

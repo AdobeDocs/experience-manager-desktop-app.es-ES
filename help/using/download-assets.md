@@ -2,13 +2,20 @@
 title: Descargar recursos mediante la aplicación de escritorio  [!DNL Experience Manager] iOS
 description: Descargar recursos mediante la aplicación de escritorio  [!DNL Adobe Experience Manager] iOS.
 feature: Desktop App,Asset Management
-source-git-commit: 2947fbd3bfeb15b37a8f1b0118e969b5d70499d0
+exl-id: 7004f759-ce8a-497d-9647-3a120fa3ba1d
+TQID: https://experienceleague.adobe.com/EXan0driSkmXsYYTxPe73VaDhQP5RQt1c-L2US-cSUY
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 1%
+source-wordcount: 436
+ht-degree: 2%
 
 ---
-
 
 # Descargar recursos localmente {#download-assets-locally}
 
@@ -44,11 +51,10 @@ Si se seleccionan y descargan carpetas, la aplicación solo descarga los recurso
 
 * Proporcione comentarios sobre la documentación usando [!UICONTROL Edit this page] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Log an issue] ![crear un problema de GitHub](assets/do-not-localize/github-issue.png), disponibles en la barra lateral derecha
 
-* Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/es?support-solution=General#support)
+* Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/es/home?support-solution=General#support)
 
 >[!MORELIKETHIS]
 >
 >* [Cargar recursos](/help/using/upload-assets.md)
 >* [Comprenda la interfaz de usuario](/help/using/user-interface.md)
 >* [Buscar](/help/using/search.md)
-

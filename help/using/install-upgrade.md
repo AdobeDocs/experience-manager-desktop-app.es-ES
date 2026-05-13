@@ -3,10 +3,21 @@ title: Instalación y configuración de la aplicación de escritorio
 description: Instala y configura la aplicación de escritorio  [!DNL Adobe Experience Manager] para que funcione con  [!DNL Adobe Experience Manager Assets] servidores y descarga los recursos en tu sistema de archivos local.
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-source-git-commit: b1fad118e1ffbd0809afe9a33bcb848648cd8bdd
+TQID: https://experienceleague.adobe.com/drhaNIzGSMDl80NaIvK6T39Bnd8Pp47FlBNyRBmPprQ
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '1447'
-ht-degree: 0%
+source-wordcount: 1530
+ht-degree: 1%
 
 ---
 
@@ -92,7 +103,7 @@ Para instalar la aplicación de escritorio, siga estos pasos. Desinstale las apl
 
    *Imagen: la aplicación muestra el contenido de DAM después del inicio de sesión*
 
-1. ([!DNL Experience Manager] 6.5.1 o posterior) Si utiliza la aplicación de escritorio con [!DNL Experience Manager] 6.5.1 o posterior, actualice S3 o el conector de Azure a la versión 1.10.4 o posterior. Ver [conector de Azure](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store) o [conector S3](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store).
+1. ([!DNL Experience Manager] 6.5.1 o posterior) Si utiliza la aplicación de escritorio con [!DNL Experience Manager] 6.5.1 o posterior, actualice S3 o el conector Azure a la versión 1.10.4 o posterior. Ver [conector Azure](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store) o [conector S3](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store).
 
    Si es cliente de Adobe Managed Services (AMS), póngase en contacto con Asistencia al cliente de Adobe.
 

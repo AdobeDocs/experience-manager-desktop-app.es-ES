@@ -3,9 +3,18 @@ title: Examinar, buscar y obtener una vista previa de los recursos en la aplicac
 description: Examine, busque y obtenga una vista previa de los recursos en la aplicación de escritorio  [!DNL Adobe Experience Manager] .
 feature: Desktop App
 exl-id: 03d20735-0808-4b52-bd9e-8284fcf506ed
-source-git-commit: 19e4b92016670de20474b251cda9f2f5274dbc26
+TQID: https://experienceleague.adobe.com/EFyDL05ItK9DlMoVKrgSzNWHcVCh1-UBi2pEPK2JmfE
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: 928
 ht-degree: 1%
 
 ---
@@ -75,7 +84,7 @@ En la aplicación heredada, los nombres de nodo creados en el repositorio conser
 >
 >La aplicación solo cambia los nombres de nodo en el repositorio mediante las siguientes convenciones de nomenclatura. La aplicación retiene el(la) `Title` del recurso tal cual.
 
-| Caracteres ‡ | Preferencia heredada en la aplicación | Cuando se produce en nombres de archivo | Cuando se produce en nombres de carpeta | Ejemplos |
+| Caracteres ‡ | Preferencia heredada en la aplicación | Cuando se produce en nombres de archivo | Cuando se produce en nombres de carpeta | Ejemplo |
 |---|---|---|---|---|
 | `. / : [ ] \| *` | Habilitado o deshabilitado | Se reemplazó con `-` (guión). Un `.` (punto) en la extensión de nombre de archivo se conserva tal cual. | Se reemplazó con `-` (guión). | `myimage.jpg` permanece tal cual y `my.image.jpg` cambia a `my-image.jpg`. |
 | `% ; # , + ? ^ { } "` y espacios en blanco | ![icono de anular selección](assets/do-not-localize/deselect-icon.png) deshabilitado | Se conservan los espacios en blanco | Se reemplazó con `-` (guión). | `My Folder.` cambia a `my-folder-`. |
