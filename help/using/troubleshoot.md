@@ -2,9 +2,15 @@
 title: Prácticas recomendadas y solución de problemas de la aplicación de escritorio  [!DNL Adobe Experience Manager] iOS
 description: Siga las prácticas recomendadas y solucione problemas para resolver los problemas ocasionales relacionados con la instalación, actualización, configuración, etc.
 exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
-source-git-commit: a8cb0aaab08f24c83a9b5640a96a5ae8895685d2
+TQID: https://experienceleague.adobe.com/-dzlMXZ6SeCoc-QvFbEbWr1YNbK3A4nNIYI6xBudotI
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: da3860b0-d637-47df-bef0-273751180266
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: 2338
 ht-degree: 0%
 
 ---
@@ -21,7 +27,7 @@ Siga las siguientes prácticas recomendadas para evitar algunos problemas comune
 
 * **Comprenda cómo funciona la aplicación de escritorio**: Antes de empezar a utilizarla, dedique unos minutos a conocer cómo funciona la aplicación. Obtenga información sobre la vinculación entre la interfaz web [!DNL Experience Manager] y el escritorio, la asignación de repositorios, el almacenamiento en caché de recursos, el almacenamiento local y la carga en segundo plano. Ver [cómo funciona](release-notes.md#how-app-works).
 
-* **Evite los caracteres no admitidos en los nombres de carpeta**: no utilice espacios en blanco ni caracteres no válidos al crear o cargar carpetas. Ver una lista de caracteres en [Crear carpetas en [!DNL Adobe Experience Manager Assets]](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/managing/manage-assets#creating-folders). Los caracteres no admitidos en el nombre de la carpeta pueden afectar algunos casos de uso de [!DNL Experience Manager].
+* **Evite los caracteres no admitidos en los nombres de carpeta**: no utilice espacios en blanco ni caracteres no válidos al crear o cargar carpetas. Ver una lista de caracteres en [Crear carpetas en [!DNL Adobe Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/manage-assets#creating-folders). Los caracteres no admitidos en el nombre de la carpeta pueden afectar algunos casos de uso de [!DNL Experience Manager].
 
 * **Prácticas recomendadas para evitar conflictos**: Para evitar posibles conflictos al colaborar en varios recursos, ve a [evitar conflictos de edición](assets-management-tasks.md#adv-workflow-collaborate-avoid-conflicts).
 
@@ -180,7 +186,7 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 ## No se pueden cargar archivos {#upload-fails}
 
-Si utiliza la aplicación de escritorio con [!DNL Experience Manager] 6.5.1 o posterior, actualice S3 o el conector de Azure a la versión 1.10.4 o posterior. Resuelve el problema de error de carga de archivo relacionado con [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599). Ver [instrucciones de instalación](install-upgrade.md#install-v2).
+Si utiliza la aplicación de escritorio con [!DNL Experience Manager] 6.5.1 o posterior, actualice el conector S3 o Azure a la versión 1.10.4 o posterior. Resuelve el problema de error de carga de archivo relacionado con [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599). Ver [instrucciones de instalación](install-upgrade.md#install-v2).
 
 ## [!DNL Experience Manager] problemas de conexión de aplicación de escritorio {#connection-issues}
 
@@ -301,8 +307,8 @@ En ambos métodos, la aplicación se inicia en la carpeta raíz DAM.
 
 Al examinar los recursos desde la interfaz de usuario de [!DNL Experience Manager], no se muestran los recursos caducados. Los administradores pueden configurar opciones para evitar la visualización, la búsqueda y la captura de recursos caducados al navegar desde la aplicación de escritorio y Asset Link. Al hacerlo, se garantiza que los recursos caducados no sean accesibles durante estas operaciones. La configuración funciona para todos los usuarios, independientemente del privilegio de administrador.
 
-* [Configuración en Experience Manager 6.5 para ocultar recursos caducados](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/managing/manage-assets#hide-expired-assets-via-acp-api).
-* [Configuración en Experience Manager as a Cloud Service para ocultar recursos caducados](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#hide-expired-assets-via-acp-api).
+* [Configuración en Experience Manager 6.5 para ocultar recursos caducados](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/manage-assets#hide-expired-assets-via-acp-api).
+* [Configuración en Experience Manager as a Cloud Service para ocultar recursos caducados](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#hide-expired-assets-via-acp-api).
 
 <!--
 ### Need additional help with [!DNL Experience Manager] desktop app {#additional-help}

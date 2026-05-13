@@ -3,9 +3,12 @@ title: Introducción a  [!DNL Experience Manager] aplicación de escritorio
 description: Aprenda a usar la aplicación de escritorio  [!DNL Adobe Experience Manager] para optimizar los flujos de trabajo de administración de recursos para los usuarios creativos cuando usen [!DNL Adobe Experience Manager Assets] directamente desde su escritorio.
 role: User, Admin, Leader
 exl-id: 5da36ac5-ab5b-4f8d-b446-ebe2360ec464
-source-git-commit: f519cb355affea9249d5f5d92c789e993f3ff67d
+TQID: https://experienceleague.adobe.com/HLUPg-NqgUOo8vWLxYeeU-BF3cJuF5DQDQNuvzufxDQ
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: 623
 ht-degree: 39%
 
 ---
@@ -16,7 +19,7 @@ Adobe ofrece flujos de trabajo conectados en todas sus soluciones para permitir 
 
 Con la aplicación, los recursos de [!DNL Experience Manager Assets] son fácilmente accesibles desde el escritorio local y se pueden usar en cualquier aplicación de escritorio. Puede abrir y editar los recursos en las aplicaciones de escritorio que prefiera. Las ediciones locales se guardan como una nueva versión en [!DNL Experience Manager] solo cuando se cargan los cambios, lo que permite una edición eficiente del trabajo en curso en el escritorio. La aplicación admite la carga de recursos y carpetas anidadas en [!DNL Experience Manager], lo que simplifica la adición de nuevo contenido al repositorio.
 
-Esta integración permite que diversas funciones de la organización administren los recursos de forma centralizada en [!DNL Experience Manager Assets]. Los especialistas en marketing y los usuarios empresariales pueden garantizar el cumplimiento de las diversas normas, incluidas la promoción de la marca y la concesión de licencias. Los usuarios de Creative con una herramienta [Adobe Asset Link](https://business.adobe.com/es/products/experience-manager/assets/adobe-asset-link.html) dedicada pueden acceder a los recursos de Adobe Photoshop, Illustrator y InDesign, y también pueden acceder a los recursos del equipo de escritorio de Creative Cloud y otras aplicaciones nativas.
+Esta integración permite que diversas funciones de la organización administren los recursos de forma centralizada en [!DNL Experience Manager Assets]. Los especialistas en marketing y los usuarios empresariales pueden garantizar el cumplimiento de las diversas normas, incluidas la promoción de la marca y la concesión de licencias. Los usuarios de Creative con una herramienta [Adobe Asset Link](https://business.adobe.com/products/experience-manager/assets/adobe-asset-link.html) dedicada pueden acceder a los recursos de Adobe Photoshop, Illustrator y InDesign, y también pueden acceder a los recursos del equipo de escritorio de Creative Cloud y otras aplicaciones nativas.
 
 >[!NOTE]
 >
