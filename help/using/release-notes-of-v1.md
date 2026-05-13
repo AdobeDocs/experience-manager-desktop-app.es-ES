@@ -435,7 +435,7 @@ Debido a que la carpeta `/Volumes` ya no requiere derechos administrativos, este
 
 ## Recursos útiles {#helpful-resources}
 
-* [Documentación de AEM](https://experienceleague.adobe.com/en/docs)
+* [Documentación de AEM](https://experienceleague.adobe.com/es/docs)
 * [Uso de la aplicación de escritorio de AEM v1.x](use-app-v1.md)
 * [Prácticas recomendadas para la aplicación de escritorio de AEM v1.x](best-practices-for-v1.md)
 

@@ -78,7 +78,7 @@ Las funciones clave de la aplicación de escritorio de AEM incluyen:
 
 * No utilice las unidades de red de la aplicación de escritorio de AEM para guardar recursos con frecuencia. Todas las operaciones de guardado se transmiten a los AEM Assets. Por lo tanto, no es práctico realizar operaciones de edición intensivas directamente en el repositorio de AEM Assets montado. La edición de un recurso directamente en el repositorio montado saturará la cronología del recurso con versiones irrelevantes e impondrá costes generales adicionales al servidor.
 
-* No utilice la aplicación de escritorio de AEM para migrar grandes cantidades de datos de una instancia de AEM a otra. Consulte la [Guía de migración](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide) para planificar y ejecutar migraciones de recursos. Por el contrario, la aplicación de escritorio [admite la carga masiva](use-app-v1.md#bulkupload) de un gran número de recursos por primera vez en [!DNL Adobe Experience Manager].
+* No utilice la aplicación de escritorio de AEM para migrar grandes cantidades de datos de una instancia de AEM a otra. Consulte la [Guía de migración](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/administer/assets-migration-guide) para planificar y ejecutar migraciones de recursos. Por el contrario, la aplicación de escritorio [admite la carga masiva](use-app-v1.md#bulkupload) de un gran número de recursos por primera vez en [!DNL Adobe Experience Manager].
 
 ## Recomendaciones para casos de uso seleccionados {#recommendations-for-selected-use-cases}
 
@@ -134,7 +134,7 @@ Una buena experiencia de usuario con la aplicación de escritorio de AEM depende
 
 ### Consideraciones de red {#network-considerations}
 
-Para comprender las prácticas recomendadas sobre la configuración de la red de los AEM Assets, vaya al documento [Cómo migrar recursos en lote](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide). Algunos de los aspectos importantes que ayudan a optimizar la experiencia de la aplicación de escritorio de AEM para los usuarios son:
+Para comprender las prácticas recomendadas sobre la configuración de la red de los AEM Assets, vaya al documento [Cómo migrar recursos en lote](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/administer/assets-migration-guide). Algunos de los aspectos importantes que ayudan a optimizar la experiencia de la aplicación de escritorio de AEM para los usuarios son:
 
 * **Use un Dispatcher correctamente configurado**. Use AEM Dispatcher para obtener seguridad adicional y asegúrese de que esté configurado para la conexión de la aplicación de escritorio de [AEM a AEM detrás de un Dispatcher](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher)
 
@@ -146,8 +146,8 @@ Para comprender las prácticas recomendadas sobre la configuración de la red de
 
 ### Optimización del rendimiento del servidor {#optimizing-server-performance}
 
-Para comprender cómo se debe optimizar el rendimiento del servidor de AEM Assets, vaya a [Guía de optimización del rendimiento de los AEM Assets](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines). Algunos de los aspectos importantes del rendimiento del servidor para la aplicación de escritorio de AEM son la optimización de la configuración del flujo de trabajo para que funcione bien en las cargas de recursos:
+Para comprender cómo se debe optimizar el rendimiento del servidor de AEM Assets, vaya a [Guía de optimización del rendimiento de los AEM Assets](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines). Algunos de los aspectos importantes del rendimiento del servidor para la aplicación de escritorio de AEM son la optimización de la configuración del flujo de trabajo para que funcione bien en las cargas de recursos:
 
-* **Carga de recursos con mayor rendimiento**. Configure el modelo de flujo de trabajo [AEM Asset Update para que sea transitorio](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines).
+* **Carga de recursos con mayor rendimiento**. Configure el modelo de flujo de trabajo [AEM Asset Update para que sea transitorio](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines).
 
 * **Limitar CPU de servidor para las cargas**. Asegúrese de que el parámetro de trabajos de flujo de trabajo en paralelo máximo esté configurado correctamente para que las cargas no agoten toda la CPU.
