@@ -3,11 +3,20 @@ title: Prácticas recomendadas para la aplicación de escritorio v1.10
 description: Funcionalidades clave y uso recomendado de  [!DNL Adobe Experience Manager] aplicación de escritorio versión 1.10.
 exl-id: 5de06b33-c05c-47eb-b884-408b6f9afc94
 TQID: https://experienceleague.adobe.com/5r3NDLi2KQXMNH1s4hxfLlBzqmEisKTynSUFTVANwkU
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
-subfeature_v2: id: d18d21f5-ea10-400d-a1f0-a2071ad38419
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: da3860b0-d637-47df-bef0-273751180266
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: da3860b0-d637-47df-bef0-273751180266
 source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
 source-wordcount: 1721
