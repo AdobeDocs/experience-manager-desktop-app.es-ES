@@ -3,19 +3,11 @@ title: Instalación y configuración de la aplicación de escritorio v1.10
 description: Instala y configura la  [!DNL Experience Manager] versión 1.10 de la aplicación de escritorio para que funcione con [!DNL Assets] servidores y asigne los recursos que se van a montar como una unidad en el escritorio.
 exl-id: 7f3bdfb1-d345-4e48-b020-6e06531f46f2
 TQID: https://experienceleague.adobe.com/q8HwCAJiC2BlVsKHHC-Pg6NrvQEuI4bfhPV6q4s9xBE
-product_v2:
-  - id: d09181b5-a36a-43de-ba01-36641440bc43
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
-subfeature_v2:
-  - id: a9d2a4a6-0a32-4f6e-8eb1-128ec2b18a80
-  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: a9d2a4a6-0a32-4f6e-8eb1-128ec2b18a80id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
 source-wordcount: 928
@@ -75,9 +67,9 @@ Los métodos copy y move de la API de Assets requieren que se pasen los siguient
 * Profundidad X
 * Sobrescribir X
 
-El escritorio [!DNL Experience Manager] se conecta a [!DNL Experience Manager] mediante una dirección URL que incluye el puerto predeterminado. Por lo tanto, la configuración de `virtualhosts` en la configuración de Dispatcher debe incluir el número de puerto predeterminado. Para obtener más información sobre la configuración de `virtualhosts`, consulte [identificar hosts virtuales](https://experienceleague.adobe.com/es/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#identifying-virtual-hosts-virtualhosts).
+El escritorio [!DNL Experience Manager] se conecta a [!DNL Experience Manager] mediante una dirección URL que incluye el puerto predeterminado. Por lo tanto, la configuración de `virtualhosts` en la configuración de Dispatcher debe incluir el número de puerto predeterminado. Para obtener más información sobre la configuración de `virtualhosts`, consulte [identificar hosts virtuales](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#identifying-virtual-hosts-virtualhosts).
 
-Para obtener información adicional sobre cómo configurar Dispatcher para que pase estos encabezados adicionales, consulte [Especificación de los encabezados HTTP](https://experienceleague.adobe.com/es/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#specifying-the-http-headers-to-pass-through-clientheaders).
+Para obtener información adicional sobre cómo configurar Dispatcher para que pase estos encabezados adicionales, consulte [Especificación de los encabezados HTTP](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#specifying-the-http-headers-to-pass-through-clientheaders).
 
 ### Compatibilidad con proxy {#proxy-support}
 
@@ -109,7 +101,7 @@ En macOS X, hay un directorio similar en `~/Library/Group Containers/group.com.a
 
 ### Opción en la aplicación para administrar la caché {#in-app-option-to-manage-cache}
 
-Puede controlar la cantidad de espacio en disco disponible para el almacenamiento en caché local. Los artefactos del servidor de Assets se almacenan en caché localmente para una experiencia más fluida. Puede cambiar los valores predeterminados para adaptarlos a sus necesidades. Además, puede borrar la caché para recuperar todos los recursos de nuevo. Para establecer las opciones deseadas, haga clic en el icono de la aplicación y luego en **[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**. **&#x200B;**
+Puede controlar la cantidad de espacio en disco disponible para el almacenamiento en caché local. Los artefactos del servidor de Assets se almacenan en caché localmente para una experiencia más fluida. Puede cambiar los valores predeterminados para adaptarlos a sus necesidades. Además, puede borrar la caché para recuperar todos los recursos de nuevo. Para establecer las opciones deseadas, haga clic en el icono de la aplicación y luego en **[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**. ****
 
 >[!NOTE]
 >
@@ -141,6 +133,6 @@ Para dirigir la aplicación a una carpeta o unidad diferente, edite el archivo d
 
 >[!MORELIKETHIS]
 >
->* Vea una [introducción a la [!DNL Experience Manager] aplicación de escritorio](https://experienceleague.adobe.com/es/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) (5 minutos y 43 segundos).
+>* Vea una [introducción a la [!DNL Experience Manager] aplicación de escritorio](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) (5 minutos y 43 segundos).
 >* [Usar [!DNL Experience Manager] aplicación de escritorio](use-app-v1.md).
 >* [Solución de problemas [!DNL Experience Manager] aplicación de escritorio](troubleshoot-app-v1.md).
