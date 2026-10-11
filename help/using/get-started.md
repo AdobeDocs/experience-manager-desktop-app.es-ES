@@ -1,24 +1,35 @@
 ---
-title: Introducción [!DNL Experience Manager] aplicación de escritorio
-description: Descubra cómo la aplicación de escritorio  [!DNL Experience Manager] mejora la creación y publicación de contenido con flujos de trabajo y funciones de productividad optimizados.
+title: Introducción a la aplicación de escritorio [!DNL Experience Manager]
+description: Descubra cómo la aplicación de escritorio [!DNL Experience Manager] mejora la creación y publicación de contenido con flujos de trabajo y funciones de productividad optimizados.
 feature: Desktop App,Asset Management
 exl-id: 6cf29b6a-74e6-4860-a25b-d3e91abbaa9d
-TQID: https://experienceleague.adobe.com/ngwHq5OPXgoOFDGUhUjg3V4494eFgJNmb1oxSDy0fzI
+TQID: 'https://experienceleague.adobe.com/ngwHq5OPXgoOFDGUhUjg3V4494eFgJNmb1oxSDy0fzI'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+subfeature_v2:
+  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+    internal-label: Desktop App
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
+    internal-label: Metadata
+source-git-commit: 081955637ccc08fe7cad9fda87595a006d60166c
 workflow-type: tm+mt
-source-wordcount: 1231
+source-wordcount: '1233'
 ht-degree: 0%
-
 ---
-
 # Introducción a la aplicación de escritorio [!DNL Adobe Experience Manager] {#getting-started-desktop-app}
 
 Utilice la aplicación de escritorio [!DNL Adobe Experience Manager] para acceder a los recursos digitales almacenados en un repositorio DAM [!DNL Adobe Experience Manager] del escritorio local. A continuación, puede utilizar estos recursos en cualquier aplicación de escritorio. Puede abrir y editar los recursos localmente en aplicaciones de escritorio. Después de realizar los cambios, cárguelos de nuevo a [!DNL Experience Manager] con control de versiones para compartir las actualizaciones con otros usuarios. También puede cargar nuevos archivos y jerarquías de carpetas en [!DNL Experience Manager], crear carpetas y eliminar recursos o carpetas de [!DNL Experience Manager] DAM.
@@ -109,7 +120,7 @@ Por el contrario, puede abrir el recurso en la interfaz web desde la aplicación
 
 ## Próximos pasos {#next-steps}
 
-* [Vea un vídeo para empezar a usar la aplicación de escritorio de Adobe Experience Manager](https://experienceleague.adobe.com/es/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [Vea un vídeo para empezar a usar la aplicación de escritorio de Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * Proporcione comentarios sobre la documentación usando [!UICONTROL Edit this page] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Log an issue] ![crear un problema de GitHub](assets/do-not-localize/github-issue.png), disponibles en la barra lateral derecha
 
